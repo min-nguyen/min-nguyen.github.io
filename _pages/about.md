@@ -43,3 +43,4 @@ Previously, I investigated the embedding of neural networks as recursion schemes
 
 <span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33">_ACM Student Research Competition, 1st Place  (ICFP '21)_</span><br/>
 <span style="color:#AA9E9D">2019</span>  <span style="color:#AE3C33">_Best Machine Learning Paper, University of Bristol_</span>
+
