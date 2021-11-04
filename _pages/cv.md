@@ -50,9 +50,10 @@ outputs to data in a fine-grained way. This builds on bidirectional program slic
 <span style="color:#AA9E9D">2017</span>  <span style="color:#AE3C33">_Top Ten Achieving 2nd Year Computer Science Students, University of Bristol_</span>
 
 **Work experience**
-* <font size="3"> Speaker <br>
-    * I occasionally give talks/seminars about Haskell, functional programming, or my own research, to the Programming Languages Group and undergraduates at the University of Bristol. <br><br>
+* <font size="3"> PL Seminar Speaker <br>
     * <font size="2"><span style="color:#AA9E9D">2019-2021</span></font>
+    * I occasionally give talks/seminars about Haskell, functional programming, or my own research, to the Programming Languages Group and undergraduates at the University of Bristol. </font>
+    * <font size="2">University of Bristol </font>
 
 *  <font size="3">Teaching Assistant: <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> </font>
     * <font size="2"><span style="color:#AA9E9D">2019-2020</span></font>
