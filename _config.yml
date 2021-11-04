@@ -4,6 +4,7 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
+# to run locally: bundle exec jekyll liveserve, then localhost:4000
 
 # Site Settings
 locale                   : "en-US"
@@ -80,7 +81,7 @@ analytics:
 author:
   name             : "Minh Nguyen"
   avatar           : "profile.png"
-  bio              : "PhD Student in Programming Languages at the University of Bristol"
+  bio              : "PhD Student in the Department of Programming Languages at University of Bristol"
   location         :
   employer         :
   pubmed           :
