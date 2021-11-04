@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<font size="3"> I'm a PhD student in the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> at University of Bristol, supervised by <a href="https://mengwangoxf.github.io/">Meng Wang</a> and <a href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a>. My current research investigates the formalisation and implementation of algebraic effects in probabilistic programming. My other interests include functional programming (in particular, Haskell), type-level programming, type theory, and design of embedded domain-specific languages (eDSLs). </font>  
+<font size="3"> I'm a PhD student in the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> at University of Bristol, supervised by <a href="https://mengwangoxf.github.io/">Meng Wang</a> and <a href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a>. My current research investigates the formalisation and implementation of embedded probabilistic programming languages, particularly using algebraic effects. My other interests include functional programming (in particular, Haskell), type-level programming, type theory, and design of embedded domain-specific languages (eDSLs). </font>  
 
 **Research**
 
@@ -39,7 +39,7 @@ Previous research involves the investigation the embedding of neural networks as
 <font size="3"> <span style="color:#AA9E9D">2019 - 2021</span> <br>
 I occasionally give talks/seminars to the Programming Languages Group and undergraduates at the University of Bristol. <br><br>
 <span style="color:#AA9E9D">2017 - 2020</span> <br>
-I have acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a> and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at the University of Bristol. </font><br>
+I've acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a> and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at the University of Bristol. </font><br>
 
 **Awards**
 

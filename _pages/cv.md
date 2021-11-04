@@ -31,7 +31,7 @@ outputs to data in a fine-grained way. This builds on bidirectional program slic
 <span style="color:#44454A "><font size="2"><i>R.Perera, M.Nguyen, T.Petricek, M.Weng</i> </font> </span><br/>
 <sup>POPL '22</sup><br/>
 <font size="3"><span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4"> Composable, Modular Probabilistic Models </span></font>
-<span style="color:#85868B"><font size="2"> This presents an effect-oriented embedded DSL in Haskell for modularly defining probabilistic models as first class citizens which can be reused for both simulation and inference. We then demonstrate how simulation and inference can be expressed naturally as composable program transformations using algebraic effect handlers.</font> </span><br/>
+<span style="color:#85868B"><font size="2"> This presents an effect-oriented embedded DSL in Haskell for modularly defining probabilistic models as first class citizens which can be reused for both simulation and inference. It is then demonstrated how simulation and inference can be expressed naturally as composable program transformations using algebraic effect handlers.</font> </span><br/>
 <span style="color:#44454A "><font size="2"><i>M.Nguyen, R.Perera, M.Weng</i> </font> </span><br/>
 <sup>ICFP '21, ACM Student Research Competition</sup><br/>
 <font size="3"><span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4"> Folding Over Neural Networks</span></font>
