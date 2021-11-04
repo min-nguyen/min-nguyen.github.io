@@ -27,11 +27,11 @@ redirect_from:
 <span style="color:#85868B"><font size="2"> We present new language-based data provenance techniques for linking visualisations and other structured
 outputs to data in a fine-grained way. This builds on bidirectional program slicing techiques based on Galois connections. </font> </span><br/>
 <span style="color:#44454A "><font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
-<sup>POPL '22</sup><br/>
+<sup>POPL '22</sup><br/><br/>
 <span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4"> Composable, Modular Probabilistic Models </span><br/>
 <span style="color:#85868B"><font size="2"> We present an effect-oriented embedded DSL in Haskell for modularly defining probabilistic models as first class citizens which can be reused for both simulation and inference. We then demonstrate how simulation and inference can be expressed naturally as composable program transformations using algebraic effect handlers.</font> </span><br/>
 <span style="color:#44454A "><font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
-<sup>ICFP '21, Student Research Competition</sup><br/>
+<sup>ICFP '21, Student Research Competition</sup><br/><br/>
 <span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4"> Folding Over Neural Networks</span><br/>
 <span style="color:#85868B"><font size="2"> We demonstrate that it is possible to encode the training of neural networks as a recursion scheme system -- specifically as the composition of catamorphism and/or anamorphisms. This is shown across a range of complex network types: fully-connected networks, convolutional networks, and deep LSTM networks.</font> </span><br/>
 <span style="color:#44454A "><font size="2">M.Nguyen, N.Wu </font> </span><br/>
