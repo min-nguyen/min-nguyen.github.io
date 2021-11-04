@@ -26,27 +26,27 @@ redirect_from:
 **Projects**
 
 <font size="3"><span style="color:#AA9E9D">Jan, 2022</span> <span style="color:#3C6BE4"> Linked visualisations via Galois dependencies </span></font>
-<span style="color:#85868B"><font size="2"> We present new language-based data provenance techniques for linking visualisations and other structured
+<span style="color:#85868B"><font size="2"> This presents new language-based data provenance techniques for linking visualisations and other structured
 outputs to data in a fine-grained way. This builds on bidirectional program slicing techiques based on Galois connections. </font> </span><br/>
 <span style="color:#44454A "><font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
 <sup>POPL '22</sup><br/>
 <font size="3"><span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4"> Composable, Modular Probabilistic Models </span></font>
-<span style="color:#85868B"><font size="2"> We present an effect-oriented embedded DSL in Haskell for modularly defining probabilistic models as first class citizens which can be reused for both simulation and inference. We then demonstrate how simulation and inference can be expressed naturally as composable program transformations using algebraic effect handlers.</font> </span><br/>
+<span style="color:#85868B"><font size="2"> This presents an effect-oriented embedded DSL in Haskell for modularly defining probabilistic models as first class citizens which can be reused for both simulation and inference. We then demonstrate how simulation and inference can be expressed naturally as composable program transformations using algebraic effect handlers.</font> </span><br/>
 <span style="color:#44454A "><font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
 <sup>ICFP '21, Student Research Competition</sup><br/>
 <font size="3"><span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4"> Folding Over Neural Networks</span></font>
-<span style="color:#85868B"><font size="2"> We demonstrate that it is possible to encode the training of neural networks as a recursion scheme system -- specifically as the composition of catamorphisms and/or anamorphisms. This is shown across a range of complex network types: fully-connected networks, convolutional networks, and deep LSTM networks.</font> </span><br/>
+<span style="color:#85868B"><font size="2"> This demonstrates how the training of neural networks can be encoded as a recursion scheme system -- specifically as the composition of catamorphisms and/or anamorphisms. This is shown across a range of complex network types: fully-connected networks, convolutional networks, and deep LSTM networks.</font> </span><br/>
 <span style="color:#44454A "><font size="2">M.Nguyen, N.Wu </font> </span><br/>
 <sup>Masters Dissertation, University of Bristol</sup>
 
 **Awards**
 <font size="3"><span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33"> <i>ACM Student Research Competition, 1st Place  (ICFP '21)</i></span></font>
-<span style="color:#85868B"><font size="2"> This corresponds to my project entitled "Composable, Modular Probabilistic Models".</font>
+<span style="color:#85868B"><font size="2"> This corresponds to one of my PhD projects, entitled "Composable, Modular Probabilistic Models".</font>
 
 <font size="3"><span style="color:#AA9E9D">2019</span> <span style="color:#AE3C33"> <i>Best Final Year Machine Learning Paper, University of Bristol</i></span></font>
 <span style="color:#85868B"><font size="2"> This corresponds to my masters dissertation entitled "Folding over Neural Networks".</font>
 
-<font size="3"><span style="color:#AA9E9D">2018</span> <span style="color:#AE3C33"> <i>Best Group Project, University of Bristol</i></span></font>
+<font size="3"><span style="color:#AA9E9D">2018</span> <span style="color:#AE3C33"> <i>Best 3rd Year Group Project, University of Bristol</i></span></font>
 <span style="color:#85868B"><font size="2"> This comprised the development of a VR Horror Game, in which I was responsible for programming the player and enemy mechanics, and the game interaction/event system. This used C#, Unity, Oculus Rift and Touch, and a Bluetooth Heart Rate Monitor.</font>
 
 <font size="3"><span style="color:#AA9E9D">2017</span> <span style="color:#AE3C33"> <i>Top Ten Achieving 2nd Year Computer Science Students, University of Bristol</i></span></font>  
