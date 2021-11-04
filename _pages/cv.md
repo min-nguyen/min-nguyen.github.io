@@ -10,11 +10,13 @@ redirect_from:
 {% include base_path %}
 
 **Education**
-* <font size="3"> MEng, Computer Science, 1st Class -- University of Bristol, 2019<br/> </font>
-    * <font size="2">2018-19 - 1st Class, (71) </font>
-    * <font size="2">2017-18 - 1st Class, (76) </font>
-    * <font size="2">2016-17 - 1st Class, (80) </font>
-    * <font size="2">2015-16 - 1st Class, (76) </font>
+
+<font size="3"> <i>MEng</i>, Computer Science, 1st Class - University of Bristol, 2019<br/> </font>
+
+  * <font size="2">2018-19 - 1st Class, (71) </font>
+  * <font size="2">2017-18 - 1st Class, (76) </font>
+  * <font size="2">2016-17 - 1st Class, (80) </font>
+  * <font size="2">2015-16 - 1st Class, (76) </font>
 
 **Languages**
 * <font size="3">Haskell </font>
@@ -23,16 +25,16 @@ redirect_from:
 
 **Projects**
 
-<span style="color:#AA9E9D">Jan, 2022</span> <span style="color:#3C6BE4"> Linked visualisations via Galois dependencies </span><br/>
+ <font size="3"><span style="color:#AA9E9D">Jan, 2022</span> <span style="color:#3C6BE4"> Linked visualisations via Galois dependencies </span></font><br/>
 <span style="color:#85868B"><font size="2"> We present new language-based data provenance techniques for linking visualisations and other structured
 outputs to data in a fine-grained way. This builds on bidirectional program slicing techiques based on Galois connections. </font> </span><br/>
 <span style="color:#44454A "><font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
 <sup>POPL '22</sup><br/><br/>
-<span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4"> Composable, Modular Probabilistic Models </span><br/>
+<font size="3"><span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4"> Composable, Modular Probabilistic Models </span></font><br/>
 <span style="color:#85868B"><font size="2"> We present an effect-oriented embedded DSL in Haskell for modularly defining probabilistic models as first class citizens which can be reused for both simulation and inference. We then demonstrate how simulation and inference can be expressed naturally as composable program transformations using algebraic effect handlers.</font> </span><br/>
 <span style="color:#44454A "><font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
 <sup>ICFP '21, Student Research Competition</sup><br/><br/>
-<span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4"> Folding Over Neural Networks</span><br/>
+<font size="3"><span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4"> Folding Over Neural Networks</span></font><br/>
 <span style="color:#85868B"><font size="2"> We demonstrate that it is possible to encode the training of neural networks as a recursion scheme system -- specifically as the composition of catamorphism and/or anamorphisms. This is shown across a range of complex network types: fully-connected networks, convolutional networks, and deep LSTM networks.</font> </span><br/>
 <span style="color:#44454A "><font size="2">M.Nguyen, N.Wu </font> </span><br/>
 <sup>Masters Dissertation, University of Bristol</sup>
@@ -48,6 +50,9 @@ outputs to data in a fine-grained way. This builds on bidirectional program slic
 <span style="color:#AA9E9D">2017</span>  <span style="color:#AE3C33">_Top Ten Achieving 2nd Year Computer Science Students, University of Bristol_</span>
 
 **Work experience**
+* <font size="3"> Speaker <br>
+    * I occasionally give talks/seminars about Haskell, functional programming, or my own research, to the Programming Languages Group and undergraduates at the University of Bristol. <br><br>
+    * <font size="2"><span style="color:#AA9E9D">2019-2021</span></font>
 
 *  <font size="3">Teaching Assistant: <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> </font>
     * <font size="2"><span style="color:#AA9E9D">2019-2020</span></font>

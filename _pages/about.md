@@ -20,27 +20,30 @@ Previous research involves the investigation the embedding of neural networks as
 
 **Papers**
 
- <span style="color:#AA9E9D">Jan, 2022</span> <span style="color:#3C6BE4"> Linked visualisations via Galois dependencies </span><br/>
- <span style="color:#85868B">                   <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
- <sup>                         POPL '22</sup><br/>
- <span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4"> Composable, Modular Probabilistic Models </span><br/>
- <span style="color:#85868B">                   <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
- <sup>                         ICFP '21, Student Research Competition</sup><br/>
- <span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4"> Folding Over Neural Networks</span><br/>
- <span style="color:#85868B">                   <font size="2">M.Nguyen, N.Wu </font> </span><br/>
- <sup>                         Masters Dissertation, University of Bristol</sup>
+ <font size="3"><span style="color:#AA9E9D">Jan, 2022</span> <span style="color:#3C6BE4"> Linked visualisations via Galois dependencies </span></font><br/>
+ <span style="color:#85868B">                 <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
+ <sup>                       POPL '22</sup><br/>
+ <font size="3"><span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4"> Composable, Modular Probabilistic Models </span></font><br/>
+ <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
+ <sup>                       ICFP '21, Student Research Competition</sup><br/>
+ <font size="3"><span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4"> Folding Over Neural Networks</span></font><br/>
+ <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
+ <sup>                       Masters Dissertation, University of Bristol</sup>
 
 **Talks**
 
- <span style="color:#AA9E9D">Sep, 2021</span> <span style="color:#3C6BE4"> Composable, Modular Probabilistic Models </span><br/>
- <sup>                          IFL '21</sup><br/>
+ <font size="3"><span style="color:#AA9E9D">Sep, 2021</span> <span style="color:#3C6BE4"> Composable, Modular Probabilistic Models </span><br/></font>
+ <sup>                      IFL '21</sup><br/>
 
 **Teaching**
-
-<font size="3"> <span style="color:#AA9E9D">2017 -- 2020</span> I have acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a> and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at the University of Bristol. </font> 
+<font size="3"> <span style="color:#AA9E9D">2019 - 2021</span> <br>
+I occasionally give seminars to the Programming Languages Group and undergraduates at the University of Bristol. <br><br>
+<span style="color:#AA9E9D">2017 - 2020</span> <br>
+I have acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a> and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at the University of Bristol. </font> 
 
 **Awards**
 
- <font size="3"><span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33"><i>ACM Student Research Competition, 1st Place  (ICFP '21)</i></span></font>
-
- <font size="3"><span style="color:#AA9E9D">2019</span> <span style="color:#AE3C33"><i>Best Machine Learning Paper, University of Bristol</i></span></font><br/>
+<font size="3">
+<span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33"><i>ACM Student Research Competition, 1st Place  (ICFP '21)</i></span><br>
+<span style="color:#AA9E9D">2019</span> <span style="color:#AE3C33"><i>Best Machine Learning Paper, University of Bristol</i></span>
+</font><br/>
