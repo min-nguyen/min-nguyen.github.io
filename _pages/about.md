@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+
 I'm a PhD student in the [Programming Languages Research Group](https://bristolpl.github.io/) at University of Bristol, supervised by [Meng Wang](https://mengwangoxf.github.io/) and [Roly Perera](https://www.turing.ac.uk/people/researchers/roly-perera). My current research investigates the formalisation and implementation of algebraic effects in probabilistic programming. My other interests include functional programming (in particular, Haskell), type-level programming, type theory, and design of embedded domain-specific languages (eDSLs).
 
 **Research**
@@ -42,20 +43,3 @@ Previously, I investigated the embedding of neural networks as recursion schemes
 
 <span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33">_ACM Student Research Competition, 1st Place  (ICFP '21)_</span><br/>
 <span style="color:#AA9E9D">2019</span>  <span style="color:#AE3C33">_Best Machine Learning Paper, University of Bristol_</span>
-
-**Education**
-* MEng, Computer Science, 1st Class -- University of Bristol, 2019<br/>
-    * <font size="3">2018-19 - 1st Class, (71) </font>
-    * <font size="3">2017-18 - 1st Class, (76) </font>
-    * <font size="3">2016-17 - 1st Class, (80) </font>
-    * <font size="3">2015-16 - 1st Class, (76) </font>
-
-**Work experience**
-
-* '19-'20: Teaching Assistant: Advanced Topics in Programming Languages
-    * University of Bristol
-    * Supervisor: M.Weng
-
-* '17, '19-'20: Teaching Assistant: Functional Programming
-    * University of Bristol
-    * Supervisor: M.Weng, N. Wu

@@ -18,15 +18,21 @@ redirect_from:
 
 **Work experience**
 
-* '19-'20: Teaching Assistant: [Advanced Topics in Programming Languages](https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066)
-    * University of Bristol
-    * Supervisor: M.Weng
+* Teaching Assistant: [Advanced Topics in Programming Languages](https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066)
+    * <span style="color:#AA9E9D">2019-2020</span>
+    * <font size="3">University of Bristol </font>
+    * <font size="3">Supervisor: M.Weng </font>
 
-* '17, '19-'20: Teaching Assistant: [Functional Programming](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016)
-    * University of Bristol
-    * Supervisor: M.Weng, N. Wu
+* Teaching Assistant: [Functional Programming](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016)
+    * <span style="color:#AA9E9D">2017, 2019-2020</span>
+    * <font size="3">University of Bristol </font>
+    * <font size="3">Supervisor: M.Weng, N. Wu </font>
 
+**Awards**
 
+<span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33">_ACM Student Research Competition, 1st Place  (ICFP '21)_</span><br/>
+<span style="color:#AA9E9D">2019</span>  <span style="color:#AE3C33">_Best Final Year Machine Learning Paper, University of Bristol_</span>
+<span style="color:#AA9E9D">2017</span>  <span style="color:#AE3C33">_Top Ten Achieving 2nd Year Computer Science Students, University of Bristol_</span>
 <!-- Skills
 ======
 * Skill 1
