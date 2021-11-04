@@ -18,11 +18,11 @@ redirect_from:
 
 **Work experience**
 
-* '19-'20: Teaching Assistant: Advanced Topics in Programming Languages
+* '19-'20: Teaching Assistant: [Advanced Topics in Programming Languages](https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066)
     * University of Bristol
     * Supervisor: M.Weng
 
-* '17, '19-'20: Teaching Assistant: Functional Programming
+* '17, '19-'20: Teaching Assistant: [Functional Programming](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016)
     * University of Bristol
     * Supervisor: M.Weng, N. Wu
 
