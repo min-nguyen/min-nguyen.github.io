@@ -43,10 +43,3 @@ Previously, I investigated the embedding of neural networks as recursion schemes
 
 <span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33">_ACM Student Research Competition, 1st Place  (ICFP '21)_</span><br/>
 <span style="color:#AA9E9D">2019</span>  <span style="color:#AE3C33">_Best Machine Learning Paper, University of Bristol_</span>
-
-
-* Teaching Assistant: [Functional Programming](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016)
-    * <font size="3"><span style="color:#AA9E9D">2017, 2019-2020</span></font>
-    * <font size="2">Mentoring of students with lab worksheets and beginner-to-intermediate functional programming concepts. Marking of exams.</font>
-    * <font size="2">University of Bristol </font>
-    * <font size="2">Supervisor: M.Weng, N. Wu </font>

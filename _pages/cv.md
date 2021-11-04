@@ -37,7 +37,7 @@ redirect_from:
 **Awards**
 
 <span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33">_ACM Student Research Competition, 1st Place  (ICFP '21)_</span><br/>
-   <font size="2">This corresponds to my project entitled "Composable, Modular Probabilistic Models", in which I use an algebraic effect handler approach to embed  probabilistic programming language in Haskell, allowing for composable models which are suitable for all forms of simulation and inference. </font><br/>
+   <font size="2">This corresponds to my project entitled "Composable, Modular Probabilistic Models", in which I use algebraic effects to embed  probabilistic programming language in Haskell, allowing for composable models which are suitable for all forms of simulation and inference. </font><br/>
 <span style="color:#AA9E9D">2019</span>  <span style="color:#AE3C33">_Best Final Year Machine Learning Paper, University of Bristol_</span><br/>
    <font size="2">This corresponds to my masters dissertation entitled "Folding over Neural Networks" which demonstrates that it is possible to encode the training of neural networks as a recursion scheme system -- specifically as the composition of catamorphism and/or anamorphisms. This was shown across a range of complex network types:  fully-connected networks, convolutional networks, and deep LSTM networks. </font><br/>
 <span style="color:#AA9E9D">2018</span>  <span style="color:#AE3C33">_Best Group Project, University of Bristol_</span><br/>
