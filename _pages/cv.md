@@ -10,15 +10,13 @@ redirect_from:
 {% include base_path %}
 
 **Education**
-======
 * MEng, Computer Science, 1st Class -- University of Bristol, 2019<br/>
     * <font size="3">2018-19 - 1st Class, (71) </font>
     * <font size="3">2017-18 - 1st Class, (76) </font>
     * <font size="3">2016-17 - 1st Class, (80) </font>
     * <font size="3">2015-16 - 1st Class, (76) </font>
 
-Work experience
-======
+**Work experience**
 
 * '19-'20: Teaching Assistant: Advanced Topics in Programming Languages
     * University of Bristol
@@ -27,6 +25,7 @@ Work experience
 * '17, '19-'20: Teaching Assistant: Functional Programming
     * University of Bristol
     * Supervisor: M.Weng, N. Wu
+
 
 <!-- Skills
 ======
