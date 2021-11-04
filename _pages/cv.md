@@ -49,7 +49,7 @@ outputs to data in a fine-grained way. This builds on bidirectional program slic
 <font size="3"><span style="color:#AA9E9D">2018</span> <span style="color:#AE3C33"> <i>Best Group Project, University of Bristol</i></span></font>
 <span style="color:#85868B"><font size="2"> This comprised the development of a VR Horror Game, in which I was responsible for programming the player and enemy mechanics, and the game interaction/event system. This used C#, Unity, Oculus Rift and Touch, and a Bluetooth Heart Rate Monitor.</font>
 
-<font size="3"><span style="color:#AA9E9D">2017</span> <span style="color:#AE3C33"> <i>Top Ten Achieving 2nd Year Computer Science Students, University of Bristol</i></span></font><br>
+<font size="3"><span style="color:#AA9E9D">2017</span> <span style="color:#AE3C33"> <i>Top Ten Achieving 2nd Year Computer Science Students, University of Bristol</i></span></font>  
 
 **Work experience**
 * <font size="3"> PL Seminar Speaker <br>
