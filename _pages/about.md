@@ -13,7 +13,7 @@ redirect_from:
 
 **Research**
 
-<font size="3"> Based on the properties of row polymorphism, I employ algebraic effect handlers and extensible data to allow models in probabilistic programming languages to be simultaneously composable and general-purpose (i.e. suitable for all forms of simulation and inference). This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br>
+<font size="3"> I'm exploring the application of algebraic effect handlers and extensible data to allow models in probabilistic programming languages to be simultaneously composable and general-purpose (i.e. suitable for all forms of simulation and inference). This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br>
 
 Previous research involves the investigation the embedding of neural networks as recursion schemes; here I showed that the notion of forward and back propagation during neural network training can be captured as the composition of catamorphisms (folds) and anamorphisms (unfolds). This is implemented as an eDSL called <a href="https://github.com/min-nguyen/catana">Catana</a> in Haskell.</font>  
 
@@ -39,7 +39,7 @@ Previous research involves the investigation the embedding of neural networks as
 <font size="3"> <span style="color:#AA9E9D">2019 - 2021</span> <br>
 I occasionally give talks/seminars to the Programming Languages Group and undergraduates at the University of Bristol. <br><br>
 <span style="color:#AA9E9D">2017 - 2020</span> <br>
-I have acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a> and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at the University of Bristol. </font>
+I have acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a> and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at the University of Bristol. </font><br>
 
 **Awards**
 
