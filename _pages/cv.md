@@ -9,25 +9,26 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+**Education**
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* MEng, Computer Science, 1st Class -- University of Bristol, 2019<br/>
+    * <font size="3">2018-19 - 1st Class, (71) </font>
+    * <font size="3">2017-18 - 1st Class, (76) </font>
+    * <font size="3">2016-17 - 1st Class, (80) </font>
+    * <font size="3">2015-16 - 1st Class, (76) </font>
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+* '19-'20: Teaching Assistant: Advanced Topics in Programming Languages
+    * University of Bristol
+    * Supervisor: M.Weng
+
+* '17, '19-'20: Teaching Assistant: Functional Programming
+    * University of Bristol
+    * Supervisor: M.Weng, N. Wu
+
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -41,19 +42,19 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
