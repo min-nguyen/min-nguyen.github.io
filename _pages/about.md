@@ -28,7 +28,7 @@ Previously, I investigated the embedding of neural networks as recursion schemes
 <sup>                         ICFP '21, Student Research Competition</sup><br/>
 <span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4"> Folding Over Neural Networks</span><br/>
 <span style="color:#85868B">                   <font size="2">M.Nguyen, N.Wu </font> </span><br/>
-<sup>                         Master's Dissertation, University of Bristol</sup>
+<sup>                         Masters Dissertation, University of Bristol</sup>
 
 **Talks**
 
@@ -37,10 +37,16 @@ Previously, I investigated the embedding of neural networks as recursion schemes
 
 **Teaching**
 
-<span style="color:#AA9E9D">2017 -- 2020</span> I have acted as a teaching assistant for the [Functional Programming](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016) and [Advanced Topics in Programming Languages](https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066) unit at University of Bristol.
+<span style="color:#AA9E9D">2017 -- 2020</span> I have acted as a teaching assistant for the [Functional Programming](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016) and [Advanced Topics in Programming Languages](https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066) units at University of Bristol.
 
 **Awards**
 
 <span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33">_ACM Student Research Competition, 1st Place  (ICFP '21)_</span><br/>
 <span style="color:#AA9E9D">2019</span>  <span style="color:#AE3C33">_Best Machine Learning Paper, University of Bristol_</span>
 
+
+* Teaching Assistant: [Functional Programming](https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016)
+    * <font size="3"><span style="color:#AA9E9D">2017, 2019-2020</span></font>
+    * <font size="2">Mentoring of students with lab worksheets and beginner-to-intermediate functional programming concepts. Marking of exams.</font>
+    * <font size="2">University of Bristol </font>
+    * <font size="2">Supervisor: M.Weng, N. Wu </font>
