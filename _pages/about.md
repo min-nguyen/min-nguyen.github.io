@@ -42,7 +42,7 @@ I occasionally give talks/seminars to the Programming Languages Group and underg
 <span style="color:#AA9E9D">2020 - 2021</span> <br>
 I've acted as the main supervisor for a 4th year student in their masters dissertation. <br>
 <span style="color:#AA9E9D">2017 - 2020</span> <br>
-I've acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a> and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at the University of Bristol.
+I've acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at the University of Bristol.
 </font> <br>
 
 **Awards**
