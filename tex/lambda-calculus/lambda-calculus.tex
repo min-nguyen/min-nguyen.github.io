@@ -1,0 +1,346 @@
+\documentclass[acmsmall, 9pt]{article}
+
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\input{../tex/packages}
+\input{../tex/layout-tweaks}
+\input{../tex/macros}
+\input{../tex/listings}
+
+\setlist[itemize]{leftmargin=4mm}
+\setlist[enumerate]{leftmargin=4mm}
+\addbibresource{bibliography.bib}
+\begin{document}
+\pagestyle{empty} 
+ 
+\title{Lambda Calculus -- $\lambda^{\rightarrow}$, System F, and System F$_\omega$ }
+ 
+\maketitle
+
+\section{Simply Typed Lambda Calculus ($\lambda^{\rightarrow}$)}
+Simply typed lambda calculus \cite{cambridge-lambda-calc} is also traditionally called $\lambda^{\rightarrow}$, where the arrow $\rightarrow$ indicates the centrality of function types $\tyFun{A}{B}$. The elements of lambda calculus are divided into three ``sorts'':
+\begin{itemize}
+  \item \textbf{terms} ranged over by metavariables $M, N$.
+  \item \textbf{types} ranged over by metavariables $A, B$. We write $M: A$ to say type $M$ has type $A$.
+  \item \textbf{kinds} ranged over by metavariable $K$. We write $T :: K$ to say type $T$ has kind $K$.
+\end{itemize}
+\noindent
+The grammar of $\lambda^{\rightarrow}$ is given by:
+\begin{align*}
+  \text{Kinds} \quad K &::= * \\
+  \text{Types} \quad  A, B &::= \iota \; | \;  A \rightarrow B  \\
+  \text{Raw terms} \quad M, N &::= c \; | \; x \; | \;  \lambda x^A . \, M \; | \; M \, N
+\end{align*}
+
+\textbf{Kinds} Kinds play little part in $\lambda^{\rightarrow}$, so their structure trivially consists just of $*$, the kind of standard types.
+
+\textbf{Types} Types consist of base types $\iota$ such as integers and booleans, and functions where $A \rightarrow B$ represents a function taking a type $A$ to a type $B$.
+
+\textbf{Terms} We let $x, y, z$ range over a set of term variables. Constants are represented by terms $c$. The term $\lambda x^A . \, M$ (also written $\lambda x : A . \, M$) says that we can take a variable $x$ of type $A$ a parameter of an expression to get a lambda abstraction. Hence the term application of a term to a term, $M \; N$, is also a term.
+
+\begin{figure}[H]
+\flushleft \shadebox{$\Delta \vdash A : K$}
+\begin{smathpar}
+  \inferrule*[lab={\ruleName{constant}}]
+  {
+     \strut
+  }
+  {
+     \Delta \vdash \iota : *
+  }
+  \and
+  \inferrule*[lab={\ruleName{function}}]
+  {
+    \Delta \vdash A : *
+    \\
+    \Delta \vdash B : *
+  }
+  {
+     \Delta \vdash \tyFun{A}{B} : *
+  }
+\end{smathpar}
+\caption{Kinding Rules ($\lambda^{\rightarrow}$)}
+\end{figure}
+
+\begin{figure}[H]
+\flushleft \shadebox{$\Gamma \vdash M : A$}
+\begin{smathpar}
+  \inferrule*[lab={\ruleName{constant}}]
+  {
+     \strut
+  }
+  {
+     \Gamma \vdash c : \iota
+  }
+  \and
+  \inferrule*[lab={\ruleName{var}}, right={$x : A \in \Gamma$}]
+  {
+     \strut
+  }
+  {
+     \Gamma \vdash x : A
+  }
+  \and
+  \inferrule*[lab={\ruleName{lambda}}]
+  {
+     \Gamma \concat (x : A) \vdash M : B
+  }
+  {
+     \Gamma \vdash \lambda x^A. \, M :  \tyFun{A}{B}
+  }
+  \and
+  \inferrule*[lab={\ruleName{application}}]
+  {
+     \Gamma \vdash M : \tyFun{A}{B}
+     \\
+     \Gamma \vdash N : A
+  }
+  {
+     \Gamma \vdash M \, N : B
+  }
+\end{smathpar}
+\caption{Typing Rules ($\lambda^{\rightarrow}$)}
+\end{figure}
+
+\section{Polymorphic Typed Lambda Calculus (System F)}
+System F \cite{lambda-calc, cambridge-lambda-calc}, also known as polymorphic lambda calculus or second-order lambda calculus, is a typed lambda calculus that extends simply-typed lambda calculus. It extends this by adding support for ``type-to-term'' abstraction, allowing polymorphism through the introduction of a mechanism of universal quantification over types. It therefore formalizes the notion of parametric polymorphism in programming languages. It is known as second-order lambda calculus because from a logical perspective, it can describe all functions that are provably total in second-order logic.
+
+
+\lbreak
+The grammar of System F is given by:
+\begin{align*}
+  \text{Kinds} \quad K &::= * \\
+  \text{Types} \quad  A, B &::= \iota \; | \; A \rightarrow B \; | \; \alpha \; | \; \forall \alpha^K. \, A  \\
+  \text{Terms} \quad M, N &::= x \; | \; \lambda x^A . \, M \; | \; M \, N  \; | \; \Lambda \alpha^K . \, M \; | \; M \, [A]
+\end{align*}
+
+
+\textbf{Kinds} Kinds remain the same, and all types have kind $*$.
+
+\textbf{Types} We extend types $A, B$ with (polymorphic) type variables $\alpha$ and universally quantified types $\forall \alpha^{\kappa}. \, A$ in which the bound type variable $\alpha$ of kind $K$ may appear in $A$ (we note that the only kind $K$ in System F is $*$). A important point to make is that by introducing the type variable $\alpha$, it is also necessary to also introduce $\forall \alpha^K.\, A$. This is because $\alpha$ can only exist within the scope of which it is quantified by $\forall \alpha$. We note that in a polymorphic lambda calculus without a type scheme, it is possible for type variables $\alpha$ to appear on their own without being bound to an inscope quantifier $\forall \alpha$ -- therefore the grammar on its own does not ensure well-formed types.
+
+\textbf{Terms} The lambda abstraction term $\lambda x^A . \, M$ can now take variables $x$ which have universally quantified types $\forall \alpha. \, A$. We extend terms with type abstraction $\Lambda \alpha^K . \, M$ (also written $\Lambda \alpha :: K . \, M$) whose parameter $\alpha$ is a type of kind $K$ and returns a term $M$, and with type application $M \, [A]$ whose argument is a type $A$.
+
+\begin{figure}[H]
+\flushleft \shadebox{$\Delta \vdash T : K$}
+\begin{smathpar}
+  \inferrule*[lab={\ruleName{constant}}]
+  {
+     \strut
+  }
+  {
+     \Delta \vdash \iota : *
+  }
+  \and
+  \inferrule*[lab={\ruleName{function}}]
+  {
+     \Delta \vdash A : *
+     \\
+     \Delta \vdash B : *
+  }
+  {
+     \Delta \vdash \tyFun{A}{B} : *
+  }
+  \and
+  \inferrule*[lab={\ruleName{forall}}]
+  {
+     \Delta \concat (\alpha : K) \vdash A : *
+  }
+  {
+     \Delta \vdash \forall \alpha^K. \, A : *
+  }
+  \and
+  \inferrule*[lab={\ruleName{type variable}}]
+  {
+     \alpha : K \in \Delta
+  }
+  {
+     \Delta \vdash \alpha : K
+  }
+\end{smathpar}
+\caption{Kinding Rules (System F)}
+\end{figure}
+
+\begin{figure}[H]
+\flushleft \shadebox{$\Gamma \vdash M : A$}
+\begin{smathpar}
+  \inferrule*[lab={\ruleName{var}}]
+  {
+     x : A \in \Gamma
+  }
+  {
+     \Gamma \vdash x : A
+  }
+  \and
+  \inferrule*[lab={\ruleName{lambda abstraction}}]
+  {
+     \Gamma \concat (x : A) \vdash M : B
+  }
+  {
+     \Gamma \vdash \lambda x^A. \, M : \tyFun{A}{B}
+  }
+  \and
+  \inferrule*[lab={\ruleName{application}}]
+  {
+     \Gamma \vdash M : \tyFun{A}{B}
+     \\
+     \Gamma \vdash N : A
+  }
+  {
+     \Gamma \vdash M \, N : B
+  }
+  \and
+  \inferrule*[lab={\ruleName{type abstraction}}]
+  {
+     \Delta \concat (\alpha : K) \vdash M : A
+  }
+  {
+     \Gamma \vdash \Lambda \alpha^K. \, M : \forall \alpha^K. \, A
+  }
+  \and
+  \inferrule*[lab={\ruleName{type application}}]
+  {
+     \Gamma \vdash M : \forall \alpha^K. A
+     \\
+     \Delta \vdash B : K
+  }
+  {
+     \Gamma \vdash M \, [B] : A[\alpha \mapsto B]
+  }
+\end{smathpar}
+\caption{Typing Rules (System F)}
+\end{figure}
+
+
+\section{Higher-Order Polymorphic Typed Lambda Calculus (System F$_\omega$)}
+System F$_\omega$ \cite{cambridge-lambda-calc, pierce2002types}, also known as higher-order polymorphic lambda calculus, extends System F with richer kinds and adds type-level lambda-abstraction and application.
+
+
+\subsubsection{System F$_\omega$}
+\begin{align*}
+  \text{Kinds} \quad K &::= * \; | \; K_1 \rightarrow K_2\\
+  \text{Types} \quad  A, B &::= \iota \; | \;  A \rightarrow B \; | \; \forall \alpha^K . \, A\; | \; \alpha \; | \; \lambda \alpha^K. \, A \; | \; A \, B\\
+  \text{Terms} \quad M, N &::= x \; | \; \lambda x^A . \, M \; | \; M \, N  \; | \; \Lambda \alpha^K . \, M \; | \; M \, [A]
+\end{align*}
+
+
+\textbf{Kinds} In System F, the structure of kinds has been trivial, limited to a single kind $*$ to which all type expressions belonged. In System F$_\omega$, we enrich the set of kinds with an operator $\rightarrow$ such that if $K_1$ and $K_2$ are kinds, then $K_1 \rightarrow K_2$ is a kind. This allows us to construct kinds which contain \textit{type operators/constructors} and higher-order forms of these, such as product $\times$. This lets us add other arbitrary custom kind constants to this calculus.
+
+\textbf{Types} The set of types in System F$_\omega$ now additionally includes type constructors i.e. type-level lambda-abstraction ($\lambda \alpha^K. \, A : K \rightarrow K'$), and type constructor application ($A\,B : K_2$ when $A : K_1 \rightarrow K_2$ and $B : K_1$) as we are able to apply higher-kinded types $K_1 \rightarrow K_1$ to other types.
+
+Additionally, universal quantification ($\forall \alpha^K . \, A : *$) now requires the bound type variable $\alpha$ to be annotated by a kind $K$, meaning types can be parameterised by polymorphic type variables of any kind $K$ as long as the overall type returned is of kind $*$.
+
+\textbf{Terms} Although the terms in System F$_\omega$ remain the same as System F, the term for type abstraction ($\Lambda \alpha^K . \, M$) can now take types with kinds other than $*$, as long as there exists a type variable for that specific kind.
+
+\lbreak
+The introduction of richer kinds means that it becomes more necessary to add \textit{kinding rules} to dictate what are well-formed types.
+
+\begin{figure}[H]
+\flushleft \shadebox{$\Delta \vdash T : K$}
+\begin{smathpar}
+  \inferrule*[lab={\ruleName{constant}}]
+  {
+     \strut
+  }
+  {
+     \Delta \vdash \iota : *
+  }
+  \and
+  \inferrule*[lab={\ruleName{function}}]
+  {
+     \Delta \vdash A : *
+     \\
+     \Delta \vdash B : *
+  }
+  {
+     \Delta \vdash \tyFun{A}{B} : *
+  }
+  \and
+  \inferrule*[lab={\ruleName{forall}}]
+  {
+     \Delta \concat (\alpha : K) \vdash A : *
+  }
+  {
+     \Delta \vdash \forall \alpha^K. \, A : *
+  }
+  \and
+  \inferrule*[lab={\ruleName{type variable}}]
+  {
+     \alpha : K \in \Delta
+  }
+  {
+     \Delta \vdash \alpha : K
+  }
+  \and
+  \inferrule*[lab={\ruleName{type constructor}}]
+  {
+     \Delta \concat (\alpha : K_1) \vdash A : K_2
+  }
+  {
+     \Delta \vdash \lambda \alpha^{K_1} . \, A : \tyFun{K_1}{K_2}
+  }
+  \and
+  \inferrule*[lab={\ruleName{type constructor application}}]
+  {
+     \Delta \vdash A : \tyFun{K_1}{K_2}
+     \\
+     \Delta \vdash B : K_1
+  }
+  {
+     \Delta \vdash A \, B : K_2
+  }
+\end{smathpar}
+\caption{Kinding Rules (System F$_\omega$)}
+\end{figure}
+
+\begin{figure}[H]
+\flushleft \shadebox{$\Gamma \vdash M : A$}
+\begin{smathpar}
+  \inferrule*[lab={\ruleName{var}}]
+  {
+     x : A \in \Gamma
+  }
+  {
+     \Gamma \vdash x : A
+  }
+  \and
+  \inferrule*[lab={\ruleName{lambda abstraction}}]
+  {
+     \Gamma \concat (x : A) \vdash M : B
+  }
+  {
+     \Gamma \vdash \lambda x^A. \, M : \tyFun{A}{B}
+  }
+  \and
+  \inferrule*[lab={\ruleName{application}}]
+  {
+     \Gamma \vdash M : \tyFun{A}{B}
+     \\
+     \Gamma \vdash N : A
+  }
+  {
+     \Gamma \vdash M \, N : B
+  }
+  \and
+  \inferrule*[lab={\ruleName{type abstraction}}]
+  {
+     \Delta \concat (\alpha : K) \vdash M : A
+  }
+  {
+     \Gamma \vdash \Lambda \alpha^K. \, M : \forall \alpha^K. \, A
+  }
+  \and
+  \inferrule*[lab={\ruleName{type application}}]
+  {
+     \Gamma \vdash M : \forall \alpha^K. A
+     \\
+     \Delta \vdash B : K
+  }
+  {
+     \Gamma \vdash M \, [B] : A[\alpha \mapsto B]
+  }
+\end{smathpar}
+\caption{Typing Rules (System F$_\omega$)}
+\end{figure}
+
+\printbibliography
+\end{document}
