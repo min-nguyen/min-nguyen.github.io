@@ -5,3 +5,8 @@ _site/
 *.log
 *.out
 *.run.xml
+*.bbl
+*.blg
+*.synctex.gz
+*.lock
+
