@@ -208,7 +208,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-
+  # meetings
+  - scope:
+      path: ""
+      type: meetings
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 # Sass/SCSS
 sass:
   sass_dir: _sass
