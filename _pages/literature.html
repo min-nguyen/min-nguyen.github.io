@@ -1,0 +1,98 @@
+---
+permalink: /literature
+title: "Literature Review"
+author_profile: true
+---
+
+This is a non-exhaustive list of papers and resources of interest to me.
+
+<h4> Algebraic Effect Calculus </h4>
+
+<p style="font-size:12px">
+Effect handler calculus by Sam Lindley, Ohad Kammar, and Daniel Hillerstrom:
+</p>
+<ul style="font-size:12px">
+<li> Row-based Effect Types for Database Integration - Sam Lindley, James Cheney <a href="https://homepages.inf.ed.ac.uk/slindley/papers/corelinks.pdf">[Lindley and Cheney 2012]</a>. This presents the language Links, a call-by-value variant of System F with row polymorphism, row-based effect types, and implicit subkinding.
+<li> Handlers in Action - Ohad Kammar, Sam Lindley (ICFP) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf">[Kammar et al. 2013]</a>. This presents a higher-order calculus of deep effect handlers called 𝜆eff which extends Levy’s call-by-push-value <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4742/RR-01-03.pdf?sequence=1">[Levy 1999]</a> as an underlying paradigm to include effect operations and effect handlers.
+<li> Liberating Effects with Rows and Handlers - Daniel Hillerstrom, Sam Lindley (TyDe) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/links-effect.pdf">[Hillerström and Lindley 2016]</a>. This describes a calculus for extensible deep handlers called 𝜆 eff.
+<li> Shallow Effect Handlers - Daniel Hillerstrom, Sam Lindley (APLAS) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/shallow-extended.pdf">[Hillerström and Lindley 2018]</a>. This describes a calculus called 𝜆†, an extension of 𝜆 eff but with shallow handlers and recursive functions.
+</ul>
+
+<p style="font-size:12px">
+Effect handler calculus by Andrej Bauer and Matija Pretnar:
+</p>
+<ul style="font-size:12px">
+<li> Programming with Algebraic Effects and Handlers - Andrej Bauer, Matija Pretnar (JLAMP) <a href="https://arxiv.org/pdf/1203.1539.pdf">[Bauer and Pretnar 2012]</a>. This presents the programming language Eff based on the algebraic approach to computational effects, in which effects are modeled as algebraic operations of a suitably chosen algebraic theory, and effect handlers as homomorphisms induced by the universal property of free algebras. Eff supports first-class effects and handlers. This uses direct-style operation application.
+<li> An Effect System for Algebraic Effects and Handlers - Andrej Bauer, Matija Pretnar (CALCO) <a href="https://arxiv.org/pdf/1306.6316.pdf">[Bauer and Pretnar 2013]</a>. This presents an effect system for the core of the language Eff , a simplified variant of Eff which is an ML-style
+language with first-class algebraic effects and handlers.
+<li> An Introduction to Algebraic Effects and Handlers - Matija Pretnar (ENTCS) <a href="https://reader.elsevier.com/reader/sd/pii/S1571066115000705?token=A4A61ABA1A1F4B6F239F3F21816EA3866CECD999FBDEDE1F7BECE6E705E86633AD605C1E6F88E7AE62631D016ECFB205&originRegion=eu-west-1&originCreation=20211111110911">[Pretnar 2015]</a>. This presents a tutorial on algebraic effects and handlers; it explains algebraic effects and handlers, defines an operational semantics and
+type & effect system, and shows how one can reason about effects.
+<li> Algebraic Effects and Handlers - Andrej Bauer (OPLSS) <a href="https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/bauer_notes.pdf">[Bauer 2018]</a>. These are notes and materials for lectures on algebraic effects and handlers at OPLSS 2018.
+</ul>
+
+<p style="font-size:12px">
+Effect handler calculus by Daan Leijen:
+</p>
+<ul style="font-size:12px">
+<li> Type Directed Compilation of Row-typed Algebraic Effects - Daan Leijen (POPL) <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/algeff-tr-2016-v2.pdf">[Leijen 2017]</a>, which defines rows based on Extensible Records with Scoped Labels <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.74.3362&rep=rep1&type=pdf">[Leijen 2005]</a>. This presents an overview of practical algebraic effects in the context of the language Koka, a strongly typed functional-style language with effect types and handlers. The language separates pure values from side-effecting computations, and implements effects as row-types.
+<li> Effect Handlers, Evidently - Ninging Xie, Daan Leijen (ICFP) <a href="https://www.microsoft.com/en-us/research/uploads/prod/2020/07/effev.pdf">[Xie and Leijen, 2020]</a>
+</ul>
+
+<h4> Effect Systems</h4>
+
+<p style="font-size:12px">
+Effect Systems:
+</p>
+<ul style="font-size:12px">
+<li> Monad Transformers and Modular Interpreters - Sheng Liang et al. (POPL '95) <a href="https://dl.acm.org/doi/pdf/10.1145/199448.199528?casa_token=UcHtz_nnkMgAAAAA:t5NKP2yUW97-VkOoiOcmBA5V637JAwGJfuZHApMudz2YpC8btjKfbEmQASaVZden89KBS6g4aijrRQ">[Liang et al. 1995]</a>. This is implemented as the <a href="https://hackage.haskell.org/package/transformers">transformers</a> library (containing both concrete monad transformers and a type class for monad transformer), which is then followed up by the <a href="https://hackage.haskell.org/package/mtl">mtl</a> library containing monad classes using functional dependencies inspired by <a href="https://web.cecs.pdx.edu/~mpj/pubs/springschool95.pdf">[Jones. 1995]</a>.
+<li> Extensible Effects, an Alternative to Monad Transformers - Oleg Kiselyov et al. (Haskell '13') <a href="https://dl.acm.org/doi/pdf/10.1145/2578854.2503791?casa_token=y0AyqKbH2xsAAAAA:_plLMP1F33kRj3mRqaXpzQepcverTQR-Azpho8r0cpoiM4XGbhYOS1Kp2JEPBGrgWgu9j_NfFLoTEQ">[Kiselyov et al. 2013]</a> This is implemented as earlier versions of the <a href="https://hackage.haskell.org/package/extensible-effects"> extensible-effects</a> library.
+<li> Freer Monads, More Extensible Effects - Kiselyov, Oleg, and Hiromi Ishii (Haskell '15). <a href="https://dl.acm.org/doi/pdf/10.1145/2887747.2804319?casa_token=wqL9H2QohRAAAAAA:j2w9rciSkZ997khdCyYd3_No-RGFWn2pohYqN8nam9BbqKJ8gCyvmoxf6q0jJ8w4H-U96ncpUeRbQQ">[Kiselyov and Ishii, 2015]</a>. This is implemented as a series of libraries which are inspirations of the previous versions, in the following order: the <a href="https://hackage.haskell.org/package/extensible-effects"> extensible-effects</a> library, the <a href="http://hackage.haskell.org/package/freer">freer</a> library, the <a href="https://hackage.haskell.org/package/freer-effects">freer-effects</a> library, and then the <a href="https://hackage.haskell.org/package/freer-simple">freer-simple</a> library.
+<li> Fusion for Free: Efficient Algebraic Effect Handlers - Nicolus Wu and Tom Schrijvers (MPC '19) <a href="https://lirias.kuleuven.be/retrieve/322544">[Wu and Schrijvers, 2019]</a>. This is implemented as the <a href="https://hackage.haskell.org/package/fused-effects">fused-effects</a> library. There is a helpful talk "Building Haskell Programs with Fused Effects" by Patrick Thomson at Strange Loop Conference <a href="https://www.youtube.com/watch?v=vfDazZfxlNs">here</a>.
+<li> Polysemy - Sandy Maguire (2019). This is implemented as the <a href="- https://hackage.haskell.org/package/polysemy">polysemy</a> library.
+<li> Effects for Less - Alexis King (Zurihac '20) <a href="https://www.youtube.com/watch?v=0jI-AlWEwYI&t=3502s">[King, 2020]</a> (I've transcribed notes for this talk <a href="https://drive.google.com/file/d/1LR8EefhrVDREhAJWoALojVhIsEsZGNHA/view?usp=sharing">here</a>). This is under construction, implemented as the <a href="https://github.com/hasura/eff">eff</a> library. The ghc proposal can be found <a href=https://github.com/lexi-lambda/ghc-proposals/blob/delimited-continuation-primops/proposals/0000-delimited-continuation-primops.md>here</a>. This is inspired by <a href="https://hackage.haskell.org/package/extensible-effects">extensible-effects</a>, <a href="http://hackage.haskell.org/package/freer">freer</a>, <a href="https://hackage.haskell.org/package/fused-effects">fused-effects</a>, and <a href="https://hackage.haskell.org/package/polysemy">polysemy</a>.
+</ul>
+<p style="font-size:12px">
+Relevant Literature on Effect Systems:
+</p>
+<ul style="font-size:12px">
+<li> Monad transformers and modular algebraic effects: what binds them together - Tom Schrijvers, Nicolas Wu et al. (Haskell '19) <a href="https://dl.acm.org/doi/pdf/10.1145/3331545.3342595?casa_token=Nhl0Wv8Xh3AAAAAA:kuHSXlD1Vkcxxlrti3DaWw2EvTA9n-tzc82pJMMOST8ierYDVzFQcBtZDvOmhFKnNbrAcPiUDZRE9Q">[Schrijvers et al. 2019]</a>.
+</ul>
+
+
+
+<h4> Probabilistic Programming </h4>
+
+<p style="font-size:12px">
+Text books:
+</p>
+<ul style="font-size:12px">
+<li> An Introduction To Probabilistic Programming - Jan-Willem van de Meent et al <a href="https://arxiv.org/pdf/1809.10756">[van de Meent et al. 2018]</a>. This outlines the calculus and semantics for first-order probabilistic languages with graph-based and evaluated-based inference, and then higher-order probabilistic languages with evaluation-based inference. The approaches taken resemble that of Anglican. For graph-based inference, it covers the assignment of addresses (symbols) to nodes, compilation to graphical models, and semantics for evaluation/inference over graphical models. For evaluation-based inference, it covers an addressing transformaton of probabilistic operations, CPS transformations on probabilistic programs, and a message-interface coroutine-style for evaluation-based inference.
+<li> Foundations of Probabilistic Programming - Gilles Barthe et al. (Cambridge University Press) <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/819623B1B5B33836476618AC0621F0EE/9781108488518AR.pdf/Foundations_of_Probabilistic_Programming.pdf?event-type=FTLA">[Barthe et al. 2020]</a>.
+</ul>
+
+<p style="font-size:12px">
+General probabilistic programming papers:
+</p>
+<ul style="font-size:12px">
+<li> Lightweight Implementations of Probabilistic Programming Languages Via Transformational Compilation - David Wingate, Andreas Stuhlmüller, Noah D. Goodman. (AISTATS '11) <a href="https://web.stanford.edu/~ngoodman/papers/lightweight-mcmc-aistats2011.pdf">[Wingate et al. 2011, updated 2014]</a>
+</ul>
+
+<p style="font-size:12px">
+Probabilistic programming by Adam Ścibior:
+</p>
+<ul style="font-size:12px">
+<li> Practical Probabilistic Programming with Monads - Adam Ścibior et al. (Haskell '15) <a href="http://mlg.eng.cam.ac.uk/pub/pdf/SciGhaGor15.pdf">[Ścibior et al. 2015]</a>
+<li> Denotational Validation of Higher-Order Bayesian Inference - Adam Ścibior, Ohad Kammer, et al. (POPL) <a href="https://arxiv.org/pdf/1711.03219.pdf">[Ścibior et al. 2018]</a>
+<li> Functional Programming for Modular Bayesian Inference - Adam Ścibior, Ohad Kammer, et al. (ICFP) <a href="http://www.denotational.co.uk/publications/scibior-kammar-ghahramani-funcitonal-programming-for-modular-bayesian-inference.pdf">[Ścibior et al. 2018]</a>
+<li> Formally Justified and Modular Bayesian Inference for Probabilistic Programs - Adam Ścibior (PhD Thesis) <a href="https://www.repository.cam.ac.uk/bitstream/handle/1810/295167/thesis.pdf?sequence=1">[Ścibior 2019]</a>
+</ul>
+
+<h4> Type Systems in Haskell </h4>
+<p style="font-size:12px">
+Papers:
+</p>
+<ul style="font-size:12px">
+<li> Functional programming with overloading and higher-order polymorphism - Mark P Jones (AFP '95) <a href="https://web.cecs.pdx.edu/~mpj/pubs/springschool95.pdf">[Jones. 1995]</a>
+<li> System F with Type Equality Coercions - Martin Sulzmann, Simon Peyton Jones et al. (TLDI '07) <a href="https://dl.acm.org/doi/pdf/10.1145/1190315.1190324?casa_token=lW2ziBOeAeUAAAAA:4M0M_Ys9bVf_EhPCdOQMRZxuHhjvX-Kh0OYzsN5Ga1fbVJxEzla7C-k6SdSMoDtDZtd-sbKnxARXug">[Sulzmann et al. 2007]</a> </li>
+<li> Practical type inference for arbitrary-rank types - Simon Peyton Jones (JFP '07) <a href="https://arxiv.org/pdf/1711.03219.pdf"> [Jones et al. 2007]</a>
+</ul>
