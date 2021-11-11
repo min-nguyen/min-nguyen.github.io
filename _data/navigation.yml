@@ -6,3 +6,6 @@ main:
 
   - title: "CV"
     url: /files/cv.pdf
+
+  - title: "Literature Of Interest"
+    url: /literature/
