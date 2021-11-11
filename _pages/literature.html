@@ -39,7 +39,7 @@ Effect handler calculus by Daan Leijen:
 </ul>
 
 <p style="font-size:12px">
-Other calculus:
+Other effect calculus:
 </p>
 <ul style="font-size:12px">
 <li> Abstracting Algebraic Effects - Dariusz Biernacki et al. (POPL '19) <a href="https://dl.acm.org/doi/pdf/10.1145/3290319">[Biernacki et al. 2019]</a>
@@ -53,15 +53,16 @@ Papers:
 </p>
 <ul style="font-size:12px">
 <li> Effect Handlers in Scope - Nicolas Wu, Tom Schrijvers, Ralf Hinze (Haskell '14) <a href="https://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf">[Wu et al. 2014]</a></li>
-<li> Syntax and Semantics for Operations in Scopes - Maciej Pirog, Tom SChrijvers, Nicolas Wu (PL '17) <a href="https://lirias.kuleuven.be/retrieve/514682/">[Piroj 2017]</a></li>
+<li> Syntax and Semantics for Operations in Scopes - Maciej Pirog, Tom Schrijvers, Nicolas Wu (PL '17) <a href="https://lirias.kuleuven.be/retrieve/514682/">[Piroj 2017]</a></li>
 <li> Distributive Interaction of Algebraic Effects - Kwok-Ho Cheung (PhD Thesis, University of Oxford '17) <a href="https://ora.ox.ac.uk/objects/uuid:66106628-0a71-4564-bc34-c398db766818/download_file?file_format=pdf&safe_filename=Cheung_complete_thesis.pdf&type_of_work=Thesis">[Cheung, 2017]</a></li>
+<li> A predicate transformer semantics for effects - Wouter Swierstra and Tim Baanen, (ICFP '19) <a href="https://yangzhixuan.github.io/pdf/fused-reasoning-appendices.pdf">[Swierstra and Baanen, 2019]</a></li>
 <li> Reasoning about Effect Interaction by Fusion - Zhixuan Yang, Nicolas Wu (ICFP '21) <a href="https://yangzhixuan.github.io/pdf/fused-reasoning-appendices.pdf">[Yang and Wu, 2021]</a></li>
 </ul>
 
 <h4> Effect Systems</h4>
 
 <p style="font-size:12px">
-Effect Systems:
+Effect systems:
 </p>
 <ul style="font-size:12px">
 <li> Monad Transformers and Modular Interpreters - Sheng Liang et al. (POPL '95) <a href="https://dl.acm.org/doi/pdf/10.1145/199448.199528?casa_token=UcHtz_nnkMgAAAAA:t5NKP2yUW97-VkOoiOcmBA5V637JAwGJfuZHApMudz2YpC8btjKfbEmQASaVZden89KBS6g4aijrRQ">[Liang et al. 1995]</a>. This is implemented as the <a href="https://hackage.haskell.org/package/transformers">transformers</a> library (containing both concrete monad transformers and a type class for monad transformer), which is then followed up by the <a href="https://hackage.haskell.org/package/mtl">mtl</a> library containing monad classes using functional dependencies inspired by <a href="https://web.cecs.pdx.edu/~mpj/pubs/springschool95.pdf">[Jones. 1995]</a>.
@@ -119,9 +120,9 @@ Probabilistic programming papers by Oleg Kiselyov:
 Papers:
 </p>
 <ul style="font-size:12px">
+<li> Data types a la carte - Wouter Swierstra (JFP '08) <a href="http://www.staff.science.uu.nl/~swier004/talks/2018-fp-ams.pdf">[Swierstra, 2008]</a>
 <li> Typed Tagless Final Interpreters - Oleg Kiselyov (Springer '12) <a href="http://okmij.org/ftp/tagless-final/course/lecture.pdf">[Kiselyov, 2012]</a>
 <li> Folding Domain-Specific Languages: Deep and Shallow Embeddings - Jeremy Gibbons and Nicolas Wu (ICFP '14) <a href="https://dl.acm.org/doi/pdf/10.1145/2628136.2628138?casa_token=KkMQtGGnOBkAAAAA:fMZRoHfQAfQOplkn2bgcwkIWLGR8lOD8OsavUdYiLd94f5_T7xgtaPNeS7kD11BA78-RVD_CGpc7tg">[Gibbons and Wu, 2014]</a>
-<li> Typed Tagless Final Interpreters - Oleg Kiselyov (Springer '12) <a href="http://okmij.org/ftp/tagless-final/course/lecture.pdf">[Kiselyov, 2012]</a>
 <li> Combining Deep and Shallow Embedding of Domain-Specific Languages - Josef Svenningsson and Emil Axelsson (CLSS '15) <a href="http://www.cse.chalmers.se/~josefs/publications/deepshallow.pdf">[Svenningsson and Axelsson. 2015]</a>
 <li> Embedding a Full Linear Lambda Calculus in Haskell - Jeff Polakov (Haskell '15) <a href="https://dl.acm.org/doi/pdf/10.1145/2887747.2804309">[Polakow, 2015]</a></li>
 </ul>
@@ -138,6 +139,7 @@ Resources:
 Papers:
 </p>
 <ul style="font-size:12px">
+<li> Associated Type Synonyms - Manuel M. T. Chakravarty, Gabriele Keller, Simon Peyton Jones (ICFP '05) <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2005/01/at-syns.pdf">[Chakravarty et al. 2005]</a>
 <li> Higher-order Type-level Programming in Haskell - Csongor Kiss, Simon Peyton Jones et al. (ICFP '19) <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/ho-haskell-5c8bb4918a4de.pdf">[Kiss et al. 2019]</a>
 </ul>
 <p style="font-size:12px">
@@ -145,34 +147,57 @@ Resources:
 </p>
 <ul style="font-size:12px">
 <li> <a href="https://thinkingwithtypes.com/">Thinking with Types</a> - Sandy Maguire (2019)
+<li> <a href="https://nauths.fr/en/2020/12/27/haskell-type-level-shenanigans.html">Haskell Type-level Function Shenanigans</a> - Antoine Leblanc (2020)
 <li> <a href="https://serokell.io/blog/type-families-haskell">Type Families in Haskell: The Definitive Guide</a> - Vladislav Zavialov (2021) </li>
+<li> <a href="https://gitlab.haskell.org/ghc/ghc/-/wikis/reading-list#types-and-type-inference">Haskell/GHC Reading List </a></li>
 </ul>
 
-<h4> Type Systems/Inference in Haskell </h4>
+
+<h4> Type Systems/Inference</h4>
 <p style="font-size:12px">
-Papers:
+General papers:
+</p>
+<ul style="font-size:12px">
+<li> Generalizing Hindley-Milner Type Inference Algorithms (Algorithm W and M) - Bastiaan Heeren, (Utrecht University '02) <a href="https://dspace.library.uu.nl/bitstream/handle/1874/23951/heeren_02_generalizinghindleymilner.pdf?sequence=1">[Heeren et al. 2002]</a>
+<li> Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism - Jana Dunfield, Neelakantan R. Krishnaswami (ICFP '13) <a href="https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf">[Dunfield and Krishnaswami. 2013]</a>. (DK type system)
+<li> A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference - Jinxu Zhao, Tom Schrijvers (ICFP '19) <a href="https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf">[Zhao et al. 2019]</a>. (DK type system)
+</ul>
+
+<p style="font-size:12px">
+General resources:
+</p>
+<ul style="font-size:12px">
+<li> A tutorial implementation of a dependently typed lambda calculus - Andres Loh, Conor McBridge, Wouter Swierstra <a href="https://www.andres-loeh.de/LambdaPi/LambdaPi.pdf">[Loh et al. 2001]</a>
+</ul>
+
+<p style="font-size:12px">
+Haskell papers:
 </p>
 <ul style="font-size:12px">
 <li> Functional programming with overloading and higher-order polymorphism - Mark P Jones (AFP '95) <a href="https://web.cecs.pdx.edu/~mpj/pubs/springschool95.pdf">[Jones. 1995]</a>.
 <li> Typing Haskell in Haskell - Mark P Jones (Haskell '00) <a href="https://web.cecs.pdx.edu/~mpj/thih/thih.pdf">[Jones, 2000]</a>
 <li> System F with Type Equality Coercions - Martin Sulzmann, Simon Peyton Jones et al. (TLDI '07) <a href="https://dl.acm.org/doi/pdf/10.1145/1190315.1190324?casa_token=lW2ziBOeAeUAAAAA:4M0M_Ys9bVf_EhPCdOQMRZxuHhjvX-Kh0OYzsN5Ga1fbVJxEzla7C-k6SdSMoDtDZtd-sbKnxARXug">[Sulzmann et al. 2007]</a>. </li>
 <li> Practical type inference for arbitrary-rank types - Simon Peyton Jones (JFP '07) <a href="https://arxiv.org/pdf/1711.03219.pdf"> [Jones et al. 2007]</a>.
+<li> Extensions of Haskell's Type System - Matej Kollár (Masters Thesis, Masarykova University '11) <a href="https://is.muni.cz/th/toczz/mgr-thesis-opt.pdf">[Kollár, 2011]</a>
 <li> Giving Haskell a promotion - Brent Yorgey, Simon Peyton Jones et al. (TLDI '12') <a href="https://dl.acm.org/doi/pdf/10.1145/2103786.2103795">[Yorgey et al. 2012]</a>.
 <li>Type Inference, Haskell and Dependent Types - Adam Michael Gundry (PhD Thesis, University of Strathclyde, '13) <a href="https://adam.gundry.co.uk/pub/thesis/thesis-2013-12-03.pdf">[Gundry, 2013]</a>.
+<li>System FC, as implemented in GHC - Richard Eisenberg (Report, University of Pennsylvania, '15) <a href="https://repository.brynmawr.edu/cgi/viewcontent.cgi?article=1015&context=compsci_pubs">[Eisenberg, 2015]</a>.
+<li>Dependent Types in Haskell: Theory and Practice - Richard Eisenberg (PhD Thesis, University of Pennsylvania, '16) <a href="https://arxiv.org/pdf/1610.07978.pdf">[Eisenberg, 2016]</a>.
 <li>An Existential Crisis Resolved - Richard Eisenberg et al. (ICFP '21) <a href="https://richarde.dev/papers/2021/exists/exists.pdf">[Eisenberg et al. 2021]</a> </li>
 </ul>
 <p style="font-size:12px">
-Resources:
+Haskell resources:
 </p>
 <ul style="font-size:12px">
+<li> <a href="http://dev.stephendiehl.com/fun/004_type_systems.html">Type Systems</a>, <a href="http://dev.stephendiehl.com/fun/006_hindley_milner.html">HM Inference</a> - Stephen Diehl, Write You a Haskell </li>
 <li> <a href="https://wiki.haskell.org/Research_papers/Type_systems"> Haskell Type System Research Papers (Wiki) </a>
 <li> <a href="https://www.haskell.org/definition/haskell2010.pdf">Haskell 2010 Language Report</a>
 <li> <a href="https://gitlab.haskell.org/ghc/ghc/-/wikis/reading-list#types-and-type-inference">Haskell/GHC Reading List </a></li>
 </ul>
 
-<h4> Type Classes and Constraints in Haskell </h4>
+<h4> Type Classes and Constraints</h4>
 <p style="font-size:12px">
-Papers:
+Haskell papers:
 </p>
 <ul style="font-size:12px">
 <li> Implementing Type Classes - John Peterson, Mark P Jones (ACM SIGPLAN '93) <a href="https://dl.acm.org/doi/pdf/10.1145/173262.155112?casa_token=pOx3GyyFNb0AAAAA:tuvTpyhqD3cOpxRkfJoPVpsUlXL7zSgVH3_dw4kiNc0FifhAaa7cR5MiL3A2xdd5Bs9adFemua8unA">[Peterson and Jones. 1993]</a>
@@ -180,7 +205,7 @@ Papers:
 <li> Type Classes: An Exploration of the Design Space - Simon Peyton Jones et al. (Haskell '97) <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1085.8703&rep=rep1&type=pdf">[Jones et al. 1997]</a>
 </ul>
 <p style="font-size:12px">
-Resources:
+Haskell resources:
 </p>
 <ul style="font-size:12px">
 <li> <a href="https://okmij.org/ftp/Computation/typeclass.html">Implementing and Understanding Type Classes</a> - Oleg Kiselyov (Last updated May 3rd, '21)
@@ -206,7 +231,13 @@ Resources:
 Resources:
 </p>
 <ul style="font-size:12px">
+<li> <a href="https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf">Martin-Lof's Type Theory</a> - Martin-Lof (1980)</li>
+<li> <a href="http://www.cse.chalmers.se/research/group/logic/book/book.pdf">Programming in Martin-Lof's Type Theory</a> - Bengt Nordstrom, Oxford University Press (1990)</li>
 <li> <a href="https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf">Type Theory & Functional Programming</a> - Simon Thompson (1999)
+<li> <a href="http://www.cse.chalmers.se/~peterd/papers/DependentTypesAtWork.pdf"> Dependent Types at Work </a> - Ana Bove and Peter Dybjer, Chalmers University (2008) </li>
+<li> <a href="http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf"> Dependently Typed Programming in Agda </a> - Ulf Norell and James Chapman, Chalmers University (2008) </li>
+<li> <a href="https://plfa.github.io/">Programming Language Foundations in Agda</a> - Philip Wadler, University of Edinburgh (2018)</li>
+<li> <a href="http://www.cs.nott.ac.uk/~psztxa/mgs.2021/">Type Type Theory</a> - Thorsten Altenkirch, Midlands Graduate School (2021)
 </ul>
 
 <h4> Lambda Calculus </h4>
@@ -218,4 +249,16 @@ Resources:
 <li> <a href="https://www.cs.ox.ac.uk/andrew.ker/docs/lambdacalculus-lecture-notes-ht2009.pdf">Lambda Calculus and Types</a> - Andrew D. Ker, Oxford University (2009)</li>
 <li> <a href="https://www.irif.fr/~mellies/mpri/mpri-ens/biblio/Selinger-Lambda-Calculus-Notes.pdf">Lambda Calculus including Untyped, Simply-Typed, System F, as well as reductions, propositional logic, and curry-howard isomorphism </a> - Peter Selinger, Dalhousie University (2013)
 <li> <a href="https://www.cl.cam.ac.uk/teaching/1415/L28/lambda.pdf">Simply Typed Lambda Calculus, System F, and System Fω</a> - Cambridge University Lecture Notes (2015)
+</ul>
+
+<h4> Statistics </h4>
+<p style="font-size:12px">
+Resources:
+</p>
+<ul style="font-size:12px">
+<li> <a href="https://statisticalsupportandresearch.files.wordpress.com/2019/03/josc3a9-m.-bernardo-adrian-f.-m.-smith-bayesian-theory-wiley-1994.pdf"> Bayesian Theory C: 316 (Wiley Series in Probability and Statistics)</a> - Jose Bernado (1994)</li>
+<li> <a href="http://www.mcb111.org/w06/durbin_book.pdf"> Biological Sequence Analysis </a> - R. Durbin et al. (1998)</li>
+<li> <a href="https://statisticalsupportandresearch.files.wordpress.com/2017/11/bayesian_data_analysis.pdf">Bayesian Data Analysis, 3rd Edition</a> - Andrew Gelman et al. (2013)</li>
+<li> <a href="https://github.com/Booleans/statistical-rethinking/blob/master/Statistical%20Rethinking%202nd%20Edition.pdf">Statistical Rethinking</a> - Richard McElreath (2019)
+<li> <a href="https://arxiv.org/pdf/2011.01808.pdf">Bayesian Workflow Analysis</a> - Andrew Gelman et al. (2020)</li>
 </ul>
