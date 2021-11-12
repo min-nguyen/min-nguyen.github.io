@@ -12,30 +12,30 @@ This is a non-exhaustive list of literature relevant to my research, of interest
 Effect handler calculus by Sam Lindley, Ohad Kammar, and Daniel Hillerstrom:
 </p>
 <ul style="font-size:12px">
-<li> Row-based Effect Types for Database Integration - Sam Lindley, James Cheney <a href="https://homepages.inf.ed.ac.uk/slindley/papers/corelinks.pdf">[Lindley and Cheney 2012]</a>. This presents the language Links, a call-by-value variant of System F with row polymorphism, row-based effect types, and implicit subkinding.
-<li> Handlers in Action - Ohad Kammar, Sam Lindley (ICFP) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf">[Kammar et al. 2013]</a>. This presents a higher-order calculus of deep effect handlers called 𝜆_eff which extends Levy’s call-by-push-value <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4742/RR-01-03.pdf?sequence=1">[Levy 1999]</a> as an underlying paradigm to include effect operations and effect handlers.
-<li> Liberating Effects with Rows and Handlers - Daniel Hillerstrom, Sam Lindley (TyDe) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/links-effect.pdf">[Hillerström and Lindley 2016]</a>. This describes a calculus for extensible deep handlers called 𝜆^ρ_eff.
-<li> Shallow Effect Handlers - Daniel Hillerstrom, Sam Lindley (APLAS) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/shallow-extended.pdf">[Hillerström and Lindley 2018]</a>. This describes a calculus called 𝜆^†, an extension of 𝜆^ρ_eff but with shallow handlers and recursive functions.
+<li> Row-based Effect Types for Database Integration - Sam Lindley, James Cheney (TLDI '12) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/corelinks.pdf">[Lindley and Cheney 2012]</a>. This presents the language Links, a call-by-value variant of System F with row polymorphism, row-based effect types, and implicit subkinding.
+<li> Handlers in Action - Ohad Kammar, Sam Lindley (ICFP '13) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf">[Kammar et al. 2013]</a>. This presents a higher-order calculus of deep effect handlers called 𝜆_eff which extends Levy’s call-by-push-value <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4742/RR-01-03.pdf?sequence=1">[Levy 1999]</a> as an underlying paradigm to include effect operations and effect handlers.
+<li> Liberating Effects with Rows and Handlers - Daniel Hillerstrom, Sam Lindley (TyDe '16) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/links-effect.pdf">[Hillerström and Lindley 2016]</a>. This describes a calculus for extensible deep handlers called 𝜆^ρ_eff.
+<li> Shallow Effect Handlers - Daniel Hillerstrom, Sam Lindley (APLAS '18) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/shallow-extended.pdf">[Hillerström and Lindley 2018]</a>. This describes a calculus called 𝜆^†, an extension of 𝜆^ρ_eff but with shallow handlers and recursive functions.
 </ul>
 
 <p style="font-size:12px">
 Effect handler calculus by Andrej Bauer and Matija Pretnar:
 </p>
 <ul style="font-size:12px">
-<li> Programming with Algebraic Effects and Handlers - Andrej Bauer, Matija Pretnar (JLAMP) <a href="https://arxiv.org/pdf/1203.1539.pdf">[Bauer and Pretnar 2012]</a>. This presents the programming language Eff based on the algebraic approach to computational effects, in which effects are modeled as algebraic operations of a suitably chosen algebraic theory, and effect handlers as homomorphisms induced by the universal property of free algebras. Eff supports first-class effects and handlers. This uses direct-style operation application.
-<li> An Effect System for Algebraic Effects and Handlers - Andrej Bauer, Matija Pretnar (CALCO) <a href="https://arxiv.org/pdf/1306.6316.pdf">[Bauer and Pretnar 2013]</a>. This presents an effect system for the core of the language Eff , a simplified variant of Eff which is an ML-style
+<li> Programming with Algebraic Effects and Handlers - Andrej Bauer, Matija Pretnar (JLAMP '12) <a href="https://arxiv.org/pdf/1203.1539.pdf">[Bauer and Pretnar 2012]</a>. This presents the programming language Eff based on the algebraic approach to computational effects, in which effects are modeled as algebraic operations of a suitably chosen algebraic theory, and effect handlers as homomorphisms induced by the universal property of free algebras. Eff supports first-class effects and handlers. This uses direct-style operation application.
+<li> An Effect System for Algebraic Effects and Handlers - Andrej Bauer, Matija Pretnar (CALCO '13) <a href="https://arxiv.org/pdf/1306.6316.pdf">[Bauer and Pretnar 2013]</a>. This presents an effect system for the core of the language Eff , a simplified variant of Eff which is an ML-style
 language with first-class algebraic effects and handlers.
-<li> An Introduction to Algebraic Effects and Handlers - Matija Pretnar (ENTCS) <a href="https://reader.elsevier.com/reader/sd/pii/S1571066115000705?token=A4A61ABA1A1F4B6F239F3F21816EA3866CECD999FBDEDE1F7BECE6E705E86633AD605C1E6F88E7AE62631D016ECFB205&originRegion=eu-west-1&originCreation=20211111110911">[Pretnar 2015]</a>. This presents a tutorial on algebraic effects and handlers; it explains algebraic effects and handlers, defines an operational semantics and
+<li> An Introduction to Algebraic Effects and Handlers - Matija Pretnar (ENTCS '15) <a href="https://reader.elsevier.com/reader/sd/pii/S1571066115000705?token=A4A61ABA1A1F4B6F239F3F21816EA3866CECD999FBDEDE1F7BECE6E705E86633AD605C1E6F88E7AE62631D016ECFB205&originRegion=eu-west-1&originCreation=20211111110911">[Pretnar 2015]</a>. This presents a tutorial on algebraic effects and handlers; it explains algebraic effects and handlers, defines an operational semantics and
 type & effect system, and shows how one can reason about effects.
-<li> Algebraic Effects and Handlers - Andrej Bauer (OPLSS) <a href="https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/bauer_notes.pdf">[Bauer 2018]</a>. These are notes and materials for lectures on algebraic effects and handlers at OPLSS 2018.
+<li> Algebraic Effects and Handlers - Andrej Bauer (OPLSS '18) <a href="https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/bauer_notes.pdf">[Bauer 2018]</a>. These are notes and materials for lectures on algebraic effects and handlers at OPLSS 2018.
 </ul>
 
 <p style="font-size:12px">
 Effect handler calculus by Daan Leijen:
 </p>
 <ul style="font-size:12px">
-<li> Algebraic Effects for Functional Programming/Type Directed Compilation of Row-typed Algebraic Effects - Daan Leijen (POPL) <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/algeff-tr-2016-v3.pdf">[Leijen 2017]</a>, which defines rows based on Extensible Records with Scoped Labels <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.74.3362&rep=rep1&type=pdf">[Leijen 2005]</a>. This presents an overview of practical algebraic effects in the context of the language Koka, a strongly typed functional-style language with effect types and handlers. The language separates pure values from side-effecting computations, and implements effects as row-types.
-<li> Effect Handlers, Evidently - Ninging Xie, Daan Leijen (ICFP) <a href="https://www.microsoft.com/en-us/research/uploads/prod/2020/07/effev.pdf">[Xie and Leijen, 2020]</a>
+<li> Algebraic Effects for Functional Programming/Type Directed Compilation of Row-typed Algebraic Effects - Daan Leijen (POPL '17) <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/08/algeff-tr-2016-v3.pdf">[Leijen 2017]</a>, which defines rows based on Extensible Records with Scoped Labels <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.74.3362&rep=rep1&type=pdf">[Leijen 2005]</a>. This presents an overview of practical algebraic effects in the context of the language Koka, a strongly typed functional-style language with effect types and handlers. The language separates pure values from side-effecting computations, and implements effects as row-types.
+<li> Effect Handlers, Evidently - Ninging Xie, Daan Leijen (ICFP '20) <a href="https://www.microsoft.com/en-us/research/uploads/prod/2020/07/effev.pdf">[Xie and Leijen, 2020]</a>
 </ul>
 
 <p style="font-size:12px">
@@ -56,8 +56,8 @@ Papers:
 <li> Syntax and Semantics for Operations in Scopes - Maciej Pirog, Tom Schrijvers, Nicolas Wu (PL '17) <a href="https://lirias.kuleuven.be/retrieve/514682/">[Piroj 2017]</a></li>
 <li> Distributive Interaction of Algebraic Effects - Kwok-Ho Cheung (PhD Thesis, University of Oxford '17) <a href="https://ora.ox.ac.uk/objects/uuid:66106628-0a71-4564-bc34-c398db766818/download_file?file_format=pdf&safe_filename=Cheung_complete_thesis.pdf&type_of_work=Thesis">[Cheung, 2017]</a></li>
 <li> What is Algebraic about Algebraic Effects and Handlers - Andrej Bauer (arXiv Notes '18) <a href="https://arxiv.org/pdf/1807.05923.pdf">[Bauer, 2018]</a></li>
-<li> A Predicate Transformer Semantics for Effects - Wouter Swierstra and Tim Baanen, (ICFP '19) <a href="https://yangzhixuan.github.io/pdf/fused-reasoning-appendices.pdf">[Swierstra and Baanen, 2019]</a></li>
-<li> Programming and Reasoning with Algebraic Effects and Effect Handlers - Oleg Kiselyov, Sam Lindley, Gordon Plotkin, Nicolas Wu, ('19) <a href="https://yangzhixuan.github.io/pdf/fused-reasoning-appendices.pdf">[Kiselyov et al. 2019]</a></li>
+<li> A Predicate Transformer Semantics for Effects - Wouter Swierstra and Tim Baanen (ICFP '19) <a href="https://yangzhixuan.github.io/pdf/fused-reasoning-appendices.pdf">[Swierstra and Baanen, 2019]</a></li>
+<li> Programming and Reasoning with Algebraic Effects and Effect Handlers - Oleg Kiselyov, Sam Lindley, Gordon Plotkin, Nicolas Wu ('19) <a href="https://yangzhixuan.github.io/pdf/fused-reasoning-appendices.pdf">[Kiselyov et al. 2019]</a></li>
 <li> Reasoning about Effect Interaction by Fusion - Zhixuan Yang, Nicolas Wu (ICFP '21) <a href="https://yangzhixuan.github.io/pdf/fused-reasoning-appendices.pdf">[Yang and Wu, 2021]</a></li>
 </ul>
 
@@ -94,15 +94,15 @@ General probabilistic programming papers:
 <li> Design and Implementation of Probabilistic Programming Language Anglican - David Tolpin et al. (IFL '16) <a href="http://www.cs.ox.ac.uk/people/hongseok.yang/paper/ifl16-full.pdf">[Tolpin et al. 2016]</a>
 <li> Composing Inference Algorithms as Program Transformations - Robert Zinkov and Chung-chieh Shan (arXiv preprint '16) <a href="https://arxiv.org/pdf/1603.01882.pdf">[Zinkov and Shan. 2016]</a>
 <li> Automating Inference, Learning, and Design using Probabilistic Programming - Tom Rainforth (PhD Thesis, University of Oxford, '17) <a href="https://www.robots.ox.ac.uk/~twgr/assets/pdf/rainforth2017thesis.pdf">[Rainforth, 2017]</a>
-<li> Functional Probabilistic Programming for Scalable Bayesian Modelling (Probability Monad) - Jonathan Law and Darren J. Wilkinson, (Alan Turing Institute '19) <a href="https://arxiv.org/pdf/1908.02062.pdf">[Law and Wilkinson. 2019]</a>
+<li> Functional Probabilistic Programming for Scalable Bayesian Modelling (Probability Monad) - Jonathan Law and Darren J. Wilkinson (Alan Turing Institute '19) <a href="https://arxiv.org/pdf/1908.02062.pdf">[Law and Wilkinson. 2019]</a>
 </ul>
 
 <p style="font-size:12px">
 General probabilistic programming resources:
 </p>
 <ul style="font-size:12px">
-<li> <a href="https://www.staff.ncl.ac.uk/d.j.wilkinson/teaching/apts-sc/ctfp.pdf"> A More Functional Future for Statistical Computing (Lecture Slides) </a> - Darren Wilkinson, (2020)
-<li> <a href="https://www.youtube.com/watch?v=QsKsbZXr6Ok"> Probabilistic Programming (Talk, POPL '20) </a> - Hongseok Yang, (2020)
+<li> <a href="https://www.staff.ncl.ac.uk/d.j.wilkinson/teaching/apts-sc/ctfp.pdf"> A More Functional Future for Statistical Computing (Lecture Slides) </a> - Darren Wilkinson (2020)
+<li> <a href="https://www.youtube.com/watch?v=QsKsbZXr6Ok"> Probabilistic Programming (Talk, POPL '20) </a> - Hongseok Yang (2020)
 </ul>
 
 <p style="font-size:12px">
@@ -153,7 +153,7 @@ Papers:
 </p>
 <ul style="font-size:12px">
 <li> Semantics for Probabilistic Programming: Higher-order Functions, Continuous Distributions, and Soft Constraints - Sam Staton, Hongseok Yang, Frank Wood, Ohad Kammar (LICS '16) <a href="https://arxiv.org/pdf/1711.03219.pdf">[Staton et al. 2016]</a>
-<li> Denotational Validation of Higher-Order Bayesian Inference - Adam Ścibior, Ohad Kammer, et al. (POPL) <a href="https://arxiv.org/pdf/1711.03219.pdf">[Ścibior et al. 2018]</a>
+<li> Denotational Validation of Higher-Order Bayesian Inference - Adam Ścibior, Ohad Kammer, et al. (POPL '18') <a href="https://arxiv.org/pdf/1711.03219.pdf">[Ścibior et al. 2018]</a>
 <li> Formally Justified and Modular Bayesian Inference for Probabilistic Programs - Adam Ścibior (PhD Thesis) <a href="https://www.repository.cam.ac.uk/bitstream/handle/1810/295167/thesis.pdf?sequence=1">[Ścibior 2019]</a>
 <li> Functional Probabilistic Programming for Scalable Bayesian Modelling (Probability Monad) - Jonathan Law and Darren J. Wilkinson (Alan Turing Institute '19) <a href="https://arxiv.org/pdf/1908.02062.pdf">[Law and Wilkinson. 2019]</a>
 <li> A Domain Theory for Statistical Probabilistic Programming  - Matthijs Vakar, Ohad Kammar (POPL '19) <a href="https://arxiv.org/pdf/1811.04196.pdf">[Vakar and Kammar, 2019]</a>
@@ -241,7 +241,7 @@ General papers:
 General resources:
 </p>
 <ul style="font-size:12px">
-<li> A Tutorial Implementation of a Dependently Typed Lambda Calculus - Andres Loh, Conor McBridge, Wouter Swierstra <a href="https://www.andres-loeh.de/LambdaPi/LambdaPi.pdf">[Loh et al. 2001]</a>
+<li> <a href="https://www.andres-loeh.de/LambdaPi/LambdaPi.pdf">A Tutorial Implementation of a Dependently Typed Lambda Calculus</a> - Andres Loh, Conor McBridge, Wouter Swierstra (2001)
 </ul>
 
 <p style="font-size:12px">
