@@ -29,7 +29,7 @@ My previous research explored the embedding of neural networks as a recursion sc
  <font size="2"><span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4">       <a href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">Composable, Modular Probabilistic Models</a> <a href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">[Poster]</a> </span></font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
  <sup>                       ICFP '21, Student Research Competition</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4">           <a href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf"> Modelling Neural Networks with Recursion Schemes </a> </span></font><br/>
+ <font size="2"><span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4">           <a href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf"> Modelling Neural Networks with Recursion Schemes </a> <a href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">[Poster]</a> </span></font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
  <sup>                       Masters Dissertation, University of Bristol</sup>
 
