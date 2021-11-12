@@ -13,9 +13,9 @@ Effect handler calculus by Sam Lindley, Ohad Kammar, and Daniel Hillerstrom:
 </p>
 <ul style="font-size:12px">
 <li> Row-based Effect Types for Database Integration - Sam Lindley, James Cheney <a href="https://homepages.inf.ed.ac.uk/slindley/papers/corelinks.pdf">[Lindley and Cheney 2012]</a>. This presents the language Links, a call-by-value variant of System F with row polymorphism, row-based effect types, and implicit subkinding.
-<li> Handlers in Action - Ohad Kammar, Sam Lindley (ICFP) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf">[Kammar et al. 2013]</a>. This presents a higher-order calculus of deep effect handlers called 𝜆eff which extends Levy’s call-by-push-value <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4742/RR-01-03.pdf?sequence=1">[Levy 1999]</a> as an underlying paradigm to include effect operations and effect handlers.
-<li> Liberating Effects with Rows and Handlers - Daniel Hillerstrom, Sam Lindley (TyDe) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/links-effect.pdf">[Hillerström and Lindley 2016]</a>. This describes a calculus for extensible deep handlers called 𝜆 eff.
-<li> Shallow Effect Handlers - Daniel Hillerstrom, Sam Lindley (APLAS) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/shallow-extended.pdf">[Hillerström and Lindley 2018]</a>. This describes a calculus called 𝜆†, an extension of 𝜆 eff but with shallow handlers and recursive functions.
+<li> Handlers in Action - Ohad Kammar, Sam Lindley (ICFP) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf">[Kammar et al. 2013]</a>. This presents a higher-order calculus of deep effect handlers called 𝜆_eff which extends Levy’s call-by-push-value <a href="https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4742/RR-01-03.pdf?sequence=1">[Levy 1999]</a> as an underlying paradigm to include effect operations and effect handlers.
+<li> Liberating Effects with Rows and Handlers - Daniel Hillerstrom, Sam Lindley (TyDe) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/links-effect.pdf">[Hillerström and Lindley 2016]</a>. This describes a calculus for extensible deep handlers called 𝜆^ρ_eff.
+<li> Shallow Effect Handlers - Daniel Hillerstrom, Sam Lindley (APLAS) <a href="https://homepages.inf.ed.ac.uk/slindley/papers/shallow-extended.pdf">[Hillerström and Lindley 2018]</a>. This describes a calculus called 𝜆^†, an extension of 𝜆^ρ_eff but with shallow handlers and recursive functions.
 </ul>
 
 <p style="font-size:12px">
@@ -55,6 +55,7 @@ Papers:
 <li> Effect Handlers in Scope - Nicolas Wu, Tom Schrijvers, Ralf Hinze (Haskell '14) <a href="https://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf">[Wu et al. 2014]</a></li>
 <li> Syntax and Semantics for Operations in Scopes - Maciej Pirog, Tom Schrijvers, Nicolas Wu (PL '17) <a href="https://lirias.kuleuven.be/retrieve/514682/">[Piroj 2017]</a></li>
 <li> Distributive Interaction of Algebraic Effects - Kwok-Ho Cheung (PhD Thesis, University of Oxford '17) <a href="https://ora.ox.ac.uk/objects/uuid:66106628-0a71-4564-bc34-c398db766818/download_file?file_format=pdf&safe_filename=Cheung_complete_thesis.pdf&type_of_work=Thesis">[Cheung, 2017]</a></li>
+<li> What is Algebraic about Algebraic Effects and Handlers - Andrej Bauer (arXiv Notes '18) <a href="https://arxiv.org/pdf/1807.05923.pdf">[Bauer, 2018]</a></li>
 <li> A predicate transformer semantics for effects - Wouter Swierstra and Tim Baanen, (ICFP '19) <a href="https://yangzhixuan.github.io/pdf/fused-reasoning-appendices.pdf">[Swierstra and Baanen, 2019]</a></li>
 <li> Reasoning about Effect Interaction by Fusion - Zhixuan Yang, Nicolas Wu (ICFP '21) <a href="https://yangzhixuan.github.io/pdf/fused-reasoning-appendices.pdf">[Yang and Wu, 2021]</a></li>
 </ul>
@@ -89,14 +90,26 @@ General probabilistic programming papers:
 <li> Lightweight Implementations of Probabilistic Programming Languages Via Transformational Compilation - David Wingate, Andreas Stuhlmüller, Noah D. Goodman. (AISTATS '11) <a href="https://web.stanford.edu/~ngoodman/papers/lightweight-mcmc-aistats2011.pdf">[Wingate et al. 2011, updated 2014]</a>
 <li> Particle Gibbs with Ancestor Sampling for Probabilistic Programs - Jan-Willem van de Meent et al. (AISTATS '15) <a href="https://web.stanford.edu/~ngoodman/papers/lightweight-mcmc-aistats2011.pdf">[van de Meent. 2015]</a>
 <li> Design and Implementation of Probabilistic Programming Language Anglican - David Tolpin et al. (IFL '16) <a href="http://www.cs.ox.ac.uk/people/hongseok.yang/paper/ifl16-full.pdf">[Tolpin et al. 2016]</a>
+<li> Composing Inference Algorithms as Program Transformations - Robert Zinkov and Chung-chieh Shan (arXiv preprint '16) <a href="http://www.cs.ox.ac.uk/people/hongseok.yang/paper/ifl16-full.pdf">[Zinkov and Shan. 2016]</a>
+<li> Automating Inference, Learning, and Design using Probabilistic Programming (PhD Thesis, University of Oxford, '17) - Tom Rainforth <a href="https://www.robots.ox.ac.uk/~twgr/assets/pdf/rainforth2017thesis.pdf">[Rainforth, 2017]</a>
 <li> Functional Probabilistic Programming for Scalable Bayesian Modelling (Probability Monad) - Jonathan Law and Darren J. Wilkinson, (Alan Turing Institute '19) <a href="https://arxiv.org/pdf/1908.02062.pdf">[Law and Wilkinson. 2019]</a>
 </ul>
 
 <p style="font-size:12px">
-Probabilistic programming papers by Adam Ścibior:
+General probabilistic programming resources:
+</p>
+<ul style="font-size:12px">
+<li> <a href="https://www.staff.ncl.ac.uk/d.j.wilkinson/teaching/apts-sc/ctfp.pdf"> A More Functional Future for Statistical Computing (Lecture Slides) </a> - Darren Wilkinson, (2020)
+<li> <a href="https://www.youtube.com/watch?v=QsKsbZXr6Ok"> Probabilistic Programming (Talk, POPL '20) </a> - Hongseok Yang, (2020)
+</ul>
+
+<p style="font-size:12px">
+Probabilistic programming papers by/related to Adam Ścibior:
 </p>
 <ul style="font-size:12px">
 <li> Practical Probabilistic Programming with Monads - Adam Ścibior et al. (Haskell '15) <a href="http://mlg.eng.cam.ac.uk/pub/pdf/SciGhaGor15.pdf">[Ścibior et al. 2015]</a>
+<li> Combinators for Modeling and Inference - Eli Sennesh, Jan-Willem van de Meent, (PROBPROG '18) <a href="https://esennesh.github.io/files/probprog_2018_combinators.pdf">[Sennesh and van de Meent, 2018]</a> </li>
+<li> Composing Modeling and Inference Operations with Probabilistic Program Combinators - Eli Sennesh, Adam Ścibior, Jan-Willem van de Meent. (NIPS '18) <a href="https://arxiv.org/pdf/1811.05965.pdf">[Sennesh et al. 2018]</a>
 <li> Denotational Validation of Higher-Order Bayesian Inference - Adam Ścibior, Ohad Kammer, et al. (POPL) <a href="https://arxiv.org/pdf/1711.03219.pdf">[Ścibior et al. 2018]</a>
 <li> Functional Programming for Modular Bayesian Inference - Adam Ścibior, Ohad Kammer, et al. (ICFP) <a href="http://www.denotational.co.uk/publications/scibior-kammar-ghahramani-funcitonal-programming-for-modular-bayesian-inference.pdf">[Ścibior et al. 2018]</a>
 <li> Formally Justified and Modular Bayesian Inference for Probabilistic Programs - Adam Ścibior (PhD Thesis) <a href="https://www.repository.cam.ac.uk/bitstream/handle/1810/295167/thesis.pdf?sequence=1">[Ścibior 2019]</a>
@@ -121,6 +134,8 @@ Text books:
 Papers:
 </p>
 <ul style="font-size:12px">
+<li> Denotational Validation of Higher-Order Bayesian Inference - Adam Ścibior, Ohad Kammer, et al. (POPL) <a href="https://arxiv.org/pdf/1711.03219.pdf">[Ścibior et al. 2018]</a>
+<li> Formally Justified and Modular Bayesian Inference for Probabilistic Programs - Adam Ścibior (PhD Thesis) <a href="https://www.repository.cam.ac.uk/bitstream/handle/1810/295167/thesis.pdf?sequence=1">[Ścibior 2019]</a>
 <li> Functional Probabilistic Programming for Scalable Bayesian Modelling (Probability Monad) - Jonathan Law and Darren J. Wilkinson, (Alan Turing Institute '19) <a href="https://arxiv.org/pdf/1908.02062.pdf">[Law and Wilkinson. 2019]</a>
 </ul>
 
@@ -137,11 +152,19 @@ Resources:
 Papers:
 </p>
 <ul style="font-size:12px">
-<li> Notions of Computations and Monads - Eugenio Moggi (IEEE Symposium '91) <a href="https://dl.acm.org/doi/pdf/10.1145/2976002.2976007">[Moggi, 1991]</a>
 <li> Applicative programming with effects (Pearl) - Conor Mcbride, Ross Paterson (JFP '08) <a href="https://dl.acm.org/doi/pdf/10.1145/2976002.2976007">[Mcbride and Paterson, 2008]</a>
 <li> Desugaring Haskell’s do-Notation into Applicative Operations - Simon Marlow, Simon Peyton Jones, Edward Kmett (Haskell '16) <a href="https://dl.acm.org/doi/pdf/10.1145/2976002.2976007">[Marlow et al. 2016]</a>
 <li> Capturing the Future by Replaying the Past (Pearl) - James Koppel et al. (ICFP '18) <a href="https://arxiv.org/pdf/1710.10385.pdf">[Koppel et al. 2018]</a>
 <li> Selective Applicative Functors - Andrey Mokhov et al. (ICFP '19) <a href="https://www.staff.ncl.ac.uk/andrey.mokhov/selective-functors.pdf">[Mokhov et al. 2019]</a>
+</ul>
+
+
+<h4> Reasoning about Syntax and Semantics of Programs </h4>
+<p style="font-size:12px">
+Papers:
+</p>
+<ul style="font-size:12px">
+<li> Notions of Computations and Monads - Eugenio Moggi (IEEE Symposium '91) <a href="https://dl.acm.org/doi/pdf/10.1145/2976002.2976007">[Moggi, 1991]</a>
 </ul>
 
 <h4> Embedded Domain Specific Languages </h4>
@@ -150,7 +173,7 @@ Papers:
 </p>
 <ul style="font-size:12px">
 <li> Data types a la carte - Wouter Swierstra (JFP '08) <a href="http://www.staff.science.uu.nl/~swier004/talks/2018-fp-ams.pdf">[Swierstra, 2008]</a>
-<li> Typed Tagless Final Interpreters - Oleg Kiselyov (Springer '12) <a href="http://okmij.org/ftp/tagless-final/course/lecture.pdf">[Kiselyov, 2012]</a>
+<li> Typed Tagless Final Interpreters - Oleg Kiselyov (Springer '12) <a href="http://okmij.org/ftp/tagless-final/course/lecture.pdf">[Kiselyov, 2012]</a> <a href="https://okmij.org/ftp/tagless-final/index.html#course-oxford">(Lecture Notes)</a>
 <li> Folding Domain-Specific Languages: Deep and Shallow Embeddings (Pearl) - Jeremy Gibbons and Nicolas Wu (ICFP '14) <a href="https://dl.acm.org/doi/pdf/10.1145/2628136.2628138?casa_token=KkMQtGGnOBkAAAAA:fMZRoHfQAfQOplkn2bgcwkIWLGR8lOD8OsavUdYiLd94f5_T7xgtaPNeS7kD11BA78-RVD_CGpc7tg">[Gibbons and Wu, 2014]</a>
 <li> Combining Deep and Shallow Embedding of Domain-Specific Languages - Josef Svenningsson and Emil Axelsson (CLSS '15) <a href="http://www.cse.chalmers.se/~josefs/publications/deepshallow.pdf">[Svenningsson and Axelsson. 2015]</a>
 <li> Embedding a Full Linear Lambda Calculus in Haskell - Jeff Polakov (Haskell '15) <a href="https://dl.acm.org/doi/pdf/10.1145/2887747.2804309">[Polakow, 2015]</a></li>
@@ -247,6 +270,36 @@ Haskell resources:
 <li> <a href="https://gitlab.haskell.org/ghc/ghc/-/wikis/reading-list#types-and-type-inference">Haskell/GHC Reading List </a></li>
 </ul>
 
+
+<h4> Generics </h4>
+
+<p style="font-size:12px">
+Papers:
+</p>
+<ul style="font-size:12px">
+<li> Type-indexed Data Types - Ralf Hinze, Johan Jeuring, Andres Loh. (MPC '02) <a href="https://www.cs.ox.ac.uk/ralf.hinze/publications/MPC02a.pdf">[Hinze et al. 2002]</a>
+<li> True Sums of Products - Edsko de Vries, Andrej Loh (WGP '14) <a href="http://edsko.net/pubs/TrueSumsOfProducts.pdf">[de Vries and Loh, 2014]</a>
+<li> Generic Deriving Of Generic Traversals - Csongor Kiss, Matthew Pickering, Nicolas Wu (ICFP '18) <a href="https://research-information.bris.ac.uk/ws/portalfiles/portal/181948327/icfp18main_p55_p.pdf">[Kiss et al. 2018]</a>
+<li> Generic Programming of All Kinds - Alejandro Serrano, Victor Cacciari Miraldo (Haskell '18) <a href="https://dl.acm.org/doi/pdf/10.1145/3299711.3242745?casa_token=2AELNd5pDhIAAAAA:k4A1UxSfmM89qSV9fUjlQ3Wl-Al0aCeAIfVTKROFGR29aa2gRh7-LanDZLx2vv0NCRrz904ozTx9KA">[Serrano and Miraldo, 2018]</a>
+</ul>
+
+<h4> Optics and Lenses </h4>
+
+<p style="font-size:12px">
+Papers:
+</p>
+<ul style="font-size:12px">
+<li> Symmetric Lenses - Martin Hofmann, Benjamin Pierce,  Daniel Wagner (ACM SIGPLAN '11) <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/poptics.pdf">[Hofmann et al. 2011]</a>
+<li> Profunctor Optics - Matthew Pickering, Jeremy Gibbons, Nicolas Wu (arXiv preprint '17) <a href="https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/poptics.pdf">[Pickering et al. 2017]</a>
+<li> Applicative Bidirectional Programming - Kazutaka Matsuda and Meng Wang (JFP '18) <a href="https://mengwangoxf.github.io/Papers/JFP18.pdf">[Matsuda and Wang, 2018]</a>
+
+<li> Introduction to Bidirectional Transformations - Faris Abou-Saleh, James Cheney, Jeremy Gibbons at el. (Springer '18) <a href="http://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/ssbx-intro.pdf">[Gibbons et al. 2018]</a>
+<li> Lenses and Learners - Brendan Fong, Michael Johnson. (BX '19) <a href="https://arxiv.org/pdf/1903.03671.pdf">[Fong and Johnson. 2019]</a>
+<li> Composing Bidirectional Programs Monadically - Li-yao Xia, Dominic Orchard, and Meng Wang. (ESOP '19) <a href="https://arxiv.org/pdf/1902.06950.pdf">[Xia et al. 2019]</a>
+</ul>
+
+<hr class="solid">
+
 <h4> Programming Language Foundations </h4>
 <p style="font-size:12px">
 Resources:
@@ -271,7 +324,7 @@ Resources:
 <li> <a href="https://arxiv.org/pdf/1308.0729.pdf"> Homotopy Type Theory</a> - The Univalent Foundations Program Institute for Advanced Study (2013) </li>
 <li> <a href="https://plfa.github.io/">Programming Language Foundations in Agda</a> - Philip Wadler, University of Edinburgh (2018)</li>
 <li> <a href="https://www.jonmsterling.com/pdfs/ok-type-theory.pdf">An OK Version of Type Theory</a> - Jonathan Sterling (2020)</li>
-<li> <a href="http://www.cs.nott.ac.uk/~psztxa/mgs.2021/">Type Type Theory</a> - Thorsten Altenkirch, Midlands Graduate School (2021)
+<li> <a href="http://www.cs.nott.ac.uk/~psztxa/mgs.2021/">Tao of Types</a> - Thorsten Altenkirch, Midlands Graduate School (2021)
 </ul>
 
 <h4> Lambda Calculus </h4>
@@ -280,9 +333,34 @@ Resources:
 </p>
 <ul style="font-size:12px">
 <li> <a href="http://lucacardelli.name/Papers/OnUnderstanding.A4.pdf">On Understanding Types, Data Abstraction, and Polymorphism</a> - Luca Cardelli (1985)
+<li> <a href="https://www.andres-loeh.de/LambdaPi/LambdaPi.pdf">A Tutorial Implementation of a Dependently Typed Lambda Calculus</a> - Andres Loh, Conor McBridge, Wouter Swierstra (2001)
 <li> <a href="https://www.cs.ox.ac.uk/andrew.ker/docs/lambdacalculus-lecture-notes-ht2009.pdf">Lambda Calculus and Types</a> - Andrew D. Ker, Oxford University (2009)</li>
 <li> <a href="https://www.irif.fr/~mellies/mpri/mpri-ens/biblio/Selinger-Lambda-Calculus-Notes.pdf">Lambda Calculus including Untyped, Simply-Typed, System F, as well as reductions, propositional logic, and curry-howard isomorphism </a> - Peter Selinger, Dalhousie University (2013)
 <li> <a href="https://www.cl.cam.ac.uk/teaching/1415/L28/lambda.pdf">Simply Typed Lambda Calculus, System F, and System Fω</a> - Cambridge University Lecture Notes (2015)
+</ul>
+
+<h4> (Universal) Algebra </h4>
+<p style="font-size:12px">
+Resources:
+</p>
+<ul style="font-size:12px">
+<li> <a href="http://www.math.uwaterloo.ca/~snburris/htdocs/UALG/univ-algebra.pdf">A Course in Universal Algebra</a> - Stanley Burris (1981)
+<li> <a href="https://www.ii.uib.no/~wagner/UASCR/snglfrm.htm"> Universal Algebra for Computer Scientists </a> - Eric G Wagner (1992)</li>
+<li> <a href="https://okmij.org/ftp/tagless-final/Algebra.html#sigma-algebra">Algebras</a> - Oleg Kiselyov (2019)
+</ul>
+
+<h4> Category Theory </h4>
+<p style="font-size:12px">
+Resources:
+</p>
+<ul style="font-size:12px">
+<li> <a href="http://www.dcs.ed.ac.uk/home/dt/CT/categories.pdf">Category Theory Lecture Notes</a> - Daniele Turi, University of Edinburgh (2001)
+<li> <a href="http://englishonlineclub.com/pdf/Category%20Teory%20[EnglishOnlineClub.com].pdf">Category Theory</a> - Steve Awodey, Carnegie Mellon University (2006)
+<li> <a href="http://www.numericana.com/answer/category.htm">Category Theory 101</a> -  Gérard P. Michon (2010)
+<li> <a href="http://www.cs.nott.ac.uk/~pszgmh/cat.html"> Introduction to Category Theory </a> - Graham Hutton, University of Nottingham (2014)</li>
+<li> <a href="http://www.cs.nott.ac.uk/~pszgmh/cat.html"> Basic Category Theory </a> - Tom Leinster, University of Edinburgh (2016)</li>
+<li> <a href="https://github.com/hmemcpy/milewski-ctfp-pdf/releases/download/v1.3.0/category-theory-for-programmers.pdf"> Category Theory for Programmers </a> <a href="https://www.youtube.com/user/DrBartosz/playlists">[Lectures]</a>- Bartosz Mileswki (2019)</li>
+<li> <a href="http://www.cs.nott.ac.uk/~psztxa/mgs.2019/"> Categories for the Lazy Functional Programmer (MGS Lecture Notes) </a> - Thorsten Altenkirch, University of Nottingham (2019) </li>
 </ul>
 
 <h4> Statistics </h4>
