@@ -10,18 +10,18 @@
 \setlist[enumerate]{leftmargin=4mm}
 \addbibresource{../bibliography.bib}
 \begin{document}
-\pagestyle{empty} 
- 
+\pagestyle{empty}
+
 \title{Lambda Calculus -- $\lambda^{\rightarrow}$, System F, and System F$_\omega$ }
- 
+
 \maketitle
- 
+
 \section{Simply Typed Lambda Calculus ($\lambda^{\rightarrow}$)}
 Simply typed lambda calculus \cite{cambridge-lambda-calc} is also traditionally called $\lambda^{\rightarrow}$, where the arrow $\rightarrow$ indicates the centrality of function types $\tyFun{A}{B}$. The elements of lambda calculus are divided into three ``sorts'':
 \begin{itemize}
   \item \textbf{terms} ranged over by metavariables $M, N$.
   \item \textbf{types} ranged over by metavariables $A, B$. We write $M: A$ to say type $M$ has type $A$.
-  \item \textbf{kinds} ranged over by metavariable $K$. We write $T :: K$ to say type $T$ has kind $K$.
+  \item \textbf{kinds} ranged over by metavariable $K$. We write $T : K$ to say type $T$ has kind $K$.
 \end{itemize}
 \noindent
 The grammar of $\lambda^{\rightarrow}$ is given by:
@@ -31,11 +31,14 @@ The grammar of $\lambda^{\rightarrow}$ is given by:
   \text{Raw terms} \quad M, N &::= c \; | \; x \; | \;  \lambda x^A . \, M \; | \; M \, N
 \end{align*}
 
-\textbf{Kinds} Kinds play little part in $\lambda^{\rightarrow}$, so their structure trivially consists just of $*$, the kind of standard types.
+\noindent
+\textbf{Kinds} Kinds play little part in $\lambda^{\rightarrow}$, so their structure trivially consists just of $*$ i.e. the kind of value types.
 
+\noindent
 \textbf{Types} Types consist of base types $\iota$ such as integers and booleans, and functions where $A \rightarrow B$ represents a function taking a type $A$ to a type $B$.
 
-\textbf{Terms} We let $x, y, z$ range over a set of term variables. Constants are represented by terms $c$. The term $\lambda x^A . \, M$ (also written $\lambda x : A . \, M$) says that we can take a variable $x$ of type $A$ a parameter of an expression to get a lambda abstraction. Hence the term application of a term to a term, $M \; N$, is also a term.
+\noindent
+\textbf{Terms} Term variables are written $x$. Constants are represented by terms $c$. The term $\lambda x^A . \, M$ (also written $\lambda x : A . \, M$) is a function which when given some term of type $A$, binds it to the variable $x$ and returns the term $M$. Lastly we have application $M \; N$ which applies a term $M$ to a term $N$.
 
 \begin{figure}[H]
 \flushleft \shadebox{$\Delta \vdash A : K$}
@@ -72,9 +75,9 @@ The grammar of $\lambda^{\rightarrow}$ is given by:
      \Gamma \vdash c : \iota
   }
   \and
-  \inferrule*[lab={\ruleName{var}}, right={$x : A \in \Gamma$}]
+  \inferrule*[lab={\ruleName{var}}]
   {
-     \strut
+      x : A \in \Gamma
   }
   {
      \Gamma \vdash x : A
@@ -113,12 +116,14 @@ The grammar of System F is given by:
   \text{Terms} \quad M, N &::= x \; | \; \lambda x^A . \, M \; | \; M \, N  \; | \; \Lambda \alpha^K . \, M \; | \; M \, [A]
 \end{align*}
 
-
+\noindent
 \textbf{Kinds} Kinds remain the same, and all types have kind $*$.
 
-\textbf{Types} We extend types $A, B$ with (polymorphic) type variables $\alpha$ and universally quantified types $\forall \alpha^{\kappa}. \, A$ in which the bound type variable $\alpha$ of kind $K$ may appear in $A$ (we note that the only kind $K$ in System F is $*$). A important point to make is that by introducing the type variable $\alpha$, it is also necessary to also introduce $\forall \alpha^K.\, A$. This is because $\alpha$ can only exist within the scope of which it is quantified by $\forall \alpha$. We note that in a polymorphic lambda calculus without a type scheme, it is possible for type variables $\alpha$ to appear on their own without being bound to an inscope quantifier $\forall \alpha$ -- therefore the grammar on its own does not ensure well-formed types.
+\noindent
+\textbf{Types} We extend types $A, B$ with (polymorphic) type variables $\alpha$ and universally quantified types $\forall \alpha^{\kappa}. \, A$ in which the bound type variable $\alpha$ of kind $K$ may appear in $A$ (we note that the only kind $K$ in System F is $*$). An important point to note is that type variables $\alpha$ are only well-formed if they exist within the scope of which they are quantified by $\forall \alpha$. We note that in a polymorphic lambda calculus without a type scheme, such as this one, it is possible for type variables $\alpha$ to appear on their own without being bound to an inscope quantifier $\forall \alpha$ -- therefore this grammar on its own does not ensure well-formed types.
 
-\textbf{Terms} The lambda abstraction term $\lambda x^A . \, M$ can now take variables $x$ which have universally quantified types $\forall \alpha. \, A$. We extend terms with type abstraction $\Lambda \alpha^K . \, M$ (also written $\Lambda \alpha :: K . \, M$) whose parameter $\alpha$ is a type of kind $K$ and returns a term $M$, and with type application $M \, [A]$ whose argument is a type $A$.
+\noindent
+\textbf{Terms} Lambda abstraction $\lambda x^A . \, M$ can now take variables $x$ which have universally quantified types, e.g. $\forall \alpha. \, \alpha$. We extend terms with type abstraction $\Lambda \alpha^K . \, M$ (also written $\Lambda \alpha : K . \, M$) whose parameter $\alpha$ is a type of kind $K$ and returns a term $M$. We can then apply types $A$ to type lambda abstractions $M$ using type application $M \, [A]$.
 
 \begin{figure}[H]
 \flushleft \shadebox{$\Delta \vdash T : K$}
@@ -222,14 +227,17 @@ System F$_\omega$ \cite{cambridge-lambda-calc, pierce2002types}, also known as h
   \text{Terms} \quad M, N &::= x \; | \; \lambda x^A . \, M \; | \; M \, N  \; | \; \Lambda \alpha^K . \, M \; | \; M \, [A]
 \end{align*}
 
+\noindent
+\textbf{Kinds} In System F, the structure of kinds has been trivial, limited to a single kind $*$ to which all type expressions belonged. In System F$_\omega$, we enrich the set of kinds with an operator $\rightarrow$ such that if $K_1$ and $K_2$ are kinds, then $K_1 \rightarrow K_2$ is a kind. This allows us to construct kinds which contain \textit{type operators/constructors} and higher-order forms of these, such as product $\times$. We are then free to extend this calculus with arbitrary custom kind constants.
 
-\textbf{Kinds} In System F, the structure of kinds has been trivial, limited to a single kind $*$ to which all type expressions belonged. In System F$_\omega$, we enrich the set of kinds with an operator $\rightarrow$ such that if $K_1$ and $K_2$ are kinds, then $K_1 \rightarrow K_2$ is a kind. This allows us to construct kinds which contain \textit{type operators/constructors} and higher-order forms of these, such as product $\times$. This lets us add other arbitrary custom kind constants to this calculus.
+\noindent
+\textbf{Types} The set of types in System F$_\omega$ additionally includes type constructors i.e. type-level lambda-abstraction $\lambda \alpha^K. \, A$, which when provided a type of kind $K$, binds this to the type variable $\alpha$ and returns the type $A$. Type constructors $A$ can be applied to a type $B$ to form a new type $A\, B$. Universal quantification $\forall \alpha^K . \, A$ now requires the bound type variable $\alpha$ to be annotated by a kind $K$, meaning types can be parameterised by polymorphic type variables of any kind $K$.
 
-\textbf{Types} The set of types in System F$_\omega$ now additionally includes type constructors i.e. type-level lambda-abstraction ($\lambda \alpha^K. \, A : K \rightarrow K'$), and type constructor application ($A\,B : K_2$ when $A : K_1 \rightarrow K_2$ and $B : K_1$) as we are able to apply higher-kinded types $K_1 \rightarrow K_1$ to other types.
+%($A\,B : K_2$ when $A : K_1 \rightarrow K_2$ and $B : K_1$) as we are able to apply higher-kinded types $K_1 \rightarrow K_1$ to other types.
 
-Additionally, universal quantification ($\forall \alpha^K . \, A : *$) now requires the bound type variable $\alpha$ to be annotated by a kind $K$, meaning types can be parameterised by polymorphic type variables of any kind $K$ as long as the overall type returned is of kind $*$.
 
-\textbf{Terms} Although the terms in System F$_\omega$ remain the same as System F, the term for type abstraction ($\Lambda \alpha^K . \, M$) can now take types with kinds other than $*$, as long as there exists a type variable for that specific kind.
+\noindent
+\textbf{Terms} Although the terms in System F$_\omega$ remain the same as System F, the term for type abstraction ($\Lambda \alpha^K . \, M$) can now take types with kinds other than $*$.
 
 \lbreak
 The introduction of richer kinds means that it becomes more necessary to add \textit{kinding rules} to dictate what are well-formed types.
