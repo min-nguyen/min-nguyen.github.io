@@ -12,7 +12,7 @@
 \begin{document}
 \pagestyle{empty}
 
-\title{Higher-Order Polymorphic Typed Lambda Calculus: Approaches to Formalising Grammars}
+\title{Higher-Order Polymorphic Typed Lambda Calculus: Approaches to Formalising Grammars with Rich Kinds}
 
 \maketitle
 \noindent
@@ -33,12 +33,12 @@ The most general way is to use a single type metavariable $T$ which captures all
 \begin{align*}
   &\text{Kinds} \quad &K &::= * \; | \; K_1 \rightarrow K_2 \; | \; \mathsf{Row} \; | \; \mathsf{Label} \span\span \\
   &\text{Types} \quad &T &::= c \; | \; \tyFun{T_1}{T_2} \; | \; \forall \alpha^K . \, T\; | \; \alpha \; | \; \lambda \alpha^K. \, T \;| \; T_1 \; T_2 \;    \span\span\\
-  &&&| \quad  l \; | \; l ; T \; | \; \cdot \; | \;\tyBrace{T} \; | \; \tyAngle{T} \\
+  &&&\quad \; | \; l \; | \; l ; T \; | \; \cdot \; | \;\tyBrace{T} \; | \; \tyAngle{T} \\
 \end{align*}
-Here we have type constants $c$ which capture value types such as $\texttt{Bool}$. Functions are written $\tyFun{T_1}{T_2}$. Universal quantification $\forall \alpha^K. \, T$ can quantify over types of any kind $K$ to produce some type $T$ of kind $K'$. Type variables $\alpha$ can be inhabited by types of any kind which $T$ ranges over. Type abstraction $\lambda \alpha^K. \, T$ has higher-kind $K_1 \rightarrow K_2$. Type application $T_1 \, T_2$ can then allow types of kinds other than $*$ and $* \rightarrow *$ to be applied to each other. We then have labels $l$, rows extended with labels $l; T$, empty rows $\cdot$, records $\tyBrace{T}$, and variants $\tyAngle{T}$.
+Here we have type constants $c$ which capture value types such as $\texttt{Bool}$. Functions are written $\tyFun{T_1}{T_2}$. Universal quantification $\forall \alpha^K. \, T$ can quantify over types of any kind $K$ to produce some type $T$ of kind $K'$. Type variables $\alpha$ can be inhabited by types of any kind which $T$ ranges over. Type abstraction $\lambda \alpha^K. \, T$ has higher-kind $K_1 \rightarrow K_2$. Type application $T_1 \, T_2$ can then allow types of kinds other than $*$ and $* \rightarrow *$ to be applied to each other. Lastly, we have labels $l$, rows extended with labels $l; T$, empty rows $\cdot$, records $\tyBrace{T}$, and variants $\tyAngle{T}$.
 
 % but for this to be well-formed under the kinding rules, $T_1$, $T_2$ and $T_1 \rightarrow T_2$ must be of kind $*$.
-This grammar therefore permits functions, type application, type abstraction, and universal quantification to work over types of any kind. We note that this grammar on its own cannot dictate what types are well-formed or ill-formed, therefore it is important to have kinding rules to express what is allowed. For example, this type syntax says that a function $l \rightarrow l$ between two types of kind $\mathsf{Label}$ is possible, however this isn't well-formed as we cannot pass or return labels as values.
+This grammar permits functions, type application, type abstraction, and universal quantification to work over types of any kind. We note that this grammar on its own cannot dictate what types are well-formed or ill-formed, therefore it is important to have kinding rules to express what is allowed. For example, this type syntax says that a function $l \rightarrow l$ between two types of kind $\mathsf{Label}$ is possible, however this isn't well-formed as we cannot pass or return labels as values.
 
 
 \begin{figure}[H]
@@ -139,7 +139,7 @@ This grammar therefore permits functions, type application, type abstraction, an
 \end{figure}
 
 
-\subsubsection{Type Categorization Method}
+\subsubsection{Type Categorization Method \cite{hillerstrom2016liberating}}
 \label{sssec:type-categorization-method}
 Another method is to distinguish between type metavariables which produce types of different kinds. For example:
 \begin{align*}
@@ -156,65 +156,27 @@ Note that although we can abstract over types of kind $K$ in type constructors $
 \textbf{Non-value} types are types which produce kinds other than $*$. This includes row types $R$ and label types $l$. We note that row types $R$ also have their own row type variable $\rho$, which allows $\rho$ to be used in place of where $R$ can occur, and hence row types can be defined polymorphically. The fact that universal quantification is only defined in value types $A, B$ means that row types must be used in the context of a value type where $\rho$ is quantified over by $\forall \alpha^\mathsf{Row} . \; A$ where we can unify $\rho$ and $\alpha$.
 
 \lbreak
-This approach more clearly delineates type of different kinds, and restricts type application, type abstraction, and universal quantification to types which produce a kind $*$. This is desirable whenever we want to enforce a stronger well-formed type system within the grammar itself, e.g. that values can only possibly have types $A, B$ with output kinds $*$ at the term-level, and that types which use type constructors to take a richly-kinded type as input must already be fully applied to have a kind $*$. A disadvantage of this is that type constructor application $A\,B$ does not allow us to apply type constructors to types of kind other than $*$.
-
-If we instead wanted type constructors to be applied to types of any kind $K$, and allow universal quantification and type abstraction to produce types of rich kinds e.g. $\mathsf{Row}$ to be produced and exist on their own, we would need to change some things to make the calculus closer to the design of the type indiscriminative system (in \ref{sssec:tau-method}):
-\begin{enumerate}
-  \item The cleanest way would be to introduce a metavariable $T$ which ranges types of all kinds, and add universal quantification, type abstraction, and type application to $T$. Types which can be defined polymorphically still need their own type variables included in their grammar, e.g. value types have type variable $\alpha$ which unifies with $\forall \alpha^K.\, T$ when $K = *$, and row types have type variable  $\rho$ which unifies with $\forall \alpha^K.\, T$ when $K = \mathsf{Row}$.
-  \begin{align*}
-   &\text{Kinds} \quad &K &::= * \; | \; K_1 \rightarrow K_2 \; | \; \mathsf{Row} \; | \; \mathsf{Label}\\
-   &\text{Types} \quad &T &::= A \; | \; R \; | \; L \; | \; \forall \alpha^K . \, T\; | \; \lambda \alpha^K. \, T \; | \; T_1 \, T_2\\
-   &\text{Value Types} \quad  &A, B &::= c \; | \; A \rightarrow B \;  | \; \alpha \; |  \; \{ R \} \\
-   &\text{Type Constants} \quad &c &::= \texttt{bool} \; | \; \texttt{int}\\
-   &\text{Row Types} \quad &R &::= \llparenthesis \; \rrparenthesis \; | \; \llparenthesis \; L \; | \; R \rrparenthesis \; | \; \rho \\
-   &\text{Label Types} \quad &L &::= l_1 \; | \; l_2 \; | \; \ldots
-  \end{align*}
-  When doing this however, we need to be careful about considering the subtype/supertype relation between $T$ and more specific types $A, R, L$. A consequence of placing type forms $ \forall \alpha^K . \, T, \; \lambda \alpha^K. \, T$, and $T_1 \, T_2$ under $T$ is that we can no longer use these in place of value types $A, B$, because $T$ does not occur anywhere else except within its own syntactic category. This means that the type forms such as $\alpha$ and $\tyFun{A}{B}$ which $A, B$ can expand out, are more restricted in what they can expand out into. For example, although we can express $\forall \alpha^K. \, (\tyFun{A}{B})$ (by expanding out $\forall \alpha^K. \, T$), it is not possible to represent $\tyFun{(\forall \alpha^K. \, A)}{(\forall \alpha^K. \, B)}$ unless we add a form $\tyFun{T_1}{T_2}$ as a member of the metavariable $T$.
-  \item Another way would be to introduce the constructs of type variables, universal quantification, and type abstraction for each different kind. However this is very verbose, and we also have to capture type application for all possible kinds we can apply a type abstraction to:
-  \begin{align*}
-  &\text{Kinds} \quad &K &::= * \; | \; K_1 \rightarrow K_2 \; | \; \mathsf{Row} \; | \; \mathsf{Label}\\
-  &\text{Value Types} \quad  &A, B &::= c \; | \; A \rightarrow B \; | \; \forall \alpha^K . \, A\; | \; \alpha \; | \; \lambda \alpha^K. \, A \; | \; A \, B \; | \; \{\,R\,\} \; | A \, R\\
-  &\text{Type Constants} \quad &c &::= \texttt{bool} \; | \; \texttt{int}\\
-  &\text{Row Types} \quad &R &::= \llparenthesis \; \rrparenthesis \; | \; \llparenthesis \; L \; | \; R \rrparenthesis \; | \; \rho \; | \; \forall \alpha^K . \, R \; | \; \lambda \alpha^K. \, R \; | \; R \, L \; | \; R \, R\\
-  &\text{Label Types} \quad &L &::= l_1 \; | \; l_2 \; | \; \ldots
-  \end{align*}
-  Note that we can now specify universal quantification and type abstraction over row types as well as value types. Record constructors can be applied to row types using type application $A\,R$, for example, where $A := \lambda\alpha^\mathsf{Row}.\,\{\,\alpha\}$ and $R := \llparenthesis \, \rrparenthesis$. Row types can also be applied to labels and other rows using $R\,L$ and $R\,R$, for example, we can apply a row to a label by letting $R := \lambda \alpha^\mathsf{Label}. \, \llparenthesis \, \alpha \, | \, \llparenthesis \, \rrparenthesis \, \rrparenthesis$ and $L ::= l_1$.
-\end{enumerate}
+This approach more clearly delineates types of different kinds, and restricts type application, type abstraction, and universal quantification to types which produce a kind $*$. This is generally desirable to enforce a stronger well-formed type system within the grammar itself, e.g. that values can only possibly have types $A, B$ with output kinds $*$ at the term-level, and that types which use type constructors to take a richly-kinded type as input must already be fully applied to have a kind $*$. A disadvantage of this is that type constructor application $A\,B$ does not allow us to apply type constructors to types of kind other than $*$.
 
 \subsubsection{\textbullet \; Explicitly Kinded Type Indiscriminative Method \cite{leijen2005extensible}}
-When we have a system with rich kinds, we can refine the notion of using a single metavariable $T$ to capture non-value types of kinds other than $*$ (as described in \ref{sssec:tau-method}) by assigning \textit{kinds} $K$ to the type metavariable $T$ as $T^K$ to exclude ill-formed types.
+When we have a system with rich kinds, we can refine the notion of using a single metavariable $T$ by annotating it with a kind $K$, written $T^K$. This lets us capture types with kinds other than $*$ whilst being explicit about which types are well-formed.
 
-For each kind $K$ we have a collection of types $T^K$; this includes type constants $c^K$, polymorphic types $\forall \alpha^K . \, T^{K'}$, type variables $\alpha^K$, and type application $T_1^{K_2 \rightarrow K} \; T_2^{K_2}$. (including function arrows, and type constructors)
+\lbreak
+For each kind $K$ we have a collection of types $T^K$; this includes type constants $c^K$, polymorphic types $\forall \alpha^K . \, T^{K'}$, type variables $\alpha^K$, and type application $T_1^{K_2 \rightarrow K} \; T_2^{K_2}$. The kind signatures for type constants $c^K$ are given explicitly in the grammar, where we use wildcards ``$\_$'' to represent arguments of type constants.
 
 \begin{align*}
   &\text{Kinds} \quad &K &::= * \; | \; K_1 \rightarrow K_2 \; | \; \mathsf{Row} \; | \; \mathsf{Label} \\
   &\text{Types} \quad &T^K &::= c^K \; | \; \forall \alpha^{K_1} . \, T^{K_2}\; | \; \alpha^K \; | \; \lambda \alpha^{K_1}. \, T^{K_2} \; |  \; T_1^{K_2 \rightarrow K} \; T_2^{K_2} \span\span\\
   &\text{Type constants} \quad &c^K &::= \texttt{()}, \texttt{bool}, \texttt{int} &::& \; *\\
-  &&&| \quad (\rightarrow) &::& \; * \rightarrow * \rightarrow * \\
-  &&&| \quad \texttt{Maybe} &::& \; * \rightarrow *
+  &&&| \quad \_ \rightarrow \_ &::& \; * \rightarrow * \rightarrow * \\
+  &&&| \quad l &::& \; \mathsf{Label} \\
+  &&&| \quad \_ ; \_ &::& \; \mathsf{Label} \rightarrow \mathsf{Row} \rightarrow \mathsf{Row}\\
+  &&&| \quad \cdot &::& \; \mathsf{Row}\\
+  &&&| \quad \tyBrace{\_} &::& \; \mathsf{Row} \rightarrow \mathsf{Type}\\
+  &&&| \quad \tyAngle{\_} &::& \; \mathsf{Row} \rightarrow \mathsf{Type}\\
 \end{align*}
 
 \noindent
-This provides a safer way to specify a grammar for types which can range over multiple kinds including richer kinds. For example using a \textit{row polymorphic calculus} where we have a kind $\mathsf{Row}$:
-\begin{enumerate}[leftmargin=4mm]
-  \item One way of specifying a calculus is to use the \textit{type categorization method} (\ref{sssec:type-categorization-method}) and explicitly distinguish the metavariables which range over types for different kinds. Here, $A, B$ range over regular types and $R$ ranges over row types. Similarly, $\alpha$ ranges over regular type variables and $\rho$ ranges over row type variables, but when universally quantifying over a bound type variable, we can let $\alpha^K$ represent either.
-  \begin{align*}
-    \text{Kinds} \quad K &::= * \; | \; K_1 \rightarrow K_2 \; | \; \mathsf{Row}\\
-    \text{Regular Types} \quad  A, B &::= \iota \; | \; A \rightarrow B \; | \; \forall \alpha^K. \, A\; | \; \alpha \; | \; \lambda \alpha^K . \, A \; | \; A \, B\\
-    \text{Row Types} \quad R &::= \ell \; ; R \; | \; \cdot \; | \; \rho
-  \end{align*}
-  \item Another way is to use the \textit{type indiscriminative method} (\ref{sssec:tau-method}) to let $T$ range over types of all kinds in our language, and $\alpha$ can be used as a type variable in place of these kinds.
-  \begin{align*}
-    \text{Kinds} \quad k &::= * \; | \; k_1 \rightarrow k_2 \; | \; \mathsf{Row}\\
-    \text{Types} \quad T &::=  \iota \; | \; T_1 \rightarrow T_2 \; | \; \forall \alpha^k. \, T\; | \; \alpha \; | \; \lambda \alpha^K. \, T \; | \;T_1 \, T_2 \; | \; \ell \; ; T \; | \; \cdot
-  \end{align*}
-  \item Now, we can assign kinds to types in the \textit{type indiscriminative method} to exclude ill-formed types. We let the metavariable for types be parameterised by a kind, and hence range over types of all kinds.
-  \begin{align*}
-    \text{Kinds} \quad k &::= * \; | \; k_1 \rightarrow k_2 \; | \; \mathsf{Row}\\
-    \text{Types} \quad T^k &::= \iota \; | \; T^{k_1}_1 \rightarrow T^{k_2}_2 \;  | \; \forall \alpha^{k_0}. \, T^{k}\; | \; \alpha^k \; | \; \lambda \alpha^{k_0}. \, T^{k_1} \; | \; T^{k_2 \rightarrow k}_1 \, T^{k_2}_2 \; | \; \ell \; ; T^{\mathsf{Row}} \; | \; \cdot
-  \end{align*}
-  We can then let a choice of metavariables range over types over different kinds, e.g. let $\epsilon \doteq T^{\mathsf{Row}}$, and similarly with type variables, e.g. let $\varepsilon \doteq \alpha^{\mathsf{Row}}$.
-\end{enumerate}
-
+We can then let a choice of metavariables range over types over different kinds, e.g. let $\rho \doteq T^{\mathsf{Row}}$, and similarly with type variables, e.g. let $\beta \doteq \alpha^{\mathsf{Row}}$.
 \printbibliography
 \end{document}
