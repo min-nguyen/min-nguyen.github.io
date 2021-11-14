@@ -40,6 +40,8 @@ The grammar of $\lambda^{\rightarrow}$ is given by:
 \noindent
 \textbf{Terms} Term variables are written $x$. Constants are represented by terms $c$. The term $\lambda x^A . \, M$ (also written $\lambda x : A . \, M$) is a function which when given some term of type $A$, binds it to the variable $x$ and returns the term $M$. Lastly we have application $M \; N$ which applies a term $M$ to a term $N$.
 
+\lbreak
+Below we give the typing and kinding rules for simply typed lambda calculus, where $\Delta$ is a kinding context (environment) and $\Gamma$ is a typing context (environment). We note that one can also choose not to distinguish between kinds and types, and use a single typing context $\Gamma$ for both.
 \begin{figure}[H]
 \flushleft \shadebox{$\Delta \vdash A : K$}
 \begin{smathpar}
@@ -65,14 +67,14 @@ The grammar of $\lambda^{\rightarrow}$ is given by:
 \end{figure}
 
 \begin{figure}[H]
-\flushleft \shadebox{$\Gamma \vdash M : A$}
+\flushleft \shadebox{$\Delta ; \Gamma \vdash M : A$}
 \begin{smathpar}
   \inferrule*[lab={\ruleName{constant}}]
   {
      \strut
   }
   {
-     \Gamma \vdash c : \iota
+     \Delta ; \Gamma \vdash c : \iota
   }
   \and
   \inferrule*[lab={\ruleName{var}}]
@@ -80,25 +82,25 @@ The grammar of $\lambda^{\rightarrow}$ is given by:
       x : A \in \Gamma
   }
   {
-     \Gamma \vdash x : A
+     \Delta ; \Gamma \vdash x : A
   }
   \and
   \inferrule*[lab={\ruleName{lambda}}]
   {
-     \Gamma \concat (x : A) \vdash M : B
+     \Delta ; \Gamma \concat (x : A) \vdash M : B
   }
   {
-     \Gamma \vdash \lambda x^A. \, M :  \tyFun{A}{B}
+     \Delta ; \Gamma \vdash \lambda x^A. \, M :  \tyFun{A}{B}
   }
   \and
   \inferrule*[lab={\ruleName{application}}]
   {
-     \Gamma \vdash M : \tyFun{A}{B}
+     \Delta ; \Gamma \vdash M : \tyFun{A}{B}
      \\
-     \Gamma \vdash N : A
+     \Delta ; \Gamma \vdash N : A
   }
   {
-     \Gamma \vdash M \, N : B
+     \Delta ; \Gamma \vdash M \, N : B
   }
 \end{smathpar}
 \caption{Typing Rules ($\lambda^{\rightarrow}$)}
@@ -166,50 +168,50 @@ The grammar of System F is given by:
 \end{figure}
 
 \begin{figure}[H]
-\flushleft \shadebox{$\Gamma \vdash M : A$}
+\flushleft \shadebox{$\Delta ; \Gamma \vdash M : A$}
 \begin{smathpar}
   \inferrule*[lab={\ruleName{var}}]
   {
      x : A \in \Gamma
   }
   {
-     \Gamma \vdash x : A
+     \Delta ; \Gamma \vdash x : A
   }
   \and
   \inferrule*[lab={\ruleName{lambda abstraction}}]
   {
-     \Gamma \concat (x : A) \vdash M : B
+     \Delta ; \Gamma \concat (x : A) \vdash M : B
   }
   {
-     \Gamma \vdash \lambda x^A. \, M : \tyFun{A}{B}
+     \Delta ; \Gamma \vdash \lambda x^A. \, M : \tyFun{A}{B}
   }
   \and
   \inferrule*[lab={\ruleName{application}}]
   {
-     \Gamma \vdash M : \tyFun{A}{B}
+     \Delta ; \Gamma \vdash M : \tyFun{A}{B}
      \\
-     \Gamma \vdash N : A
+     \Delta ; \Gamma \vdash N : A
   }
   {
-     \Gamma \vdash M \, N : B
+     \Delta ; \Gamma \vdash M \, N : B
   }
   \and
   \inferrule*[lab={\ruleName{type abstraction}}]
   {
-     \Delta \concat (\alpha : K) \vdash M : A
+     \Delta \concat (\alpha : K); \Gamma \vdash M : A
   }
   {
-     \Gamma \vdash \Lambda \alpha^K. \, M : \forall \alpha^K. \, A
+     \Delta ; \Gamma \vdash \Lambda \alpha^K. \, M : \forall \alpha^K. \, A
   }
   \and
   \inferrule*[lab={\ruleName{type application}}]
   {
-     \Gamma \vdash M : \forall \alpha^K. A
+     \Delta ; \Gamma \vdash M : \forall \alpha^K. A
      \\
      \Delta \vdash B : K
   }
   {
-     \Gamma \vdash M \, [B] : A[\alpha \mapsto B]
+     \Delta ; \Gamma \vdash M \, [B] : A[\alpha \mapsto B]
   }
 \end{smathpar}
 \caption{Typing Rules (System F)}
@@ -238,9 +240,6 @@ System F$_\omega$ \cite{cambridge-lambda-calc, pierce2002types}, also known as h
 
 \noindent
 \textbf{Terms} Although the terms in System F$_\omega$ remain the same as System F, the term for type abstraction ($\Lambda \alpha^K . \, M$) can now take types with kinds other than $*$.
-
-\lbreak
-The introduction of richer kinds means that it becomes more necessary to add \textit{kinding rules} to dictate what are well-formed types.
 
 \begin{figure}[H]
 \flushleft \shadebox{$\Delta \vdash T : K$}
@@ -301,50 +300,50 @@ The introduction of richer kinds means that it becomes more necessary to add \te
 \end{figure}
 
 \begin{figure}[H]
-\flushleft \shadebox{$\Gamma \vdash M : A$}
+\flushleft \shadebox{$\Delta ; \Gamma \vdash M : A$}
 \begin{smathpar}
   \inferrule*[lab={\ruleName{var}}]
   {
      x : A \in \Gamma
   }
   {
-     \Gamma \vdash x : A
+     \Delta ; \Gamma \vdash x : A
   }
   \and
   \inferrule*[lab={\ruleName{lambda abstraction}}]
   {
-     \Gamma \concat (x : A) \vdash M : B
+     \Delta ; \Gamma \concat (x : A) \vdash M : B
   }
   {
-     \Gamma \vdash \lambda x^A. \, M : \tyFun{A}{B}
+     \Delta ; \Gamma \vdash \lambda x^A. \, M : \tyFun{A}{B}
   }
   \and
   \inferrule*[lab={\ruleName{application}}]
   {
-     \Gamma \vdash M : \tyFun{A}{B}
+     \Delta ; \Gamma \vdash M : \tyFun{A}{B}
      \\
-     \Gamma \vdash N : A
+     \Delta ; \Gamma \vdash N : A
   }
   {
-     \Gamma \vdash M \, N : B
+     \Delta ; \Gamma \vdash M \, N : B
   }
   \and
   \inferrule*[lab={\ruleName{type abstraction}}]
   {
-     \Delta \concat (\alpha : K) \vdash M : A
+     \Delta \concat (\alpha : K); \Gamma \vdash M : A
   }
   {
-     \Gamma \vdash \Lambda \alpha^K. \, M : \forall \alpha^K. \, A
+     \Delta ; \Gamma \vdash \Lambda \alpha^K. \, M : \forall \alpha^K. \, A
   }
   \and
   \inferrule*[lab={\ruleName{type application}}]
   {
-     \Gamma \vdash M : \forall \alpha^K. A
+     \Delta ; \Gamma \vdash M : \forall \alpha^K. A
      \\
      \Delta \vdash B : K
   }
   {
-     \Gamma \vdash M \, [B] : A[\alpha \mapsto B]
+     \Delta ; \Gamma \vdash M \, [B] : A[\alpha \mapsto B]
   }
 \end{smathpar}
 \caption{Typing Rules (System F$_\omega$)}
