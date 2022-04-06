@@ -16,7 +16,7 @@ redirect_from:
 <font size="2"> I'm currently exploring the abstraction of algebraic effects, extensible data, and row polymorphism in probabilistic programming language design; the intention is to encode probabilistic models as first-class citizens (hence being modular and composable) whilst being simultaneously general-purpose (i.e. suitable for all forms of simulation and inference). I'm also investigating how complex inference algorithms can be modularly implemented using effect handlers to perform composable program transformations on models.  <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
-My previous research explored the embedding of neural networks as a recursion scheme system; here I showed that the notion of forward and back propagation during neural network training can be captured as the composition of catamorphisms (folds) and anamorphisms (unfolds), and moreover, that we can train a neural network with a <i>single</i> fold. Free monads and coproducts are then incorporated to demonstrate that neural networks can be extensibly defined as the set of layer types that they comprise of.
+My previous work explored a structured (categorical) approach to neural networks using recursion schemes. This showed how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as compositions of catamorphisms (folds) and anamorphisms (unfolds) over these structures.
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/catana">Catana</a> in Haskell. -->
 </font> <br>
 
@@ -40,10 +40,10 @@ My previous research explored the embedding of neural networks as a recursion sc
 
 **Teaching**
 <font size="2">
+<span style="color:#AA9E9D">2019 - 2022</span> <br>
+I give talks/seminars to the Programming Languages Research Group and undergraduates at the University of Bristol. <br>
 <span style="color:#AA9E9D">2020 - 2021</span> <br>
 I've acted as the main supervisor for a 4th year student in their masters dissertation. <br>
-<span style="color:#AA9E9D">2019 - 2021</span> <br>
-I give talks/seminars to the Programming Languages Research Group and undergraduates at the University of Bristol. <br>
 <span style="color:#AA9E9D">2017 - 2020</span> <br>
 I've acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at the University of Bristol.
 </font> <br>
