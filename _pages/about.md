@@ -16,7 +16,7 @@ redirect_from:
 <font size="2"> I'm currently exploring the abstraction of algebraic effects, extensible data, and row polymorphism in probabilistic programming language design; the intention is to encode probabilistic models as first-class citizens (hence being modular and composable) whilst being simultaneously general-purpose (i.e. suitable for all forms of simulation and inference). I'm also investigating how complex inference algorithms can be modularly implemented using effect handlers to perform composable program transformations on models.  <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
-My previous work explored a structured (categorical) approach to implementing neural networks, using recursion schemes. This showed how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as compositions of catamorphisms (folds) and anamorphisms (unfolds) over these structures.
+My previous work explored a structured (categorical) approach of using recursion schemes to implement neural networks, letting compositionality be promoted in new ways. In particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as catamorphisms (folds) and anamorphisms (unfolds) over these structures.
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/catana">Catana</a> in Haskell. -->
 </font> <br>
 
