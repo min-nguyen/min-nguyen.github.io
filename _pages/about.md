@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm a PhD student in the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> at University of Bristol, supervised by <a href="https://mengwangoxf.github.io/">Meng Wang</a> and <a href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a>. My current research investigates the  formalisation and implementation of algebraic effects and embedded probabilistic programming languages. My other interests include functional programming (in particular, Haskell), type-level programming, type theory, embedded domain-specific languages (eDSLs), and recursion schemes. </font>  
+<font size="2"> I'm a PhD student in the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> at University of Bristol, supervised by <a href="https://mengwangoxf.github.io/">Meng Wang</a> and <a href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a>. My current research investigates the formalisation and implementation of algebraic effects and probabilistic programming languages. My other interests include functional programming (in particular, Haskell), type-level programming, type theory, embedded domain-specific languages (eDSLs), and recursion schemes. </font>
 
 **Research**
 
