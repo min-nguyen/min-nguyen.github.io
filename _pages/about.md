@@ -13,7 +13,7 @@ redirect_from:
 
 **Research**
 
-<font size="2"> I'm currently exploring the abstraction of algebraic effects, extensible data, and row polymorphism in probabilistic programming language design; the intention is to encode probabilistic models as first-class citizens (hence being modular and composable) whilst being simultaneously general-purpose (i.e. suitable for all forms of simulation and inference). I'm also investigating how complex inference algorithms can be modularly implemented using effect handlers to perform composable program transformations on models.  <br><br>
+<font size="2"> I'm currently exploring the abstraction of algebraic effects, extensible data, and row polymorphism in probabilistic programming language design; the intention is to encode probabilistic models as first-class citizens (hence being modular and composable) whilst being simultaneously general-purpose (i.e. suitable for all forms of simulation and inference). I'm also investigating how complex inference algorithms can be modularly implemented using effect handlers as program transformations on models.  <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
 My previous research explored the embedding of neural networks as a recursion scheme system; here I showed that the notion of forward and back propagation during neural network training can be captured as the composition of catamorphisms (folds) and anamorphisms (unfolds), and moreover, that we can train a neural network with a <i>single</i> fold. Free monads and coproducts are then incorporated to demonstrate that neural networks can be extensibly defined as the set of layer types that they comprise of.
@@ -35,8 +35,8 @@ My previous research explored the embedding of neural networks as a recursion sc
 
 **Talks**
 
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span> <span style="color:#3C6BE4">       <a href="https://youtu.be/hLxTULZXsUQ">Composable, Modular Probabilistic Models</a> </span><br/></font>
- <sup>                      IFL '21</sup><br/>
+ <font size="2"><span style="color:#AA9E9D">2021</span> <span style="color:#3C6BE4">       <a href="https://youtu.be/hLxTULZXsUQ">Composable, Modular Probabilistic Models</a> </span><br/></font>
+ <sup>                      IFL '21, ICFP '21 (Poster)</sup><br/>
 
 **Teaching**
 <font size="2">
