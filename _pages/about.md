@@ -41,9 +41,9 @@ My previous work explored a structured (categorical) approach of using recursion
 
 **Talks**
 
- <font size="2"><span style="color:#AA9E9D">2022</span> <span style="color:#3C6BE4">       <a>Modular Probabilistic Models via Algebraic Effects</a> </span><br/></font>
+ <font size="2"><span style="color:#AA9E9D">May, 2022</span> <span style="color:#3C6BE4">       <a>Modular Probabilistic Models via Algebraic Effects</a> </span><br/></font>
  <sup>                      PLInG, University of Edinburgh</sup><br/>
- <font size="2"><span style="color:#AA9E9D">2021</span> <span style="color:#3C6BE4">       <a href="https://youtu.be/hLxTULZXsUQ">Composable, Modular Probabilistic Models</a> </span><br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2021</span> <span style="color:#3C6BE4">       <a href="https://youtu.be/hLxTULZXsUQ">Composable, Modular Probabilistic Models</a> </span><br/></font>
  <sup>                      IFL '21, ICFP '21 (Poster)</sup><br/>
 
 **Teaching**
