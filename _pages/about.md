@@ -22,7 +22,12 @@ My previous work explored a structured (categorical) approach of using recursion
 
 
 **Papers**
-
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a href="">Folding over Neural Networks</a> </span></font><br/>
+ <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
+ <sup>                       MPC '22</sup><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a href="https://github.com/min-nguyen/prob-fx/blob/master/paper.pdf">Modular Probabilistic Models via Algebraic Effects</a> </span></font><br/>
+ <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng, N.Wu </font> </span><br/>
+ <sup>                       ICFP '22</sup><br/>
  <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span> <span style="color:#3C6BE4">       <a href="https://arxiv.org/pdf/2109.00445.pdf">Linked visualisations via Galois dependencies</a> </span></font><br/>
  <span style="color:#85868B">                 <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
  <sup>                       POPL '22</sup><br/>
@@ -35,6 +40,8 @@ My previous work explored a structured (categorical) approach of using recursion
 
 **Talks**
 
+ <font size="2"><span style="color:#AA9E9D">2022</span> <span style="color:#3C6BE4">       <a>Modular Probabilistic Models via Algebraic Effects</a> </span><br/></font>
+ <sup>                      PLInG, University of Edinburgh</sup><br/>
  <font size="2"><span style="color:#AA9E9D">2021</span> <span style="color:#3C6BE4">       <a href="https://youtu.be/hLxTULZXsUQ">Composable, Modular Probabilistic Models</a> </span><br/></font>
  <sup>                      IFL '21, ICFP '21 (Poster)</sup><br/>
 
