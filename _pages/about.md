@@ -22,6 +22,7 @@ My previous work explored a structured (categorical) approach of using recursion
 
 
 **Papers**
+
  <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a href="">Folding over Neural Networks</a> </span></font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
  <sup>                       MPC '22</sup><br/>
