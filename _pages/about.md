@@ -23,10 +23,10 @@ My previous work explored a structured (categorical) approach of using recursion
 
 **Papers**
 
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a href="">Folding over Neural Networks</a> </span></font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a href="https://arxiv.org/pdf/2207.01090.pdf">Folding over Neural Networks</a> </span></font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
  <sup>                       MPC '22</sup><br/>
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a href="">Modular Probabilistic Models via Algebraic Effects</a> </span></font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a href="https://arxiv.org/pdf/2203.04608.pdf">Modular Probabilistic Models via Algebraic Effects</a> </span></font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng, N.Wu </font> </span><br/>
  <sup>                       ICFP '22</sup><br/>
  <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span> <span style="color:#3C6BE4">       <a href="https://arxiv.org/pdf/2109.00445.pdf">Linked visualisations via Galois dependencies</a> </span></font><br/>
