@@ -49,7 +49,7 @@ My previous work explored a structured (categorical) approach of using recursion
 **Teaching**
 <font size="2">
 <span style="color:#AA9E9D">2019 - 2022</span> <br>
-I give talks/seminars to the Programming Languages Research Group and undergraduates at the University of Bristol. <br>
+I give seminar talks and guest lectures to the Programming Languages Research Group and undergraduates at the University of Bristol. <br>
 <span style="color:#AA9E9D">2020 - 2021</span> <br>
 I've acted as the main supervisor for a 4th year student in their masters dissertation. <br>
 <span style="color:#AA9E9D">2017 - 2020</span> <br>
