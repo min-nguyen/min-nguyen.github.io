@@ -23,35 +23,37 @@ My previous work explored a structured (categorical) approach of using recursion
 
 **Papers, etc.**
 
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://arxiv.org/pdf/2207.01090.pdf">paper</a>) </font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://arxiv.org/pdf/2207.01090.pdf">preprint</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">proceedings</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
  <sup>                       MPC '22</sup><br/>
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://arxiv.org/pdf/2203.04608.pdf">paper</a>) </font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://arxiv.org/pdf/2203.04608.pdf">preprint</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3547635">proceedings</a>, <a href="https://github.com/min-nguyen/prob-fx">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng, N.Wu </font> </span><br/>
  <sup>                       ICFP '22</sup><br/>
- <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span>     <span style="color:#3C6BE4">Linked visualisations via Galois dependencies</span> (<a href="https://arxiv.org/pdf/2109.00445.pdf">paper</a>) </font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span>     <span style="color:#3C6BE4">Linked visualisations via Galois dependencies</span> (<a href="https://arxiv.org/pdf/2109.00445.pdf">preprint</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3498668">proceedings</a>, <a href="https://github.com/explorable-viz/fluid">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
  <sup>                       POPL '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Aug, 2021</span>     <span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">extended abstract</a>, <a href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">poster</a>) </font><br/>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">extended abstract</a>, <a href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">poster</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
  <sup>                       ICFP '21 Student Research Competition</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Jun, 2019</span>     <span style="color:#3C6BE4">Modelling Neural Networks with Recursion Schemes</span> (<a href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf">dissertation</a>, <a href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">poster</a>) </font><br/>
+ <font size="2"><span style="color:#AA9E9D">Aug, 2021</span>     <span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://ifl21.cs.ru.nl/Program?action=download&upname=IFL21_Nguyen.pdf">paper</a>) </font><br/>
+ <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
+ <sup>                       IFL '21</sup><br/>
+ <font size="2"><span style="color:#AA9E9D">Jun, 2019</span>     <span style="color:#3C6BE4">Modelling Neural Networks with Recursion Schemes</span> (<a href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf">dissertation</a>, <a href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">poster</a>, <a href="https://github.com/min-nguyen/catana">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
  <sup>                       Masters Dissertation @ University of Bristol</sup>
 
 **Talks**
 
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://min-nguyen.github.io/files/slides/MPC-22.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://min-nguyen.github.io/files/talks/MPC-22.pdf">slides</a>) <br/></font>
  <sup>                      MPC '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://min-nguyen.github.io/files/slides/ICFP-22.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://min-nguyen.github.io/files/talks/ICFP-22.pdf">slides</a>) <br/></font>
  <sup>                      ICFP '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">May, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://min-nguyen.github.io/files/slides/PLInG-22.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">May, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://min-nguyen.github.io/files/talks/PLInG-22.pdf">slides</a>) <br/></font>
  <sup>                      PLInG Seminar @ University of Edinburgh</sup><br/>
  <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://www.youtube.com/watch?v=_ODExz59p6E">video</a>, <a href="https://min-nguyen.github.io/files/slides/ICFP-21.pdf">slides</a>) <br/></font>
  <sup>                      ICFP '21 Student Research Competition</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://youtu.be/hLxTULZXsUQ">video</a>, <a href="https://min-nguyen.github.io/files/slides/IFL-21.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://youtu.be/hLxTULZXsUQ">video</a>, <a href="https://min-nguyen.github.io/files/talks/IFL-21.pdf">slides</a>) <br/></font>
  <sup>                      IFL '21</sup><br/>
-
 
 **Work**
 
@@ -61,12 +63,24 @@ Research Intern: <span style="color:#3C6BE4">Dependently typed probabilistic pro
 **Teaching**
 <font size="2">
 <span style="color:#AA9E9D">2019 - 2022</span> <br>
-I give seminar talks and guest lectures to the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> and undergraduates @ University of Bristol. <br>
+I give seminars and guest lectures to the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> and undergraduates @ University of Bristol. <br>
 <span style="color:#AA9E9D">2020 - 2021</span> <br>
-Main advisor for a 4th year CS student in their masters dissertation: "Deep Learning Architectures As Pure Functions" @ University of Bristol. <br>
+Primary supervisor for a 4th year CS student in their masters dissertation: <span  style="color:#3C6BE4">Deep Learning Architectures As Pure Functions</span> @ University of Bristol. <br>
 <span style="color:#AA9E9D">2017 - 2020</span> <br>
 Teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units @ University of Bristol.
 </font> <br>
+
+
+<!-- **Other talks**
+
+ <font size="2"><span style="color:#AA9E9D">Oct, 2021</span>     <span  style="color:#3C6BE4">Effects for Less - Alexis King</span> (<a href="https://min-nguyen.github.io/files/slides/effects-for-less">slides</a>, <a href="https://www.youtube.com/watch?v=0jI-AlWEwYI&t=1012s">original talk</a>) <br/></font>
+ <sup>                      Guest Lecture: Advanced Topics in PL @ University of Bristol</sup><br/>
+ <font size="2"><span style="color:#AA9E9D">Mar, 2021</span>     <span  style="color:#3C6BE4">Extensible Effects: An Alternative to Monad Transformers - Kiselyov, Oleg, et al.</span> (<a href="https://min-nguyen.github.io/files/slides/extensible-effects.pdf">slides</a>, <a href="https://legacy.cs.indiana.edu/~sabry/papers/exteff.pdf">original paper</a>) <br/></font>
+ <sup>                      PL Seminar @ University of Bristol</sup><br/>
+ <font size="2"><span style="color:#AA9E9D">Nov, 2020</span>     <span  style="color:#3C6BE4">First Class Type Families - Li-yao Xia</span> (<a href="https://github.com/min-nguyen/first-class-families/blob/main/FirstClassFamilies.hs">demo</a>, <a href="https://hackage.haskell.org/package/first-class-families">original library</a>) <br/></font>
+ <sup>                      PL Seminar @ University of Bristol</sup><br/>
+ <font size="2"><span style="color:#AA9E9D">Aug, 2020</span>     <span  style="color:#3C6BE4">A Theory of Changes for Higher-Order Languages - Cai, Yufei, et al.</span> (<a href="https://github.com/min-nguyen/first-class-families/blob/main/incremental-computation.pdf">slides</a>, <a href="https://inc-lc.github.io/resources/pldi14-ilc-author-final.pdf">original paper</a>) <br/></font>
+<sup>                      PL Seminar @ University of Bristol</sup><br/> -->
 
 **Awards**
 
