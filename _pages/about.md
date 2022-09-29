@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm a PhD student in the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> at University of Bristol, supervised by <a href="https://mengwangoxf.github.io/">Meng Wang</a> and <a href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a>. My current research investigates the formalisation and implementation of algebraic effects and probabilistic programming languages. My other interests include functional programming (in particular, Haskell), type-level programming, embedded domain-specific languages (eDSLs), and recursion schemes. </font>
+<font size="2"> I'm a PhD student in the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> at University of Bristol, supervised by <a href="https://mengwangoxf.github.io/">Meng Wang</a> and <a href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a>. My current research investigates the implementation and application of algebraic effects and probabilistic programming languages. My other interests include functional programming (in particular, Haskell), type-level programming, embedded domain-specific languages (eDSLs), and recursion schemes. </font>
 <br>
 
 **Research**
@@ -32,12 +32,12 @@ My previous work explored a structured (categorical) approach of using recursion
  <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span> <span style="color:#3C6BE4">       <a href="https://arxiv.org/pdf/2109.00445.pdf">Linked visualisations via Galois dependencies</a> </span></font><br/>
  <span style="color:#85868B">                 <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
  <sup>                       POPL '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4">       <a href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">Composable, Modular Probabilistic Models</a> <a href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">[Poster]</a> </span></font><br/>
+ <font size="2"><span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4">       <a href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">Composable, Modular Probabilistic Models</a> + <a href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">[Poster]</a> </span></font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
- <sup>                       ICFP '21, Student Research Competition</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4">           <a href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf"> Modelling Neural Networks with Recursion Schemes </a> <a href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">[Poster]</a> </span></font><br/>
+ <sup>                       ICFP '21 Student Research Competition</sup><br/>
+ <font size="2"><span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4">           <a href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf"> Modelling Neural Networks with Recursion Schemes </a> + <a href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">[Poster]</a> </span></font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
- <sup>                       Masters Dissertation, University of Bristol</sup>
+ <sup>                       Masters Dissertation @ University of Bristol</sup>
 
 **Talks**
 
@@ -46,20 +46,26 @@ My previous work explored a structured (categorical) approach of using recursion
  <font size="2"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a>Modular Probabilistic Models via Algebraic Effects</a> </span><br/></font>
  <sup>                      ICFP '22</sup><br/>
  <font size="2"><span style="color:#AA9E9D">May, 2022</span> <span style="color:#3C6BE4">       <a>Modular Probabilistic Models via Algebraic Effects</a> </span><br/></font>
- <sup>                      PLInG, University of Edinburgh</sup><br/>
+ <sup>                      PLInG Seminar @ University of Edinburgh</sup><br/>
  <font size="2"><span style="color:#AA9E9D">Sep, 2021</span> <span style="color:#3C6BE4">       <a>Composable, Modular Probabilistic Models</a> </span><br/></font>
- <sup>                      ICFP '21 SRC</sup><br/>
+ <sup>                      ICFP '21 Student Research Competition</sup><br/>
  <font size="2"><span style="color:#AA9E9D">Sep, 2021</span> <span style="color:#3C6BE4">       <a href="https://youtu.be/hLxTULZXsUQ">Composable, Modular Probabilistic Models</a> </span><br/></font>
  <sup>                      IFL '21</sup><br/>
+
+
+**Work**
+
+ <font size="2"><span style="color:#AA9E9D">Jun '22 - Sep '22</span> <br>
+<span> Research Intern: <a href="https://github.com/idris-bayes"> Dependently typed probabilistic programming in Idris2 </a> </span><br> <em> with </em> <a href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br/></font>
 
 **Teaching**
 <font size="2">
 <span style="color:#AA9E9D">2019 - 2022</span> <br>
-I give seminar talks and guest lectures to the Programming Languages Research Group and undergraduates at University of Bristol. <br>
+I give seminar talks and guest lectures to the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> and undergraduates @ University of Bristol. <br>
 <span style="color:#AA9E9D">2020 - 2021</span> <br>
-I've acted as the main supervisor for a 4th year student in their masters dissertation. <br>
+Main advisor for a 4th year CS student in their masters dissertation: "Deep Learning Architectures As Pure Functions" @ University of Bristol. <br>
 <span style="color:#AA9E9D">2017 - 2020</span> <br>
-I've acted as a teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units at University of Bristol.
+Teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units @ University of Bristol.
 </font> <br>
 
 **Awards**
