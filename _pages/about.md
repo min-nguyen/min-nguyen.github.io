@@ -21,35 +21,35 @@ My previous work explored a structured (categorical) approach of using recursion
 </font> <br>
 
 
-**Papers**
+**Papers, etc.**
 
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a href="https://arxiv.org/pdf/2207.01090.pdf">Folding over Neural Networks</a> </span></font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://arxiv.org/pdf/2207.01090.pdf">paper</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
  <sup>                       MPC '22</sup><br/>
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a href="https://arxiv.org/pdf/2203.04608.pdf">Modular Probabilistic Models via Algebraic Effects</a> </span></font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://arxiv.org/pdf/2203.04608.pdf">paper</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng, N.Wu </font> </span><br/>
  <sup>                       ICFP '22</sup><br/>
- <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span> <span style="color:#3C6BE4">       <a href="https://arxiv.org/pdf/2109.00445.pdf">Linked visualisations via Galois dependencies</a> </span></font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span>     <span style="color:#3C6BE4">Linked visualisations via Galois dependencies</span> (<a href="https://arxiv.org/pdf/2109.00445.pdf">paper</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
  <sup>                       POPL '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Aug, 2021</span> <span style="color:#3C6BE4">       <a href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">Composable, Modular Probabilistic Models</a> + <a href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">[Poster]</a> </span></font><br/>
+ <font size="2"><span style="color:#AA9E9D">Aug, 2021</span>     <span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">extended abstract</a>, <a href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">poster</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
  <sup>                       ICFP '21 Student Research Competition</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Jun, 2019</span> <span style="color:#3C6BE4">           <a href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf"> Modelling Neural Networks with Recursion Schemes </a> + <a href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">[Poster]</a> </span></font><br/>
+ <font size="2"><span style="color:#AA9E9D">Jun, 2019</span>     <span style="color:#3C6BE4">Modelling Neural Networks with Recursion Schemes</span> (<a href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf">dissertation</a>, <a href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">poster</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
  <sup>                       Masters Dissertation @ University of Bristol</sup>
 
 **Talks**
 
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a>Folding over Neural Networks</a> </span><br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://min-nguyen.github.io/files/slides/MPC-22.pdf">slides</a>) <br/></font>
  <sup>                      MPC '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span> <span style="color:#3C6BE4">       <a>Modular Probabilistic Models via Algebraic Effects</a> </span><br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://min-nguyen.github.io/files/slides/ICFP-22.pdf">slides</a>) <br/></font>
  <sup>                      ICFP '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">May, 2022</span> <span style="color:#3C6BE4">       <a>Modular Probabilistic Models via Algebraic Effects</a> </span><br/></font>
+ <font size="2"><span style="color:#AA9E9D">May, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://min-nguyen.github.io/files/slides/PLInG-22.pdf">slides</a>) <br/></font>
  <sup>                      PLInG Seminar @ University of Edinburgh</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span> <span style="color:#3C6BE4">       <a>Composable, Modular Probabilistic Models</a> </span><br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://www.youtube.com/watch?v=_ODExz59p6E">video</a>, <a href="https://min-nguyen.github.io/files/slides/ICFP-21.pdf">slides</a>) <br/></font>
  <sup>                      ICFP '21 Student Research Competition</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span> <span style="color:#3C6BE4">       <a href="https://youtu.be/hLxTULZXsUQ">Composable, Modular Probabilistic Models</a> </span><br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://youtu.be/hLxTULZXsUQ">video</a>, <a href="https://min-nguyen.github.io/files/slides/IFL-21.pdf">slides</a>) <br/></font>
  <sup>                      IFL '21</sup><br/>
 
 
