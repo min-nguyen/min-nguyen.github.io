@@ -55,8 +55,8 @@ My previous work explored a structured (categorical) approach of using recursion
 
 **Work**
 
- <font size="2"><span style="color:#AA9E9D">Jun '22 - Sep '22</span> <br>
-<span> Research Intern: <a href="https://github.com/idris-bayes"> Dependently typed probabilistic programming in Idris2 </a> </span><br> <em> with </em> <a href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br/></font>
+<font size="2"><span style="color:#AA9E9D">Jun '22 - Sep '22</span> <br>
+Research Intern: <span style="color:#3C6BE4">Dependently typed probabilistic programming for Idris2</span> (<a href="https://github.com/idris-bayes">repositories</a>) <br>   <em> with </em> <a href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br/></font> <br>
 
 **Teaching**
 <font size="2">
