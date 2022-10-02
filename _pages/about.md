@@ -85,10 +85,10 @@ Teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalo
 **Awards**
 
 <font size="2">
-<span style="color:#AA9E9D">2021</span> <span style="color:#AE3C33"><i>ICFP '21 ACM Student Research Competition, 1st Place</i></span><br>
-<span style="color:#AA9E9D">2019</span> <span style="color:#AE3C33"><i>Bloomberg Award - Best Machine Learning Paper, University of Bristol</i></span><br>
-<span style="color:#AA9E9D">2018</span> <span style="color:#AE3C33"><i>Graphcore Award - Best Group Project, University of Bristol</i></span><br>
-<span style="color:#AA9E9D">2017</span> <span style="color:#AE3C33"><i>Netcraft Award - Top Ten Achieving CS Students, University of Bristol</i></span>
+<span style="color:#AA9E9D">2021</span> <span><i>ICFP '21 ACM Student Research Competition, 1st Place</i></span><br>
+<span style="color:#AA9E9D">2019</span> <span><i>Bloomberg Award - Best Machine Learning Paper, University of Bristol</i></span><br>
+<span style="color:#AA9E9D">2018</span> <span><i>Graphcore Award - Best Group Project, University of Bristol</i></span><br>
+<span style="color:#AA9E9D">2017</span> <span><i>Netcraft Award - Top Ten Achieving CS Students, University of Bristol</i></span>
 </font><br/>
 
 
