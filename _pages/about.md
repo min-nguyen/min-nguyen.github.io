@@ -46,7 +46,7 @@ My previous work explored a structured (categorical) approach of using recursion
 
  <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://min-nguyen.github.io/files/talks/MPC-22.pdf">slides</a>) <br/></font>
  <sup>                      MPC '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://min-nguyen.github.io/files/talks/ICFP-22.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://www.youtube.com/watch?v=xLgqx4DK49k">video</a>, <a href="https://min-nguyen.github.io/files/talks/ICFP-22.pdf">slides</a>) <br/></font>
  <sup>                      ICFP '22</sup><br/>
  <font size="2"><span style="color:#AA9E9D">May, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://min-nguyen.github.io/files/talks/PLInG-22.pdf">slides</a>) <br/></font>
  <sup>                      PLInG Seminar @ University of Edinburgh</sup><br/>
