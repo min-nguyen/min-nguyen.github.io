@@ -4,7 +4,7 @@ title: "Literature Of Interest"
 author_profile: true
 ---
 <p style="font-size:16px">
-This is a non-exhaustive, ongoing list of literature relevant to my research, of interest to me, or simply those I've found helpful as learning resources.</p>
+A non-exhaustive ongoing stack of literature that I've found interesting/helpful, or that I wish to absorb at some point in the future.</p>
 
 <h4> Algebraic Effect Calculus </h4>
 
@@ -53,7 +53,6 @@ Papers:
 </p>
 <ul style="font-size:12px">
 <li> Just do it: Simple Monadic Equational Reasoning - Jeremy Gibbons, Ralf Hinze (ICFP '11) <a href="http://www.cs.ox.ac.uk/jeremy.gibbons/publications/mr.pdf">[Wu et al. 2014]</a></li>
-<li> Effect Handlers in Scope - Nicolas Wu, Tom Schrijvers, Ralf Hinze (Haskell '14) <a href="https://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf">[Wu et al. 2014]</a></li>
 <li> Syntax and Semantics for Operations in Scopes - Maciej Pirog, Tom Schrijvers, Nicolas Wu (PL '17) <a href="https://lirias.kuleuven.be/retrieve/514682/">[Piroj 2017]</a></li>
 <li> Distributive Interaction of Algebraic Effects - Kwok-Ho Cheung (PhD Thesis, University of Oxford '17) <a href="https://ora.ox.ac.uk/objects/uuid:66106628-0a71-4564-bc34-c398db766818/download_file?file_format=pdf&safe_filename=Cheung_complete_thesis.pdf&type_of_work=Thesis">[Cheung, 2017]</a></li>
 <li> What is Algebraic about Algebraic Effects and Handlers - Andrej Bauer (arXiv Notes '18) <a href="https://arxiv.org/pdf/1807.05923.pdf">[Bauer, 2018]</a></li>
@@ -72,7 +71,7 @@ Effect systems (and their papers):
 <li> Monad Transformers and Modular Interpreters - Sheng Liang et al. (POPL '95) <a href="https://dl.acm.org/doi/pdf/10.1145/199448.199528?casa_token=UcHtz_nnkMgAAAAA:t5NKP2yUW97-VkOoiOcmBA5V637JAwGJfuZHApMudz2YpC8btjKfbEmQASaVZden89KBS6g4aijrRQ">[Liang et al. 1995]</a>. This is implemented as the <a href="https://hackage.haskell.org/package/transformers">transformers</a> library (containing both concrete monad transformers and a type class for monad transformer), which is then followed up by the <a href="https://hackage.haskell.org/package/mtl">mtl</a> library containing monad classes using functional dependencies inspired by <a href="https://web.cecs.pdx.edu/~mpj/pubs/springschool95.pdf">[Jones. 1995]</a>.
 <li> Extensible Effects, an Alternative to Monad Transformers - Oleg Kiselyov et al. (Haskell '13) <a href="https://dl.acm.org/doi/pdf/10.1145/2578854.2503791?casa_token=y0AyqKbH2xsAAAAA:_plLMP1F33kRj3mRqaXpzQepcverTQR-Azpho8r0cpoiM4XGbhYOS1Kp2JEPBGrgWgu9j_NfFLoTEQ">[Kiselyov et al. 2013]</a> This is implemented as earlier versions of the <a href="https://hackage.haskell.org/package/extensible-effects"> extensible-effects</a> library.
 <li> Freer Monads, More Extensible Effects - Kiselyov, Oleg, and Hiromi Ishii (Haskell '15). <a href="https://dl.acm.org/doi/pdf/10.1145/2887747.2804319?casa_token=wqL9H2QohRAAAAAA:j2w9rciSkZ997khdCyYd3_No-RGFWn2pohYqN8nam9BbqKJ8gCyvmoxf6q0jJ8w4H-U96ncpUeRbQQ">[Kiselyov and Ishii, 2015]</a>. This is implemented as a series of libraries which are inspirations of the previous versions, in the following order: the <a href="https://hackage.haskell.org/package/extensible-effects"> extensible-effects</a> library, the <a href="http://hackage.haskell.org/package/freer">freer</a> library, the <a href="https://hackage.haskell.org/package/freer-effects">freer-effects</a> library, and then the <a href="https://hackage.haskell.org/package/freer-simple">freer-simple</a> library.
-<li> Fusion for Free: Efficient Algebraic Effect Handlers - Nicolus Wu and Tom Schrijvers (MPC '19) <a href="https://lirias.kuleuven.be/retrieve/322544">[Wu and Schrijvers, 2019]</a>. This is implemented as the <a href="https://hackage.haskell.org/package/fused-effects">fused-effects</a> library. There is a helpful talk "Building Haskell Programs with Fused Effects" by Patrick Thomson at Strange Loop Conference <a href="https://www.youtube.com/watch?v=vfDazZfxlNs">here</a>.
+<li> Fusion for Free: Efficient Algebraic Effect Handlers - Nicolas Wu and Tom Schrijvers (MPC '19) <a href="https://lirias.kuleuven.be/retrieve/322544">[Wu and Schrijvers. 2019]</a> & Effect Handlers in Scope - Nicolas Wu, Tom Schrijvers, Ralf Hinze (Haskell '14) <a href="https://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf">[Wu et al. 2014]</a>. This is implemented as the <a href="https://hackage.haskell.org/package/fused-effects">fused-effects</a> library. There is a helpful talk "Building Haskell Programs with Fused Effects" by Patrick Thomson at Strange Loop Conference <a href="https://www.youtube.com/watch?v=vfDazZfxlNs">here</a>.
 <li> Polysemy - Sandy Maguire (2019). This is implemented as the <a href="- https://hackage.haskell.org/package/polysemy">polysemy</a> library.
 <li> Effects for Less - Alexis King (Zurihac '20) <a href="https://www.youtube.com/watch?v=0jI-AlWEwYI&t=3502s">[King, 2020]</a> (I've transcribed notes for this talk <a href="https://drive.google.com/file/d/1LR8EefhrVDREhAJWoALojVhIsEsZGNHA/view?usp=sharing">here</a>). This is under construction, implemented as the <a href="https://github.com/hasura/eff">eff</a> library. The ghc proposal can be found <a href=https://github.com/lexi-lambda/ghc-proposals/blob/delimited-continuation-primops/proposals/0000-delimited-continuation-primops.md>here</a>. This is inspired by <a href="https://hackage.haskell.org/package/extensible-effects">extensible-effects</a>, <a href="http://hackage.haskell.org/package/freer">freer</a>, <a href="https://hackage.haskell.org/package/fused-effects">fused-effects</a>, and <a href="https://hackage.haskell.org/package/polysemy">polysemy</a>.
 </ul>
@@ -192,7 +191,7 @@ Resources:
 Papers:
 </p>
 <ul style="font-size:12px">
-<li>Backtracking, Interleaving, and Terminating Monad Transformers - Functional Pearl (ICFP '05) <a href="https://okmij.org/ftp/Computation/LogicT.pdf">[Kiselyov et al. 2005]</a> </li>
+<li>Backtracking, Interleaving, and Terminating Monad Transformers (LogicT) - Functional Pearl (ICFP '05) <a href="https://okmij.org/ftp/Computation/LogicT.pdf">[Kiselyov et al. 2005]</a> </li>
 <li> Applicative Programming with Effects (Pearl) - Conor Mcbride, Ross Paterson (JFP '08) <a href="https://dl.acm.org/doi/pdf/10.1145/2976002.2976007">[Mcbride and Paterson, 2008]</a>
 <li> Desugaring Haskell’s do-Notation into Applicative Operations - Simon Marlow, Simon Peyton Jones, Edward Kmett (Haskell '16) <a href="https://dl.acm.org/doi/pdf/10.1145/2976002.2976007">[Marlow et al. 2016]</a>
 <li> Capturing the Future by Replaying the Past (Pearl) - James Koppel et al. (ICFP '18) <a href="https://arxiv.org/pdf/1710.10385.pdf">[Koppel et al. 2018]</a>
