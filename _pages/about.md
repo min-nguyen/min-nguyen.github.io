@@ -16,7 +16,7 @@ redirect_from:
 <font size="2"> I'm currently exploring the abstraction of algebraic effects and effect handlers for probabilistic programming language design. In recent work, I used this approach to develop an implementation of probabilistic models as first-class citizens. At the moment, I'm working out how abstract operations and effect handlers can be used as a type-safe, modular design pattern for programmable inference.  <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
-Other work includes fleshing out a compositional approach of using recursion schemes to implement neural networks; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures. -->
+Other work includes fleshing out a compositional approach of using recursion schemes to implement neural networks; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures.
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/catana">Catana</a> in Haskell. -->
 </font> <br>
 
