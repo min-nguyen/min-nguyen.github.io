@@ -13,10 +13,10 @@ redirect_from:
 <br>
 
 **Research**
-<font size="2"> I'm currently exploring the abstraction of algebraic effects, extensible data, and row polymorphism in probabilistic programming language design; the intention is to encode probabilistic models as first-class citizens (hence being composable) whilst being simultaneously general-purpose (i.e. suitable for all forms of simulation and inference). I'm also investigating effect handlers as a design pattern for implementing probabilistic inference in a modular fashion.  <br><br>
+<font size="2"> I'm currently exploring algebraic effects and effect handlers for probabilistic programming language design. In recent work, I used this approach to develop an implementation of probabilistic models as first-class citizens. Currently, I'm playing with abstract operations and effect handlers as a type-safe, modular design pattern for programmable inference.  <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
-My previous work explored a structured (categorical) approach of using recursion schemes to implement neural networks, letting compositionality be promoted in new ways. In particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as catamorphisms (folds) and anamorphisms (unfolds) over these structures.
+<!-- I also explored a structured (categorical) approach of using recursion schemes to implement neural networks, letting compositionality be promoted in new ways. In particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as catamorphisms (folds) and anamorphisms (unfolds) over these structures. -->
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/catana">Catana</a> in Haskell. -->
 </font> <br>
 
