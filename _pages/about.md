@@ -51,8 +51,8 @@ type-driven data-science in Idris </span>  </font><br/>
 
 **Talks**
 
-<!--  <font size="2"><span style="color:#AA9E9D">May, 2023</span>     <span  style="color:#3C6BE4">Effects and Effect Handlers for Programmable Inference</span>  <br/></font>
- <sup>                      Tech Talk @ The Alan Turing Institute</sup><br/> -->
+<font size="2"><span style="color:#AA9E9D">May, 2023</span>     <span  style="color:#3C6BE4">Effects and Effect Handlers for Programmable Inference</span>  <br/></font>
+ <sup>                      Tech Talk @ The Alan Turing Institute</sup><br/>
  <font size="2"><span style="color:#AA9E9D">Jan, 2023</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span>  <br/></font>
  <sup>                      Tech Talk @ The Alan Turing Institute</sup><br/>
  <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://min-nguyen.github.io/files/talks/MPC-22.pdf">slides</a>) <br/></font>
