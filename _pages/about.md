@@ -27,7 +27,7 @@ Other projects include fleshing out a compositional approach of using recursion 
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Wang, S.Ramsay</font> </span><br/>
  <sup>                       </sup><br/>
  <font size="2px"><span style="color:#AA9E9D">Jan, 2023</span>     <span style="color:#3C6BE4"> Towards
-type-driven data-science in Idris </span>  </font><br/>
+type-driven data-science in Idris </span>  (<a href="https://min-nguyen.github.io/files/papers/lafi23-abstract.pdf">abstract</a>, <a href="https://github.com/idris-bayes">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">O.Kammar, K.Marek, M.Nguyen, M.Steuwer, J.Walters, R.Wright </font> </span><br/>
  <sup>                       LAFI '23</sup><br/>
  <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://arxiv.org/pdf/2207.01090.pdf">preprint</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">proceedings</a>) </font><br/>
