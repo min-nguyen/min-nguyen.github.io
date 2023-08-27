@@ -13,42 +13,42 @@ redirect_from:
 <br>
 
 **Research**
-<font size="2"> I'm currently collaborating on research that explores graph-based program slicing techniques for data provenance, i.e. linking dependencies between program outputs and inputs. This builds on previous work of <a style="color:#ff3333" href="https://dl.acm.org/doi/pdf/10.1145/3498668">trace-based approaches for program slicing </a>.
+<font size="2"> I'm currently collaborating on research that explores graph-based program slicing techniques for data provenance, i.e. linking dependencies between program outputs and inputs. This builds on previous work of trace-based approaches for program slicing [<a style="color:#d16969" style="color:#ff3333" href="https://dl.acm.org/doi/pdf/10.1145/3498668">paper</a>].
 <br><br>
 
-My main research explored how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages; most recently, I was working out how abstract operations and effect handlers can be used as a type-safe, modular design pattern for programmable inference <a style="color:#ff3333" href="https://min-nguyen.github.io/files/papers/haskell23.pdf"></a>; before this, I used the same techniques to develop an implementation of <a style="color:#ff3333" href="https://dl.acm.org/doi/pdf/10.1145/3547635">probabilistic models as first-class citizens</a>. <br><br>
+My main research explored how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages; most recently, I was working out how abstract operations and effect handlers can be used as a type-safe, modular design pattern for programmable inference [<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">paper</a>]; before this, I used the same techniques to develop an embedding of probabilistic models as first-class citizens [<a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">paper</a>]. <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
-Other projects I've led include the application of <a style="color:#ff3333" href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">recursion schemes for the compositional implementation of neural networks</a>; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures.
+Other projects I've led include the application of recursion schemes for the implementation of neural networks [<a style="color:#d16969"  href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">paper</a>]; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures.
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/catana">Catana</a> in Haskell. -->
 </font> <br>
 
 
 **Papers, etc.**
 
- <font size="2px"><span style="color:#AA9E9D">Sep, 2023</span>     <span style="color:#3C6BE4"> Effect Handlers for Programmable Inference </span> (<a href="https://arxiv.org/abs/2303.01328">preprint</a>, <a href="https://min-nguyen.github.io/files/papers/haskell23.pdf">proceedings</a>) </font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2023</span>     <span style="color:#3C6BE4"> Effect Handlers for Programmable Inference </span> (<a style="color:#d16969" href="https://arxiv.org/abs/2303.01328">preprint</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">proceedings</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Wang, S.Ramsay</font> </span><br/>
  <sup>                       </sup><br/>
  <font size="2px"><span style="color:#AA9E9D">Jan, 2023</span>     <span style="color:#3C6BE4"> Towards
-type-driven data-science in Idris </span>  (<a href="https://min-nguyen.github.io/files/papers/lafi23-abstract.pdf">abstract</a>, <a href="https://github.com/idris-bayes">repository</a>) </font><br/>
+type-driven data-science in Idris </span>  (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/lafi23-abstract.pdf">abstract</a>, <a style="color:#d16969" href="https://github.com/idris-bayes">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">O.Kammar, K.Marek, M.Nguyen, M.Steuwer, J.Walters, R.Wright </font> </span><br/>
  <sup>                       LAFI '23</sup><br/>
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://arxiv.org/pdf/2207.01090.pdf">preprint</a>, <a href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">proceedings</a>) </font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Folding over Neural Networks</span> (<a style="color:#d16969"  href="https://arxiv.org/pdf/2207.01090.pdf">preprint</a>, <a style="color:#d16969" href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">proceedings</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
  <sup>                       MPC '22</sup><br/>
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://arxiv.org/pdf/2203.04608.pdf">preprint</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3547635">proceedings</a>, <a href="https://github.com/min-nguyen/prob-fx">repository</a>) </font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a style="color:#d16969" href="https://arxiv.org/pdf/2203.04608.pdf">preprint</a>, <a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">proceedings</a>, <a style="color:#d16969" href="https://github.com/min-nguyen/prob-fx">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng, N.Wu </font> </span><br/>
  <sup>                       ICFP '22</sup><br/>
- <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span>     <span style="color:#3C6BE4">Linked visualisations via Galois dependencies</span> (<a href="https://arxiv.org/pdf/2109.00445.pdf">preprint</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3498668">proceedings</a>, <a href="https://github.com/explorable-viz/fluid">repository</a>) </font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span>     <span style="color:#3C6BE4">Linked visualisations via Galois dependencies</span> (<a style="color:#d16969" href="https://arxiv.org/pdf/2109.00445.pdf">preprint</a>, <a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">proceedings</a>, <a href="https://github.com/explorable-viz/fluid">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
  <sup>                       POPL '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">extended abstract</a>, <a href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">poster</a>) </font><br/>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">extended abstract</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">poster</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
  <sup>                       ICFP '21 Student Research Competition</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Aug, 2021</span>     <span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://ifl21.cs.ru.nl/Program?action=download&upname=IFL21_Nguyen.pdf">paper</a>) </font><br/>
+ <font size="2"><span style="color:#AA9E9D">Aug, 2021</span>     <span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a style="color:#d16969" href="https://ifl21.cs.ru.nl/Program?action=download&upname=IFL21_Nguyen.pdf">paper</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br/>
  <sup>                       IFL '21</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Jun, 2019</span>     <span style="color:#3C6BE4">Modelling Neural Networks with Recursion Schemes</span> (<a href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf">dissertation</a>, <a href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">poster</a>, <a href="https://github.com/min-nguyen/catana">repository</a>) </font><br/>
+ <font size="2"><span style="color:#AA9E9D">Jun, 2019</span>     <span style="color:#3C6BE4">Modelling Neural Networks with Recursion Schemes</span> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf">dissertation</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">poster</a>, <a style="color:#d16969"  href="https://github.com/min-nguyen/catana">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br/>
  <sup>                       Masters Dissertation @ University of Bristol</sup>
 
