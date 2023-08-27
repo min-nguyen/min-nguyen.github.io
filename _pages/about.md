@@ -23,7 +23,7 @@ Other projects include fleshing out a compositional approach of using recursion 
 
 **Papers, etc.**
 
- <font size="2px"><span style="color:#AA9E9D">Mar, 2023</span>     <span style="color:#3C6BE4"> Effects and Effect Handlers for Programmable Inference </span>  </font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Mar, 2023</span>     <span style="color:#3C6BE4"> Effect Handlers for Programmable Inference </span> (<a href="https://arxiv.org/abs/2303.01328">preprint</a>, <a href="https://min-nguyen.github.io/files/papers/haskell23.pdf">proceedings</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Wang, S.Ramsay</font> </span><br/>
  <sup>                       </sup><br/>
  <font size="2px"><span style="color:#AA9E9D">Jan, 2023</span>     <span style="color:#3C6BE4"> Towards
