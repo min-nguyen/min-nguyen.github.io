@@ -13,13 +13,13 @@ redirect_from:
 <br>
 
 **Research**
-<font size="2"> I'm currently collaborating on research that explores graph-based program slicing techniques for data provenance, i.e. linking dependencies between program outputs and inputs. This builds on previous work of <a style="color:=#ff3333" href="https://dl.acm.org/doi/pdf/10.1145/3498668">trace-based approaches for program slicing </a>.
+<font size="2"> I'm currently collaborating on research that explores graph-based program slicing techniques for data provenance, i.e. linking dependencies between program outputs and inputs. This builds on previous work of <a style="color:#ff3333" href="https://dl.acm.org/doi/pdf/10.1145/3498668">trace-based approaches for program slicing </a>.
 <br><br>
 
-My main research explored how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages; most recently, I was working out how abstract operations and effect handlers can be used as a type-safe, modular design pattern for programmable inference <a href="https://min-nguyen.github.io/files/papers/haskell23.pdf"></a>; before this, I used the same techniques to develop an implementation of <a href="https://dl.acm.org/doi/pdf/10.1145/3547635">probabilistic models as first-class citizens</a>. <br><br>
+My main research explored how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages; most recently, I was working out how abstract operations and effect handlers can be used as a type-safe, modular design pattern for programmable inference <a style="color:#ff3333" href="https://min-nguyen.github.io/files/papers/haskell23.pdf"></a>; before this, I used the same techniques to develop an implementation of <a style="color:#ff3333" href="https://dl.acm.org/doi/pdf/10.1145/3547635">probabilistic models as first-class citizens</a>. <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
-Other projects I've led include the application of <a href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">recursion schemes for the compositional implementation of neural networks</a>; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures.
+Other projects I've led include the application of <a style="color:#ff3333" href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">recursion schemes for the compositional implementation of neural networks</a>; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures.
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/catana">Catana</a> in Haskell. -->
 </font> <br>
 
