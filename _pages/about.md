@@ -9,17 +9,17 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm a PhD student in the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> at University of Bristol, supervised by <a href="https://mengwangoxf.github.io/">Meng Wang</a> and <a href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a>. My PhD topic investigates the application of algebraic effects to probabilistic programming languages. My other interests include functional programming (in particular, Haskell), type-level programming, embedded domain-specific languages, and recursion schemes. </font>
+<font size="2"> I'm a PhD student in the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> at University of Bristol, supervised by <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a>. My PhD topic investigates the application of algebraic effects to probabilistic programming languages. My other interests include functional programming (in particular, Haskell), type-level programming, embedded domain-specific languages, and recursion schemes. </font>
 <br>
 
 **Research**
-<font size="2"> I'm currently collaborating on research that explores graph-based program slicing techniques for data provenance, i.e. linking dependencies between program outputs and inputs. This builds on previous work of trace-based approaches for program slicing [<a style="color:#d16969" style="color:#ff3333" href="https://dl.acm.org/doi/pdf/10.1145/3498668">paper</a>].
+<font size="2"> I'm currently collaborating on research that explores graph-based program slicing techniques for data provenance, i.e. linking dependencies between program outputs and inputs. This builds on previous work on a trace-based approach to program slicing [<b style="color:#d16969" style="color:#ff3333" href="https://dl.acm.org/doi/pdf/10.1145/3498668">λ</b>].
 <br><br>
 
-My main research explored how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages; most recently, I was working out how abstract operations and effect handlers can be used as a type-safe, modular design pattern for programmable inference [<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">paper</a>]; before this, I used the same techniques to develop an embedding of probabilistic models as first-class citizens [<a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">paper</a>]. <br><br>
+My main research explored how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages; most recently, I was working out how abstract operations and effect handlers can be used as a type-safe, modular design pattern for programmable inference [<b style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</b>]; before this, I used the same techniques to develop an embedding of probabilistic models as first-class citizens [<b style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</b>]. <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
-Other projects I've led include the application of recursion schemes for the implementation of neural networks [<a style="color:#d16969"  href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">paper</a>]; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures.
+Other projects I've led include the application of recursion schemes for implementing and training neural networks [<b style="color:#d16969"  href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">λ</b>]; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures.
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/catana">Catana</a> in Haskell. -->
 </font> <br>
 
@@ -39,7 +39,7 @@ type-driven data-science in Idris </span>  (<a style="color:#d16969" href="https
  <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>     <span style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a style="color:#d16969" href="https://arxiv.org/pdf/2203.04608.pdf">preprint</a>, <a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">proceedings</a>, <a style="color:#d16969" href="https://github.com/min-nguyen/prob-fx">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng, N.Wu </font> </span><br/>
  <sup>                       ICFP '22</sup><br/>
- <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span>     <span style="color:#3C6BE4">Linked visualisations via Galois dependencies</span> (<a style="color:#d16969" href="https://arxiv.org/pdf/2109.00445.pdf">preprint</a>, <a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">proceedings</a>, <a href="https://github.com/explorable-viz/fluid">repository</a>) </font><br/>
+ <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span>     <span style="color:#3C6BE4">Linked visualisations via Galois dependencies</span> (<a style="color:#d16969" href="https://arxiv.org/pdf/2109.00445.pdf">preprint</a>, <a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">proceedings</a>, <a style="color:#d16969" href="https://github.com/explorable-viz/fluid">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br/>
  <sup>                       POPL '22</sup><br/>
  <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">extended abstract</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">poster</a>) </font><br/>
@@ -58,30 +58,30 @@ type-driven data-science in Idris </span>  (<a style="color:#d16969" href="https
  <sup>                      Tech Talk @ The Alan Turing Institute</sup><br/>
  <font size="2"><span style="color:#AA9E9D">Jan, 2023</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span>  <br/></font>
  <sup>                      Tech Talk @ The Alan Turing Institute</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Folding over Neural Networks</span> (<a href="https://min-nguyen.github.io/files/talks/MPC-22.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Folding over Neural Networks</span> (<a style="color:#d16969") <br/></font>
  <sup>                      MPC '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://www.youtube.com/watch?v=xLgqx4DK49k">video</a>, <a href="https://min-nguyen.github.io/files/talks/ICFP-22.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a style="color:#d16969" href="https://www.youtube.com/watch?v=xLgqx4DK49k">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/ICFP-22.pdf">slides</a>) <br/></font>
  <sup>                      ICFP '22</sup><br/>
- <font size="2"><span style="color:#AA9E9D">May, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a href="https://min-nguyen.github.io/files/talks/PLInG-22.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">May, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/PLInG-22.pdf">slides</a>) <br/></font>
  <sup>                      PLInG Seminar @ University of Edinburgh</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://www.youtube.com/watch?v=_ODExz59p6E">video</a>, <a href="https://min-nguyen.github.io/files/slides/ICFP-21.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a style="color:#d16969" href="https://www.youtube.com/watch?v=_ODExz59p6E">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/slides/ICFP-21.pdf">slides</a>) <br/></font>
  <sup>                      ICFP '21 Student Research Competition</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a href="https://youtu.be/hLxTULZXsUQ">video</a>, <a href="https://min-nguyen.github.io/files/talks/IFL-21.pdf">slides</a>) <br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span> (<a style="color:#d16969" href="https://youtu.be/hLxTULZXsUQ">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/IFL-21.pdf">slides</a>) <br/></font>
  <sup>                      IFL '21</sup><br/>
 
 **Work**
 
 <font size="2"><span style="color:#AA9E9D">Jun '22 - Sep '22</span> <br>
-Research Intern: <span style="color:#3C6BE4">Dependently typed probabilistic programming for Idris2</span> (<a href="https://github.com/idris-bayes">repositories</a>) <br>   <em> with </em> <a href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br/></font> <br>
+Research Intern: <span style="color:#3C6BE4">Dependently typed probabilistic programming for Idris2</span> (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> with </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br/></font> <br>
 
 **Teaching**
 <font size="2">
 <span style="color:#AA9E9D">2019 - 2022</span> <br>
-I give seminars and guest lectures to the <a href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
+I give seminars and guest lectures to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
 <span style="color:#AA9E9D">2020 - 2021</span> <br>
 Primary supervisor for a 4th year CS student in their masters dissertation: <span  style="color:#3C6BE4">Deep Learning Architectures As Pure Functions</span> @ University of Bristol. <br>
 <span style="color:#AA9E9D">2017 - 2022</span> <br>
-Teaching assistant for the <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units @ University of Bristol.
+Teaching assistant for the <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a style="color:#d16969" href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units @ University of Bristol.
 </font> <br>
 
 
