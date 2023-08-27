@@ -77,11 +77,11 @@ Research Intern: <span style="color:#3C6BE4">Dependently typed probabilistic pro
 **Teaching**
 <font size="2">
 <span style="color:#AA9E9D">2023</span> <br>
-Supervisor for a 2nd year CS student in their summer internship, researching <i>typed functional programming techniques for probabilistic programming</i> @ University of Bristol. <br>
+Supervisor for a 2nd year CS student in their summer internship, on <i>typed functional programming techniques for probabilistic programming</i> @ University of Bristol. <br>
 <span style="color:#AA9E9D">2019 - 2023</span> <br>
 I give seminars and guest lectures to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
 <span style="color:#AA9E9D">2020 - 2021</span> <br>
-Supervisor for a 4th year CS student in their masters dissertation: <i>Deep Learning Architectures As Pure Functions</i> @ University of Bristol. <br>
+Supervisor for a 4th year CS student in their masters dissertation, on <i>deep learning architectures as pure functions</i> @ University of Bristol. <br>
 <span style="color:#AA9E9D">2017 - 2022</span> <br>
 Teaching assistant for the <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a style="color:#d16969" href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units @ University of Bristol.
 </font> <br>
