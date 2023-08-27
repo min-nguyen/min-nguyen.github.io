@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm a PhD student in the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> at University of Bristol, supervised by <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a>. My PhD topic investigates the application of algebraic effects to probabilistic programming languages. My other interests include functional programming (in particular, Haskell), type-level programming, embedded domain-specific languages, and recursion schemes. </font>
+<font size="2"> I'm a PhD student in the <b style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</b> at University of Bristol, supervised by <b style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</b> and <b style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</b>. My PhD topic investigates the application of algebraic effects to probabilistic programming languages. My other interests include functional programming (in particular, Haskell), type-level programming, embedded domain-specific languages, and recursion schemes. </font>
 <br>
 
 **Research**
@@ -58,7 +58,7 @@ type-driven data-science in Idris </span>  (<a style="color:#d16969" href="https
  <sup>                      Tech Talk @ The Alan Turing Institute</sup><br/>
  <font size="2"><span style="color:#AA9E9D">Jan, 2023</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span>  <br/></font>
  <sup>                      Tech Talk @ The Alan Turing Institute</sup><br/>
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Folding over Neural Networks</span> (<a style="color:#d16969") <br/></font>
+ <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Folding over Neural Networks</span>  <br/></font>
  <sup>                      MPC '22</sup><br/>
  <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span> (<a style="color:#d16969" href="https://www.youtube.com/watch?v=xLgqx4DK49k">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/ICFP-22.pdf">slides</a>) <br/></font>
  <sup>                      ICFP '22</sup><br/>
