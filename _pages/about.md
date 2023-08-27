@@ -76,6 +76,8 @@ Research Intern: <span style="color:#3C6BE4">Dependently typed probabilistic pro
 
 **Teaching**
 <font size="2">
+<span style="color:#AA9E9D">2023</span> <br>
+Supervisor for a 2nd year CS student in their summer internship, researching <i>typed functional programming techniques for implementing inference algorithms</i> @ University of Bristol. <br>
 <span style="color:#AA9E9D">2019 - 2023</span> <br>
 I give seminars and guest lectures to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
 <span style="color:#AA9E9D">2020 - 2021</span> <br>
