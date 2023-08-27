@@ -29,7 +29,6 @@ Other projects I've led include the application of recursion schemes for impleme
  <font size="2px"><span style="color:#AA9E9D">Sep, 2023</span>     <b><span style="color:#3C6BE4"> Effect Handlers for Programmable Inference </span></b> (<a style="color:#d16969" href="https://arxiv.org/abs/2303.01328">preprint</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">proceedings</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Wang, S.Ramsay</font> </span><br/>
  <sup>                       Haskell '23</sup><br/>
- <sup>                       </sup><br/>
  <font size="2px"><span style="color:#AA9E9D">Jan, 2023</span>      <b><span style="color:#3C6BE4"> Towards
 type-driven data-science in Idris </span></b>  (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/lafi23-abstract.pdf">abstract</a>, <a style="color:#d16969" href="https://github.com/idris-bayes">repository</a>) </font><br/>
  <span style="color:#85868B">                 <font size="2">O.Kammar, K.Marek, M.Nguyen, M.Steuwer, J.Walters, R.Wright </font> </span><br/>
