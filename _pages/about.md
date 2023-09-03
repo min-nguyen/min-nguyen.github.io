@@ -13,7 +13,7 @@ redirect_from:
 <br>
 
 **Research**
-<font size="2"> I'm currently collaborating on research that explores graph-based program slicing techniques for data provenance, i.e. linking dependencies between program outputs and inputs. This builds on previous work of a trace-based approach to program slicing [<b><a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">λ</a></b>].
+<font size="2"> I'm currently collaborating on research on graph-based program slicing techniques for data provenance, e.g. linking dependencies between program outputs and inputs. This builds on previous work of a trace-based approach to program slicing [<b><a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">λ</a></b>].
 <br><br>
 
 During my PhD, I investigated how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages. I used these techniques to implement a type-safe, modular design pattern for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>], and an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>]. <br><br>
