@@ -81,7 +81,7 @@ PhD Student researching <b><span style="color:#3C6BE4">Programming Languages </s
 **Teaching**
 <font size="2">
 <span style="color:#AA9E9D">2023</span> <br>
-Supervisor for a 2nd year CS student in their summer research internship, on <i>Typed Functional Programming Techniques for Probabilistic Programming</i> @ University of Bristol. <br>
+Supervisor for a 2nd year CS student in their research internship, on <i>Typed Functional Programming Techniques for Probabilistic Programming</i> @ University of Bristol. <br>
 <span style="color:#AA9E9D">2019 - 2023</span> <br>
 I give seminars and guest lectures to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
 <span style="color:#AA9E9D">2020 - 2021</span> <br>
