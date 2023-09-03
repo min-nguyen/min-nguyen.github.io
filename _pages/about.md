@@ -9,14 +9,14 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm a PhD student in the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at University of Bristol, supervised by <b><a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a></b> and <b><a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a></b>. My PhD topic investigates the application of algebraic effects to probabilistic programming languages. My main interests include functional programming, type-level programming, embedded domain-specific languages, and recursion schemes. </font>
+<font size="2"> I'm an EPSRC Doctoral Prize Fellow within the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at University of Bristol. I'm fond of functional programming, type-level programming, embedded domain-specific languages, and recursion schemes. </font>
 <br>
 
 **Research**
 <font size="2"> I'm currently collaborating on research that explores graph-based program slicing techniques for data provenance, i.e. linking dependencies between program outputs and inputs. This builds on previous work of a trace-based approach to program slicing [<b><a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">λ</a></b>].
 <br><br>
 
-My main research explored how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages; most recently, I was working out how abstract operations and effect handlers can be used as a type-safe, modular design pattern for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>]; before this, I used the same techniques to develop an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>]. <br><br>
+During my PhD, I studied how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages; most recently, I was working out how abstract operations and effect handlers can be used as a type-safe, modular design pattern for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>]; before this, I used the same techniques to develop an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>]. <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
 Other projects I've led include the application of recursion schemes for implementing and training neural networks [<b><a style="color:#d16969"  href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">λ</a></b>]; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures.
@@ -71,8 +71,12 @@ type-driven data-science in Idris </span></b>  (<a style="color:#d16969" href="h
 
 **Work**
 
+<font size="2"><span style="color:#AA9E9D">Sep '23 - Current</span> <br>
+EPSRC Doctoral Prize Fellow researching <b><span style="color:#3C6BE4">Programming Languages </span></b>  <br> <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br/></font> <br>
 <font size="2"><span style="color:#AA9E9D">Jun '22 - Sep '22</span> <br>
-Research Intern: <b><span style="color:#3C6BE4">Dependently typed probabilistic programming for Idris2</span></b>  (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> with </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br/></font> <br>
+Research Intern on <b><span style="color:#3C6BE4">Dependently typed probabilistic programming for Idris2</span></b>  (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> supervised by </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br/></font> <br>
+<font size="2"><span style="color:#AA9E9D">Jan '20 - Sep '23</span> <br>
+PhD Student researching <b><span style="color:#3C6BE4">Programming Languages </span></b>  <br> <em> supervised by </em> <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a> @ University of Bristol <br/></font> <br>
 
 **Teaching**
 <font size="2">
@@ -101,6 +105,7 @@ Teaching assistant for the <a style="color:#d16969" href="https://www.bris.ac.uk
 **Awards**
 
 <font size="2">
+<span style="color:#AA9E9D">2023</span> <span><i>ESPRC Doctoral Prize Fellowship Award for the proposal Robust, Reusable Computational Models via Typed Functional Programming.</i></span><br>
 <span style="color:#AA9E9D">2021</span> <span><i>ICFP '21 ACM Student Research Competition, 1st Place</i></span><br>
 <span style="color:#AA9E9D">2019</span> <span><i>Bloomberg Award - Best Machine Learning Paper, University of Bristol</i></span><br>
 <span style="color:#AA9E9D">2018</span> <span><i>Graphcore Award - Best Group Project, University of Bristol</i></span><br>
