@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm an EPSRC Doctoral Prize Fellow within the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at University of Bristol. I'm fond of functional programming, type-level programming, and embedded domain-specific languages. </font>
+<font size="2"> I'm an EPSRC Doctoral Prize Fellow in the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at University of Bristol. Some of my interests include functional programming, type-level programming, and embedded domain-specific languages. </font>
 <br>
 
 **Research**
