@@ -110,7 +110,7 @@ Teaching assistant for the <a style="color:#d16969" href="https://www.bris.ac.uk
 **Awards**
 
 <font size="2">
-<span style="color:#AA9E9D">2023</span> <span><i>ESPRC Doctoral Prize Fellowship Award for the proposal Robust, Reusable Computational Models via Typed Functional Programming.</i></span><br>
+<span style="color:#AA9E9D">2023</span> <span><i>ESPRC Doctoral Prize Fellowship Award for the proposal Robust, Reusable Computational Models via Typed Functional Programming</i></span><br>
 <span style="color:#AA9E9D">2021</span> <span><i>ICFP '21 ACM Student Research Competition, 1st Place</i></span><br>
 <span style="color:#AA9E9D">2019</span> <span><i>Bloomberg Award - Best Machine Learning Paper, University of Bristol</i></span><br>
 <span style="color:#AA9E9D">2018</span> <span><i>Graphcore Award - Best Group Project, University of Bristol</i></span><br>
