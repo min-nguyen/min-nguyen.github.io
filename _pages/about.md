@@ -80,7 +80,7 @@ EPSRC Doctoral Prize Fellow researching Programming Languages <br>   <em> hoste
 Research Intern: Dependently typed probabilistic programming for Idris2 (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> supervised by </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br></font>
 <font size="2"><span style="color:#AA9E9D">Jan '20 - Sep '23</span> <br>
 PhD in Programming Languages <br>   <em> supervised by </em> <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a> @ University of Bristol <br></font> <br>
-<font size="2"><span style="color:#AA9E9D">Sep '16 - Oct '23</span> <br>
+<font size="2"><span style="color:#AA9E9D">Sep '16 - Oct '20</span> <br>
 MEng in Computer Science, first class <br>
 @ University of Bristol <br></font> <br>
 
