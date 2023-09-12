@@ -75,11 +75,11 @@ type-driven data-science in Idris </span></b>  (<a style="color:#d16969" href="h
 **Work/Studies**
 
 <font size="2"><span style="color:#AA9E9D">Sep '23 - Current</span> <br>
-EPSRC Doctoral Prize Fellow researching Programming Languages <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
+EPSRC Doctoral Prize Fellow in Programming Languages <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
 <font size="2"><span style="color:#AA9E9D">Jun '22 - Sep '22</span> <br>
 Research Intern: Dependently typed probabilistic programming for Idris2 (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> supervised by </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br></font>
 <font size="2"><span style="color:#AA9E9D">Jan '20 - Sep '23</span> <br>
-PhD in Programming Languages <br>   <em> supervised by </em> <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a> @ University of Bristol <br></font> <br>
+PhD in Programming Languages <br>   <em> supervised by </em> <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a> @ University of Bristol <br></font>
 <font size="2"><span style="color:#AA9E9D">Sep '16 - Oct '20</span> <br>
 MEng in Computer Science, first class <br>
 @ University of Bristol <br></font> <br>
