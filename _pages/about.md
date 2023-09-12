@@ -72,7 +72,7 @@ type-driven data-science in Idris </span></b>  (<a style="color:#d16969" href="h
  <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <b><span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span></b>  (<a style="color:#d16969" href="https://youtu.be/hLxTULZXsUQ">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/IFL-21.pdf">slides</a>) <br></font>
  <sup>                      IFL '21</sup><br>
 
-**Work/Studies**
+**Work + Studies**
 
 <font size="2"><span style="color:#AA9E9D">Sep '23 - Current</span> <br>
 EPSRC Doctoral Prize Fellow in Programming Languages <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
