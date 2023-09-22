@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm an EPSRC Doctoral Prize Fellow in the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at University of Bristol. Before this, I also did my PhD and undergraduate degree (MEng Computer Science, first class) at Bristol. Some of my interests include functional programming, type-level programming, and embedded domain-specific languages.
+<font size="2"> I'm an EPSRC Doctoral Prize Fellow in the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at University of Bristol. Before this, I also did my PhD and undergraduate degree (MEng in Computer Science, first class) at Bristol. Some of my interests include functional programming, type-level programming, and embedded domain-specific languages.
 
 </font>
 <br>
 
 **Research**
-<font size="2"> I'm currently collaborating on research on graph-based program slicing techniques for data provenance, e.g. linking dependencies between program outputs and inputs. This builds on previous work of a trace-based approach to program slicing [<b><a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">λ</a></b>].
+<font size="2"> I'm currently collaborating on research on graph-based program slicing techniques for data provenance, e.g. linking dependencies between program outputs and inputs. This builds on our previous work which takes a trace-based approach to program slicing [<b><a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">λ</a></b>].
 <br><br>
 
 During my PhD, I investigated how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages. I used these techniques to implement a type-safe, modular framework for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>], and an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>]. <br><br>
@@ -32,7 +32,7 @@ Other projects I've led include the application of recursion schemes for impleme
  <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Wang, S.Ramsay</font> </span><br>
  <sup>                       Haskell '23</sup><br>
  <font size="2px"><span style="color:#AA9E9D">Jan, 2023</span>      <b><span style="color:#3C6BE4"> Towards
-type-driven data-science in Idris </span></b>  (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/lafi23-abstract.pdf">abstract</a>, <a style="color:#d16969" href="https://github.com/idris-bayes">repository</a>) </font><br>
+Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/lafi23-abstract.pdf">abstract</a>, <a style="color:#d16969" href="https://github.com/idris-bayes">repository</a>) </font><br>
  <span style="color:#85868B">                 <font size="2">O.Kammar, K.Marek, M.Nguyen, M.Steuwer, J.Walters, R.Wright </font> </span><br>
  <sup>                       LAFI '23</sup><br>
  <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>      <b><span style="color:#3C6BE4">Folding over Neural Networks</span></b> (<a style="color:#d16969"  href="https://arxiv.org/pdf/2207.01090.pdf">preprint</a>, <a style="color:#d16969" href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">proceedings</a>) </font><br>
