@@ -85,9 +85,9 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 **Teaching**
 <font size="2">
 <span style="color:#AA9E9D"><b>2023</b></span> <br>
-<b>Supervisor</b> for a 2nd year CS student in their research internship, on <i>Typed Functional Programming Techniques for Probabilistic Programming</i> @ University of Bristol. <br>
+<b>Supervisor</b> for a 2nd year CS student in their research internship, on <i>"Typed Functional Programming Techniques for Probabilistic Programming"</i> @ University of Bristol. <br>
 <span style="color:#AA9E9D"><b>2020 - 2021</b></span> <br>
-<b>Supervisor</b> for a 4th year CS student in their masters dissertation, on <i>Deep Learning Architectures As Pure Functions</i> @ University of Bristol. <br>
+<b>Supervisor</b> for a 4th year CS student in their masters dissertation, on <i>"Deep Learning Architectures As Pure Functions"</i> @ University of Bristol. <br>
 <span style="color:#AA9E9D"><b>2019 - Current</b></span> <br>
 <b>Seminars and guest lectures</b> to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
 <span style="color:#AA9E9D"><b>2017 - 2022</b></span> <br>
