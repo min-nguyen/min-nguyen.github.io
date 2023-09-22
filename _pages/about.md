@@ -56,6 +56,8 @@ type-driven data-science in Idris </span></b>  (<a style="color:#d16969" href="h
 
 **Talks**
 
+ <font size="2"><span style="color:#AA9E9D">Sep, 2023</span>     <b><span  style="color:#3C6BE4">Effects and Effect Handlers for Probabilistic Programming</span></b>  <br></font>
+ <sup>                      PhD Defence</sup><br>
  <font size="2"><span style="color:#AA9E9D">Sep, 2023</span>     <b><span  style="color:#3C6BE4">Effect Handlers for Programmable Inference</span></b>  (<a style="color:#d16969" href="https://youtu.be/c6QAjzunnf8?t=11026">video</a>) <br></font>
  <sup>                      Haskell '23</sup><br> <!-- don't insert new line here. bloody html. --> <font size="2"><span style="color:#AA9E9D">May, 2023</span>     <b><span  style="color:#3C6BE4">Effects and Effect Handlers for Programmable Inference</span></b>   <br></font>
  <sup>                      Tech Talk @ The Alan Turing Institute</sup><br>
