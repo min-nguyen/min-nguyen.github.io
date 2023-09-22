@@ -28,73 +28,70 @@ Other projects I've led include the application of recursion schemes for impleme
 
 **Papers, etc.**
 
- <font size="2px"><span style="color:#AA9E9D">Sep, 2023</span>     <b><span style="color:#3C6BE4"> Effect Handlers for Programmable Inference </span></b> (<a style="color:#d16969" href="https://arxiv.org/abs/2303.01328">preprint</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">proceedings</a>) </font><br>
- <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Wang, S.Ramsay</font> </span><br>
- <sup>                       Haskell '23</sup><br>
- <font size="2px"><span style="color:#AA9E9D">Jan, 2023</span>      <b><span style="color:#3C6BE4"> Towards
+ <font size="2px"><b><span style="color:#3C6BE4"> Effect Handlers for Programmable Inference </span></b> (<a style="color:#d16969" href="https://arxiv.org/abs/2303.01328">preprint</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">proceedings</a>) </font><br>
+ <span style="color:#85868B">  <font size="2">M.Nguyen, R.Perera, M.Wang, S.Ramsay</font> </span><br>
+ <sup>  Haskell Symposium, 2023</sup><br>
+ <font size="2px"><b><span style="color:#3C6BE4"> Towards
 Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/lafi23-abstract.pdf">abstract</a>, <a style="color:#d16969" href="https://github.com/idris-bayes">repository</a>) </font><br>
- <span style="color:#85868B">                 <font size="2">O.Kammar, K.Marek, M.Nguyen, M.Steuwer, J.Walters, R.Wright </font> </span><br>
- <sup>                       LAFI '23</sup><br>
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>      <b><span style="color:#3C6BE4">Folding over Neural Networks</span></b> (<a style="color:#d16969"  href="https://arxiv.org/pdf/2207.01090.pdf">preprint</a>, <a style="color:#d16969" href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">proceedings</a>) </font><br>
- <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br>
- <sup>                       MPC '22</sup><br>
- <font size="2px"><span style="color:#AA9E9D">Sep, 2022</span>      <b><span style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span></b> (<a style="color:#d16969" href="https://arxiv.org/pdf/2203.04608.pdf">preprint</a>, <a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">proceedings</a>, <a style="color:#d16969" href="https://github.com/min-nguyen/prob-fx">repository</a>) </font><br>
- <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng, N.Wu </font> </span><br>
- <sup>                       ICFP '22</sup><br>
- <font size="2px"><span style="color:#AA9E9D">Jan, 2022</span>      <b><span style="color:#3C6BE4">Linked visualisations via Galois dependencies</span></b> (<a style="color:#d16969" href="https://arxiv.org/pdf/2109.00445.pdf">preprint</a>, <a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">proceedings</a>, <a style="color:#d16969" href="https://github.com/explorable-viz/fluid">repository</a>) </font><br>
- <span style="color:#85868B">                 <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br>
- <sup>                       POPL '22</sup><br>
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>      <b><span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span></b> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">extended abstract</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">poster</a>) </font><br>
- <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br>
- <sup>                       ICFP '21 Student Research Competition</sup><br>
- <font size="2"><span style="color:#AA9E9D">Aug, 2021</span>      <b><span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span></b> (<a style="color:#d16969" href="https://ifl21.cs.ru.nl/Program?action=download&upname=IFL21_Nguyen.pdf">paper</a>) </font><br>
- <span style="color:#85868B">                 <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br>
- <sup>                       IFL '21</sup><br>
- <font size="2"><span style="color:#AA9E9D">Jun, 2019</span>      <b><span style="color:#3C6BE4">Modelling Neural Networks with Recursion Schemes</span></b> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf">dissertation</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">poster</a>, <a style="color:#d16969"  href="https://github.com/min-nguyen/catana">repository</a>) </font><br>
- <span style="color:#85868B">                 <font size="2">M.Nguyen, N.Wu </font> </span><br>
- <sup>                       Masters Dissertation @ University of Bristol</sup>
+ <span style="color:#85868B">  <font size="2">O.Kammar, K.Marek, M.Nguyen, M.Steuwer, J.Walters, R.Wright </font> </span><br>
+ <sup>  Languages for Inference Workshop, 2023</sup><br>
+ <font size="2px"><b><span style="color:#3C6BE4">Folding over Neural Networks</span></b> (<a style="color:#d16969"  href="https://arxiv.org/pdf/2207.01090.pdf">preprint</a>, <a style="color:#d16969" href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">proceedings</a>) </font><br>
+ <span style="color:#85868B">  <font size="2">M.Nguyen, N.Wu </font> </span><br>
+ <sup>  Mathematics of Program Construction, 2022</sup><br>
+ <font size="2px"><b><span style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span></b> (<a style="color:#d16969" href="https://arxiv.org/pdf/2203.04608.pdf">preprint</a>, <a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">proceedings</a>, <a style="color:#d16969" href="https://github.com/min-nguyen/prob-fx">repository</a>) </font><br>
+ <span style="color:#85868B">  <font size="2">M.Nguyen, R.Perera, M.Weng, N.Wu </font> </span><br>
+ <sup>  International Conference on Functional Programming, 2022</sup><br>
+ <font size="2px"><b><span style="color:#3C6BE4">Linked visualisations via Galois dependencies</span></b> (<a style="color:#d16969" href="https://arxiv.org/pdf/2109.00445.pdf">preprint</a>, <a style="color:#d16969" href="https://dl.acm.org/doi/pdf/10.1145/3498668">proceedings</a>, <a style="color:#d16969" href="https://github.com/explorable-viz/fluid">repository</a>) </font><br>
+ <span style="color:#85868B">  <font size="2">R.Perera, M.Nguyen, T.Petricek, M.Weng </font> </span><br>
+ <sup>  Principles Of Programming Languages, 2022</sup><br>
+ <font size="2"><b><span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span></b> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/icfp21-abstract.pdf">extended abstract</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/icfp21-poster.pdf">poster</a>) </font><br>
+ <span style="color:#85868B">  <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br>
+ <sup>  International Conference on Functional Programming (SRC), 2021</sup><br>
+ <font size="2"><b><span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span></b> (<a style="color:#d16969" href="https://ifl21.cs.ru.nl/Program?action=download&upname=IFL21_Nguyen.pdf">paper</a>) </font><br>
+ <span style="color:#85868B">  <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br>
+ <sup>  Implementation and Application of Functional Languages, 2021</sup><br>
+ <font size="2"><b><span style="color:#3C6BE4">Modelling Neural Networks with Recursion Schemes</span></b> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf">dissertation</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">poster</a>, <a style="color:#d16969"  href="https://github.com/min-nguyen/catana">repository</a>) </font><br>
+ <span style="color:#85868B">  <font size="2">M.Nguyen, N.Wu </font> </span><br>
+ <sup>  Masters Dissertation @ University of Bristol, 2019</sup>
 
 **Talks**
 
- <font size="2"><span style="color:#AA9E9D">Sep, 2023</span>     <b><span  style="color:#3C6BE4">Effects and Effect Handlers for Probabilistic Programming</span></b>  <br></font>
- <sup>                      PhD Defence</sup><br>
- <font size="2"><span style="color:#AA9E9D">Sep, 2023</span>     <b><span  style="color:#3C6BE4">Effect Handlers for Programmable Inference</span></b>  (<a style="color:#d16969" href="https://youtu.be/c6QAjzunnf8?t=11026">video</a>) <br></font>
- <sup>                      Haskell '23</sup><br> <!-- don't insert new line here. bloody html. --> <font size="2"><span style="color:#AA9E9D">May, 2023</span>     <b><span  style="color:#3C6BE4">Effect Handlers for Programmable Inference</span></b>   <br></font>
- <sup>                      Tech Talk @ The Alan Turing Institute</sup><br>
- <font size="2"><span style="color:#AA9E9D">Jan, 2023</span>     <b><span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span></b>   <br></font>
- <sup>                      Tech Talk @ The Alan Turing Institute</sup><br>
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <b><span  style="color:#3C6BE4">Folding over Neural Networks</span></b>   <br></font>
- <sup>                      MPC '22</sup><br>
- <font size="2"><span style="color:#AA9E9D">Sep, 2022</span>     <b><span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span></b>  (<a style="color:#d16969" href="https://www.youtube.com/watch?v=xLgqx4DK49k">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/ICFP-22.pdf">slides</a>) <br></font>
- <sup>                      ICFP '22</sup><br>
- <font size="2"><span style="color:#AA9E9D">May, 2022</span>     <b><span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span></b>  (<a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/PLInG-22.pdf">slides</a>) <br></font>
- <sup>                      PLInG Seminar @ University of Edinburgh</sup><br>
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <b><span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span></b>  (<a style="color:#d16969" href="https://www.youtube.com/watch?v=_ODExz59p6E">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/slides/ICFP-21.pdf">slides</a>) <br></font>
- <sup>                      ICFP '21 Student Research Competition</sup><br>
- <font size="2"><span style="color:#AA9E9D">Sep, 2021</span>     <b><span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span></b>  (<a style="color:#d16969" href="https://youtu.be/hLxTULZXsUQ">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/IFL-21.pdf">slides</a>) <br></font>
- <sup>                      IFL '21</sup><br>
+ <font size="2"><b><span  style="color:#3C6BE4">Effects and Effect Handlers for Probabilistic Programming</span></b>  <br></font>
+ <sup>   PhD Defence, Sep 2023</sup><br>
+ <font size="2"><b><span  style="color:#3C6BE4">Effect Handlers for Programmable Inference</span></b>   <br></font>
+ <sup>  Haskell Symposium, Sep 2023  (<a style="color:#d16969" href="https://youtu.be/c6QAjzunnf8?t=11026">video</a>)</sup><br> <!-- don't insert new line here. bloody html. -->
+ <sup>  Tech Talk @ The Alan Turing Institute, May 2023 </sup><br>
+ <font size="2"><b><span  style="color:#3C6BE4">Modular Probabilistic Models via Algebraic Effects</span></b>   <br></font>
+ <sup>    International Conference on Functional Programming, Sep 2022  (<a style="color:#d16969" href="https://www.youtube.com/watch?v=xLgqx4DK49k">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/ICFP-22.pdf">slides</a>)</sup><br>
+ <sup>  Programming Languages Seminar @ University of Edinburgh, May 2022 (<a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/PLInG-22.pdf">slides</a>)</sup><br>
+ <sup>  Tech Talk @ The Alan Turing Institute, Jan 2023</sup><br>
+ <font size="2"><b><span  style="color:#3C6BE4">Folding over Neural Networks</span></b>   <br></font>
+ <sup>  Mathematics of Program Construction, Sep 2022 </sup><br>
+ <font size="2"><b><span  style="color:#3C6BE4">Composable, Modular Probabilistic Models</span></b>   <br></font>
+ <sup>  International Conference on Functional Programming (SRC), Sep 2021 (<a style="color:#d16969" href="https://www.youtube.com/watch?v=_ODExz59p6E">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/slides/ICFP-21.pdf">slides</a>)</sup><br>
+ <sup>  Implementation and Application of Functional Languages,  Sep 2021 (<a style="color:#d16969" href="https://youtu.be/hLxTULZXsUQ">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/IFL-21.pdf">slides</a>)</sup><br>
 
 **Work + Studies**
 
-<font size="2"><span style="color:#AA9E9D">Sep '23 - Current</span> <br>
-EPSRC Doctoral Prize Fellow in Programming Languages <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
-<font size="2"><span style="color:#AA9E9D">Jun '22 - Sep '22</span> <br>
-Research Intern: Dependently typed probabilistic programming for Idris2 (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> supervised by </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br></font>
-<font size="2"><span style="color:#AA9E9D">Jan '20 - Sep '23</span> <br>
-PhD in Programming Languages <br>   <em> supervised by </em> <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a> @ University of Bristol <br></font>
-<font size="2"><span style="color:#AA9E9D">Sep '16 - Oct '20</span> <br>
-MEng in Computer Science (first class) <br>   <em> dissertation supervised by </em> <a style="color:#d16969" href="https://zenzike.com/">Nicolas Wu</a> @ University of Bristol <br></font> <br>
+<font size="2"><span style="color:#AA9E9D"><b>Sep 2023 - Current</b></span> <br>
+<b>EPSRC Doctoral Prize Fellow in Programming Languages</b> <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
+<font size="2"><span style="color:#AA9E9D"><b>Jun 2022 - Sep 2022</b></span> <br>
+<b>Research Intern: Dependently typed probabilistic programming for Idris2</b> (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> supervised by </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br></font>
+<font size="2"><span style="color:#AA9E9D"><b>Jan 2020 - Sep 2023</b></span> <br>
+<b>PhD in Programming Languages</b> <br>   <em> supervised by </em> <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a> @ University of Bristol <br></font>
+<font size="2"><span style="color:#AA9E9D"><b>Sep 2016 - Oct 2020</b></span> <br>
+<b>MEng in Computer Science</b> (first class) <br>   <em> dissertation supervised by </em> <a style="color:#d16969" href="https://zenzike.com/">Nicolas Wu</a> @ University of Bristol <br></font> <br>
 
 **Teaching**
 <font size="2">
-<span style="color:#AA9E9D">2023</span> <br>
-Supervisor for a 2nd year CS student in their research internship, on <i>Typed Functional Programming Techniques for Probabilistic Programming</i> @ University of Bristol. <br>
-<span style="color:#AA9E9D">2020 - 2021</span> <br>
-Supervisor for a 4th year CS student in their masters dissertation, on <i>Deep Learning Architectures As Pure Functions</i> @ University of Bristol. <br>
-<span style="color:#AA9E9D">2019 - Current</span> <br>
-I give seminars and guest lectures to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
-<span style="color:#AA9E9D">2017 - 2022</span> <br>
-Teaching assistant for the <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a style="color:#d16969" href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units @ University of Bristol.
+<span style="color:#AA9E9D"><b>2023</b></span> <br>
+<b>Supervisor</b> for a 2nd year CS student in their research internship, on <i>Typed Functional Programming Techniques for Probabilistic Programming</i> @ University of Bristol. <br>
+<span style="color:#AA9E9D"><b>2020 - 2021</b></span> <br>
+<b>Supervisor</b> for a 4th year CS student in their masters dissertation, on <i>Deep Learning Architectures As Pure Functions</i> @ University of Bristol. <br>
+<span style="color:#AA9E9D"><b>2019 - Current</b></span> <br>
+I give <b>seminars and guest lectures</b> to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
+<span style="color:#AA9E9D"><b>2017 - 2022</b></span> <br>
+<b>Teaching assistant</b> for the <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?unitCode=COMS10016">Functional Programming</a>, <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a>, and <a style="color:#d16969" href="https://www.bristol.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=523DFF5AD0E44080C9EBAD20F58B9DAE?ayrCode=20%2F21&unitCode=COMSM0066">Advanced Topics in Programming Languages</a> units @ University of Bristol.
 </font> <br>
 
 
