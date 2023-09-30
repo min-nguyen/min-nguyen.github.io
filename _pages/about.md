@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm an EPSRC Doctoral Prize Fellow in the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at the School of Computer Science, University of Bristol. Before this, I also did my PhD and undergraduate degree (MEng in Computer Science, first class) at Bristol. Some of my interests include functional programming, type-level programming, and embedded domain-specific languages.
+<font size="2"> I'm an EPSRC Doctoral Prize Fellow in the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at the School of Computer Science, University of Bristol. Before this, I also did my PhD and undergraduate degree (MEng in Computer Science) at Bristol. Some of my interests include functional programming, type-level programming, and embedded domain-specific languages.
 
 </font>
 <br>
