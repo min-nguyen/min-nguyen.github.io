@@ -50,9 +50,9 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
  <font size="2"><b><span style="color:#3C6BE4">Composable, Modular Probabilistic Models</span></b> (<a style="color:#d16969" href="https://ifl21.cs.ru.nl/Program?action=download&upname=IFL21_Nguyen.pdf">paper</a>) </font><br>
  <span style="color:#85868B">  <font size="2">M.Nguyen, R.Perera, M.Weng </font> </span><br>
  <sup>  Implementation and Application of Functional Languages, 2021</sup><br>
- <font size="2"><b><span style="color:#3C6BE4">Modelling Neural Networks with Recursion Schemes</span></b> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf">dissertation</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">poster</a>, <a style="color:#d16969"  href="https://github.com/min-nguyen/catana">repository</a>) </font><br>
+<!--  <font size="2"><b><span style="color:#3C6BE4">Modelling Neural Networks with Recursion Schemes</span></b> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/modelling-nns-with-recursion-schemes.pdf">dissertation</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/masters-thesis-poster.pdf">poster</a>, <a style="color:#d16969"  href="https://github.com/min-nguyen/catana">repository</a>) </font><br>
  <span style="color:#85868B">  <font size="2">M.Nguyen, N.Wu </font> </span><br>
- <sup>  Masters Dissertation @ University of Bristol, 2019</sup>
+ <sup>  Masters Dissertation @ University of Bristol, 2019</sup> -->
 
 **Talks**
 
@@ -80,7 +80,7 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 <font size="2"><span style="color:#AA9E9D"><b>Jan 2020 - Sep 2023</b></span> <br>
 <b>PhD in Programming Languages</b> <br>   <em> supervised by </em> <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a> @ University of Bristol <br></font>
 <font size="2"><span style="color:#AA9E9D"><b>Sep 2016 - Oct 2020</b></span> <br>
-<b>MEng in Computer Science</b> (first class) <br>   <em> dissertation supervised by </em> <a style="color:#d16969" href="https://zenzike.com/">Nicolas Wu</a> @ University of Bristol <br></font> <br>
+<b>MEng in Computer Science</b> (first class) <br>   <em> supervised by </em> <a style="color:#d16969" href="https://zenzike.com/">Nicolas Wu</a> @ University of Bristol <br></font> <br>
 
 **Teaching**
 <font size="2">
