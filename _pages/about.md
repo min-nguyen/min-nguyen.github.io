@@ -91,7 +91,7 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 <span style="color:#AA9E9D"><b>2019 - Current</b></span> <br>
 <b>Seminars and guest lectures</b> to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
 <span style="color:#AA9E9D"><b>2017 - Current</b></span> <br>
-<b>Teaching assistant</b> for the units <a style="color:#d16969" href="https://plrg-bristol.github.io/ATiPL/">Advanced Topics in Programming Languages</a>, <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=23%2F24&unitCode=COMS10016">Functional Programming</a>, and <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a> @ University of Bristol.
+<b>Teaching assistant</b> for the CS units <a style="color:#d16969" href="https://plrg-bristol.github.io/ATiPL/">Advanced Topics in Programming Languages</a> (4th year), <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a> (2nd year) <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=23%2F24&unitCode=COMS10016">Functional Programming</a> (1st year)  @ University of Bristol.
 </font> <br>
 
 
