@@ -27,6 +27,10 @@ Other projects I've led include the application of recursion schemes for impleme
 
 **Papers, etc.**
 
+ <font size="2px"><b><span style="color:#3C6BE4">Effects and Effect Handlers for
+Probabilistic Programming</span></b> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/doctoral_thesis.pdf">pdf</a>) </font><br>
+ <span style="color:#85868B">  <font size="2">M.Nguyen</font> </span><br>
+ <sup>  Doctoral Thesis, 2023</sup><br>
  <font size="2px"><b><span style="color:#3C6BE4"> Effect Handlers for Programmable Inference </span></b> (<a style="color:#d16969" href="https://arxiv.org/abs/2303.01328">preprint</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">proceedings</a>) </font><br>
  <span style="color:#85868B">  <font size="2">M.Nguyen, R.Perera, M.Wang, S.Ramsay</font> </span><br>
  <sup>  Haskell Symposium, 2023</sup><br>
