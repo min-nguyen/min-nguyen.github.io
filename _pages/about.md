@@ -15,7 +15,7 @@ redirect_from:
 <br>
 
 **Research**
-<font size="2"> I'm currently looking at: <br> <br>
+<font size="2"> I'm currently looking at: <hr style="height:30pt; visibility:hidden;" />
 
 <details>
         <summary>live bidirectional program modification</summary>
