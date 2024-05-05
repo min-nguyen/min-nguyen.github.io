@@ -15,7 +15,26 @@ redirect_from:
 <br>
 
 **Research**
-<font size="2"> I'm currently working on a number of things: • live bidirectional program modification (<span style="color:#696969" > generating updated source code that produces a desired change to the original program's output</span>); • bidirectional methods for composing web applications (<span style="color:#696969"> implementing a modular framework that composes both their back-end ``models'' and front-end ``views'' in synchronisation</span>); • program slicing techniques for data provenance (<span style="color:#696969" >formalising the fragments of programs needed to generate fragments of their outputs</span>); and • Monte Carlo algorithms for property-based testing (<span style="color:#696969" > exploiting MC notions of ``similarity'' for randomly generating program inputs that satisfy a desired property <span>). <!-- and techniques for embedding languages that have "non-standard" semantics (e.g. languages with linear types or that use incremental computation) -->
+<font size="2"> I'm currently working on a number of things:
+ <ul>
+  <li><details>
+        <summary>live bidirectional program modification</summary>
+        <span style="color:#696969" > generating updated source code that produces a desired change to the original program's output</span>
+        </details></li>
+  <li><details>
+        <summary> bidirectional methods for composing web applications</summary>
+        <span style="color:#696969"> implementing a modular framework that composes both their back-end ``models'' and front-end ``views'' in synchronisation</span>
+        </details></li>
+  <li><details>
+        <summary> program slicing techniques for data provenance <summary>
+        <span style="color:#696969" > calculating the fragments of programs needed to generate fragments of their outputs</span>
+        </details></li>
+  <li><details>
+        <summary> Monte Carlo algorithms for property-based testing <summary>
+        <span style="color:#696969" > exploiting MC notions of ``similarity'' for randomly generating program inputs that satisfy a desired property <span>
+        </details></li>
+</ul>
+ <!-- and techniques for embedding languages that have "non-standard" semantics (e.g. languages with linear types or that use incremental computation) -->
 
 During my PhD, I investigated how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages. I used these techniques to implement a type-safe, modular framework for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>], and an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>]. <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
