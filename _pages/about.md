@@ -20,19 +20,19 @@ redirect_from:
 <details>
         <summary>live bidirectional program modification</summary>
         <span style="color:#696969" > generating updated source code that produces a desired change to the original program's output</span>
-        </details></li>
+        </details>
 <details>
         <summary>bidirectional methods for composing web applications</summary>
         <span style="color:#696969"> implementing a modular framework that composes both their back-end ``models'' and front-end ``views'' in synchronisation</span>
-        </details></li>
+        </details>
 <details>
         <summary>program slicing techniques for data provenance </summary>
         <span style="color:#696969" > calculating the fragments of programs needed to compute specific fragments of their outputs</span>
-        </details></li>
+        </details>
 <details>
         <summary>Monte Carlo algorithms for property-based testing </summary>
         <span style="color:#696969" > exploiting MC notions of ``similarity'' for randomly generating program inputs that satisfy a desired property <span>
-        </details></li>
+        </details>
 
  <!-- and techniques for embedding languages that have "non-standard" semantics (e.g. languages with linear types or that use incremental computation) -->
 
