@@ -19,11 +19,11 @@ redirect_from:
 
 <details>
         <summary>live bidirectional program modification</summary>
-        <span style="color:#696969" > generating updated source code that produces a desired change to the original program's output.</span>
+        <span style="color:#696969" > generating updated source code for producing a desired change to the original program's output.</span>
         </details>
 <details>
         <summary>bidirectional methods for compositional web development</summary>
-        <span style="color:#696969"> implementing a modular framework for composing both the back-end "models" and front-end "views"''" of web applications in synchronisation.</span>
+        <span style="color:#696969"> implementing a modular framework for composing both the back-end "models" and front-end "views" of web applications in synchronisation.</span>
         </details>
 <details>
         <summary>program slicing techniques for data provenance </summary>
