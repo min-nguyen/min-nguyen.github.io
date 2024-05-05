@@ -15,7 +15,7 @@ redirect_from:
 <br>
 
 **Research**
-<font size="2"> I'm currently looking at a number of things:</font>
+<font size="2"> I'm currently looking at a number of things:
 
 <details>
         <summary>live bidirectional program modification</summary>
@@ -31,12 +31,12 @@ redirect_from:
         </details>
 <details>
         <summary>Monte Carlo algorithms for property-based testing </summary>
-        <span style="color:#696969" > exploiting MC notions of ``similarity'' for randomly generating program inputs that satisfy a desired property <span>
+        <span style="color:#696969" > exploiting MC notions of ``similarity'' for randomly generating program inputs that satisfy a desired property </span>
         </details>
 
  <!-- and techniques for embedding languages that have "non-standard" semantics (e.g. languages with linear types or that use incremental computation) -->
 
-<font size="2"> During my PhD, I investigated how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages. I used these techniques to implement a type-safe, modular framework for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>], and an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>]. <br><br>
+During my PhD, I investigated how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages. I used these techniques to implement a type-safe, modular framework for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>], and an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>]. <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
 Other projects I've led include the application of recursion schemes for implementing and training neural networks [<b><a style="color:#d16969"  href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">λ</a></b>]; in particular, I show how neural networks can be represented as fixed-points of recursive data structures, and forward and back propagation as folds and unfolds over these structures.
