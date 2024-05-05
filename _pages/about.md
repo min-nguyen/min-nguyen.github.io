@@ -16,7 +16,7 @@ redirect_from:
 
 **Research**
 <font size="2"> I'm currently looking at:
-<br style="line-height:22px">
+<br style="display: block; content: '';margin-top: 0; ">
 <details>
         <summary>live bidirectional program modification</summary>
         <span style="color:#696969" > generating updated source code for producing a desired change to the original program's output.</span>
