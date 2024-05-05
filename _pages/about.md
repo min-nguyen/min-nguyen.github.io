@@ -16,7 +16,7 @@ redirect_from:
 
 **Research**
 <font size="2"> I'm currently looking at:
-<hr style="height:0pt; visibility:hidden;" />
+<br style="line-height:22px">
 <details>
         <summary>live bidirectional program modification</summary>
         <span style="color:#696969" > generating updated source code for producing a desired change to the original program's output.</span>
