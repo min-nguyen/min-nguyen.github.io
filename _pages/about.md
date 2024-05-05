@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm an EPSRC Doctoral Prize Fellow in the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at the School of Computer Science, University of Bristol. Before this, I also did my PhD and undergraduate degree (MEng in Computer Science) at Bristol. Some of my interests include functional programming, type-level programming, and embedded domain-specific languages.
+<font size="2"> I'm a Senior Research Associate/<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">[EPSRC Doctoral Prize Fellow]</a> who researches programming language theory and implementation. I'm affiliated with the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at the University of Bristol (School of Computer Science), and before this, I also did my PhD and MEng in Computer Science at Bristol. Some of my key interests include functional programming, types, and embedded domain-specific languages.
 
 </font>
 <br>
 
 **Research**
-<font size="2"> I'm currently looking at bidirectional transformations for composing web applications, embedding techniques for languages that have "non-standard" semantics, and program slicing techniques for data provenance.
+<font size="2"> I'm currently working on a number of things: live bidirectional program modification (algorithms for generating updated source code that produces a desired change to the original program's output); bidirectional methods for composing web applications (implementing a modular framework that composes both their back-end ``models'' and front-end ``views'' in synchronisation); program slicing techniques for data provenance (formalising the fragments of programs needed to generate fragments of their outputs); and designing Monte Carlo algorithms for property-based testing (exploiting their notion of ``similarity'' for randomly generating program inputs that satisfy a desired property). <!-- and techniques for embedding languages that have "non-standard" semantics (e.g. languages with linear types or that use incremental computation) -->
 
 During my PhD, I investigated how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages. I used these techniques to implement a type-safe, modular framework for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>], and an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>]. <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
