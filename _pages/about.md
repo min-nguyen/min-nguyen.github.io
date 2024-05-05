@@ -9,13 +9,13 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm a Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>) who researches programming language theory and implementation. I'm affiliated with the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at the University of Bristol, School of Computer Science. Before this, I also did my PhD and MEng in Computer Science at Bristol. Some of my key interests include functional programming (Haskell in particular), types, and embedded domain-specific languages.
+<font size="2"> I'm a Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>)  in programming language theory and implementation. I'm affiliated with the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at the University of Bristol, School of Computer Science. Before this, I also did my PhD and MEng in Computer Science at Bristol. Some of my key interests include functional programming (Haskell in particular), types, and embedded domain-specific languages.
 
 </font>
 <br>
 
 **Research**
-<font size="2"> I'm currently looking at:
+<font size="2"> Currently, I'm looking at:
 <div style="line-height:25%;">
     <br>
 </div>
@@ -41,7 +41,7 @@ redirect_from:
 <div style="line-height:75%;">
     <br>
 </div>
-During my PhD, I investigated how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages. I used these techniques to implement a type-safe, modular framework for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>], and an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>].
+For my PhD, I investigated how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages. I used these techniques to implement a type-safe, modular framework for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>], and an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>].
 
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
