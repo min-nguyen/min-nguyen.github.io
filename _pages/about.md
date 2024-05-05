@@ -15,7 +15,7 @@ redirect_from:
 <br>
 
 **Research**
-<font size="2"> I'm currently looking at:
+<font size="2"> Some things that I'm currently looking at are
 
 <details>
         <summary>live bidirectional program modification</summary>
@@ -35,7 +35,7 @@ redirect_from:
         </details>
 
  <!-- and techniques for embedding languages that have "non-standard" semantics (e.g. languages with linear types or that use incremental computation) -->
-
+<br>
 During my PhD, I investigated how algebraic effects and effect handlers can be used to improve the design of probabilistic programming languages. I used these techniques to implement a type-safe, modular framework for programmable inference [<b><a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/haskell23.pdf">λ</a></b>], and an embedding of probabilistic models as first-class citizens [<b><a style="color:#d16969"  href="https://dl.acm.org/doi/pdf/10.1145/3547635">λ</a></b>]. <br><br>
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/wasabaye">Wasabaye</a> in Haskell. <br> <br> -->
 
