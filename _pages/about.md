@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-<font size="2"> I'm a Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>)  in programming language theory and implementation. I'm affiliated with the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at the University of Bristol, School of Computer Science. Before this, I also did my PhD and MEng in Computer Science at Bristol. Some of my key interests include functional programming (Haskell in particular), types, and embedded domain-specific languages.
+<font size="2"> I'm a Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>) in programming language theory and implementation. I'm affiliated with the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at the University of Bristol. Before this, I also did my PhD and MEng in Computer Science at Bristol. Some of my key interests include functional programming (Haskell in particular), types, and embedded domain-specific languages.
 
 </font>
 <br>
