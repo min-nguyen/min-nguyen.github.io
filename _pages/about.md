@@ -15,7 +15,7 @@ redirect_from:
 <br>
 
 **Research**
-<font size="2"> I'm currently working on a number of things:
+<font size="2"> I'm currently looking at a number of things:
 
 <details>
         <summary>live bidirectional program modification</summary>
