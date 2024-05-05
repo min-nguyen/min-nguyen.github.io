@@ -31,7 +31,7 @@ redirect_from:
         </details>
 <details>
         <summary>Monte Carlo algorithms for property-based testing </summary>
-        <span style="color:#696969" > exploiting MC notions of ``similarity'' for randomly generating program inputs that satisfy a desired property.</span>
+        <span style="color:#696969" > exploiting MC notions of "similarity" for randomly generating program inputs that satisfy a desired property.</span>
         </details>
 
  <!-- and techniques for embedding languages that have "non-standard" semantics (e.g. languages with linear types or that use incremental computation) -->
