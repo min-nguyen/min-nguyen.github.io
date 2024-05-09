@@ -5,7 +5,7 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
+  margin-top: 0em;
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
@@ -108,8 +108,10 @@
 }
 
 .page__hero {
+  flex: 1 1 auto;
+  height: 100%;
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
@@ -165,9 +167,10 @@ hr.solid {
 }
 
 .page__hero-image {
+  display:block;
   width: 100%;
   height: auto;
-  -ms-interpolation-mode: bicubic;
+  // -ms-interpolation-mode: bicubic;
 }
 
 .page__hero-caption {

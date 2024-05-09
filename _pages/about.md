@@ -1,13 +1,15 @@
 ---
 permalink: /
 title: "About me"
+layout: single
+header:
+ image: "lambda.png"
 excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
 
 <font size="2"> I'm a Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>) in programming language theory and implementation, and am affiliated with the <b><a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a></b> at the University of Bristol. Before this, I also did my PhD and MEng in Computer Science at Bristol. Some of my main interests include functional programming (Haskell in particular), types & strongly-typed languages, and all things glorious that involve them.
 

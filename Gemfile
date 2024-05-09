@@ -24,3 +24,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'hawkins'
 end
+
+gem "webrick", "~> 1.8"
