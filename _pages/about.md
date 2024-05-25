@@ -143,14 +143,13 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
  <font size="2"><span style="color:#AA9E9D">Aug, 2020</span>     <span  style="color:#3C6BE4">A Theory of Changes for Higher-Order Languages - Cai, Yufei, et al.</span> (<a href="https://github.com/min-nguyen/first-class-families/blob/main/incremental-computation.pdf">slides</a>, <a href="https://inc-lc.github.io/resources/pldi14-ilc-author-final.pdf">original paper</a>) <br></font>
 <sup>                      PL Seminar @ University of Bristol</sup><br> -->
 
-**Awards**
+**Funding & Awards**
 
 <font size="2">
-<span style="color:#AA9E9D">2023</span> <span><i>ESPRC Doctoral Prize Fellowship Award for the proposal "Robust, Reusable Computational Models via Typed Functional Programming"</i></span><br>
+<span style="color:#AA9E9D">2023-25</span> <span><i>ESPRC Doctoral Prize Fellowship Award for the proposal "Robust, Reusable Computational Models via Typed Functional Programming"</i></span><br>
 <span style="color:#AA9E9D">2021</span> <span><i>1st Place in the ICFP ACM Student Research Competition</i></span><br>
+<span style="color:#AA9E9D">2020-24</span> <span><i>EPSRC Doctoral Training Partnership Studentship</i></span><br>
 <span style="color:#AA9E9D">2019</span> <span><i>Best Machine Learning Dissertation, Bloomberg Award, University of Bristol</i></span><br>
 <span style="color:#AA9E9D">2018</span> <span><i>Best Third Year Group Project, Graphcore Award, University of Bristol</i></span><br>
 <span style="color:#AA9E9D">2017</span> <span><i>Top Ten Achieving CS Students, Netcraft Award, University of Bristol</i></span>
 </font><br>
-
-
