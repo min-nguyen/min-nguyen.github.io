@@ -146,9 +146,9 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 **Funding & Awards**
 
 <font size="2">
-<span style="color:#AA9E9D">2023-25</span> <span><i>ESPRC Doctoral Prize Fellowship Award</i></span><br>
+<span style="color:#AA9E9D">2023</span> <span><i>ESPRC Doctoral Prize Fellowship Award</i></span><br>
 <span style="color:#AA9E9D">2021</span> <span><i>1st Place in the ICFP ACM Student Research Competition</i></span><br>
-<span style="color:#AA9E9D">2020-24</span> <span><i>EPSRC Doctoral Training Partnership Studentship</i></span><br>
+<span style="color:#AA9E9D">2020</span> <span><i>EPSRC Doctoral Training Partnership Studentship Award</i></span><br>
 <span style="color:#AA9E9D">2019</span> <span><i>Best Machine Learning Dissertation, Bloomberg Award, University of Bristol</i></span><br>
 <span style="color:#AA9E9D">2018</span> <span><i>Best Third Year Group Project, Graphcore Award, University of Bristol</i></span><br>
 <span style="color:#AA9E9D">2017</span> <span><i>Top Ten Achieving CS Students, Netcraft Award, University of Bristol</i></span>
