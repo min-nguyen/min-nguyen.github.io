@@ -146,7 +146,7 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 **Funding & Awards**
 
 <font size="2">
-<span style="color:#AA9E9D">2023-25</span> <span><i>ESPRC Doctoral Prize Fellowship Award for the proposal "Robust, Reusable Computational Models via Typed Functional Programming"</i></span><br>
+<span style="color:#AA9E9D">2023-25</span> <span><i>ESPRC Doctoral Prize Fellowship Award</i></span><br>
 <span style="color:#AA9E9D">2021</span> <span><i>1st Place in the ICFP ACM Student Research Competition</i></span><br>
 <span style="color:#AA9E9D">2020-24</span> <span><i>EPSRC Doctoral Training Partnership Studentship</i></span><br>
 <span style="color:#AA9E9D">2019</span> <span><i>Best Machine Learning Dissertation, Bloomberg Award, University of Bristol</i></span><br>
