@@ -111,12 +111,12 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 **Work + Studies**
 
 <font size="2"><span style="color:#AA9E9D"><b>Sep 2023 - Current</b></span> <br>
-<b>EPSRC Doctoral Prize Fellow in Programming Languages</b> <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
+<b>Senior Research Associate (EPSRC Doctoral Prize Fellow) in Programming Languages</b> <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
 <font size="2"><span style="color:#AA9E9D"><b>Jun 2022 - Sep 2022</b></span> <br>
 <b>Research Intern: Dependently typed probabilistic programming for Idris2</b> (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> supervised by </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br></font>
 <font size="2"><span style="color:#AA9E9D"><b>Jan 2020 - Sep 2023</b></span> <br>
 <b>PhD in Programming Languages</b> <br>   <em> supervised by </em> <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a> @ University of Bristol <br></font>
-<font size="2"><span style="color:#AA9E9D"><b>Sep 2016 - Oct 2020</b></span> <br>
+<font size="2"><span style="color:#AA9E9D"><b>Sep 2015 - Oct 2019</b></span> <br>
 <b>MEng in Computer Science</b> (first class) <br>   <em> supervised by </em> <a style="color:#d16969" href="https://zenzike.com/">Nicolas Wu</a> @ University of Bristol <br></font> <br>
 
 **Teaching**
