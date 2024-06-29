@@ -22,20 +22,20 @@ redirect_from:
     <br>
 </div>
 <details>
-        <summary>live bidirectional program modification</summary>
-        <span style="color:#696969" > generating updated source code for producing a desired change to the original program's output.</span>
+        <summary>Live bidirectional programming</summary>
+        <span style="color:#696969" > investigating <i>lazy</i> bidirectional evaluation, for generating updated source code for producing a desired change to the original program's output.</span>
         </details>
 <details>
-        <summary>bidirectional methods for compositional web development</summary>
-        <span style="color:#696969"> implementing a modular framework for composing both the back-end "models" and front-end "views" of web applications in synchronisation.</span>
+        <summary>Bidirectional transformations for web development</summary>
+        <span style="color:#696969">  investigating a bidirectional system for synchronising <i>missing and shared data</i>; applying this towards a modular framework for web development that composes both the back-end "models" and front-end "views" in synchronisation.</span>
         </details>
 <details>
-        <summary>program slicing techniques for data provenance </summary>
-        <span style="color:#696969" > calculating the fragments of programs needed to compute specific fragments of their outputs.</span>
+        <summary>Program slicing techniques for data provenance </summary>
+        <span style="color:#696969" > investigating <i>graph-based</i> slicing techniques, for calculating the fragments of programs needed to compute specific fragments of their outputs.</span>
         </details>
 <details>
         <summary>Monte Carlo algorithms for property-based testing </summary>
-        <span style="color:#696969" > exploiting MC notions of "similarity" for randomly generating program inputs that satisfy a desired property.</span>
+        <span style="color:#696969" > investigating <i>Monte Carlo notions of "similarity"</i>, for randomly generating program inputs that satisfy a desired property.</span>
         </details>
 
  <!-- and techniques for embedding languages that have "non-standard" semantics (e.g. languages with linear types or that use incremental computation) -->
