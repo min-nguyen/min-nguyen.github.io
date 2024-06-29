@@ -58,6 +58,10 @@ Other projects I've led include the application of recursion schemes for impleme
 **Papers, etc.**
 
  <font size="2px"><b><span style="color:#3C6BE4">
+Lazy Bidirectional Evaluation</span></b> (<a style="color:#d16969" href="https://arxiv.org/pdf/2403.04403">preprint</a>) </font><br>
+ <span style="color:#85868B">  <font size="2">X.Zhang, M.Nguyen</font> </span><br>
+ <sup> In submission, 2024</sup><br>
+ <font size="2px"><b><span style="color:#3C6BE4">
 Conjugate Operators for Transparent, Explorable Research Outputs</span></b> (<a style="color:#d16969" href="https://arxiv.org/pdf/2403.04403">preprint</a>) </font><br>
  <span style="color:#85868B">  <font size="2">J.Bond, C. David, M.Nguyen, D.Orchard, R.Perera</font> </span><br>
  <sup> In submission, 2024</sup><br>
@@ -110,7 +114,7 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 
 **Work + Studies**
 
-<font size="2"><span style="color:#AA9E9D"><b>Sep 2023 - Current</b></span> <br>
+<font size="2"><span style="color:#AA9E9D"><b>Sep 2023 - Present</b></span> <br>
 <b>Senior Research Associate (EPSRC Doctoral Prize Fellow) in Programming Languages</b> <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
 <font size="2"><span style="color:#AA9E9D"><b>Jun 2022 - Sep 2022</b></span> <br>
 <b>Research Intern: Dependently typed probabilistic programming for Idris2</b> (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> supervised by </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br></font>
@@ -121,14 +125,14 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 
 **Teaching**
 <font size="2">
-<span style="color:#AA9E9D"><b>2023</b></span> <br>
-<b>Supervisor</b> for a 2nd year CS student in their research internship, on <i>"Typed Functional Programming Techniques for Probabilistic Programming"</i> @ University of Bristol. <br>
-<span style="color:#AA9E9D"><b>2020 - 2021</b></span> <br>
-<b>Supervisor</b> for a 4th year CS student in their masters dissertation, on <i>"Deep Learning Architectures As Pure Functions"</i> @ University of Bristol. <br>
-<span style="color:#AA9E9D"><b>2019 - Current</b></span> <br>
+<span style="color:#AA9E9D"><b>2019 - Present</b></span> <br>
 <b>Seminars and guest lectures</b> to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
-<span style="color:#AA9E9D"><b>2017 - Current</b></span> <br>
-<b>Teaching assistant</b> for the CS units <a style="color:#d16969" href="https://plrg-bristol.github.io/ATiPL/">Advanced Topics in Programming Languages</a> (4th year), <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a> (2nd year), and <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=23%2F24&unitCode=COMS10016">Functional Programming</a> (1st year)  @ University of Bristol.
+<span style="color:#AA9E9D"><b>2017 - Present</b></span> <br>.
+<b>Teaching</b> in CS: <a style="color:#d16969" href="https://plrg-bristol.github.io/ATiPL/">Advanced Topics in Programming Languages</a> (4th year), <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a> (2nd year), and <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=23%2F24&unitCode=COMS10016">Functional Programming</a> (1st year)  @ University of Bristol
+<span style="color:#AA9E9D"><b>2023</b></span> <br>
+<b>Supervisor</b> for a 2nd year CS student in their research internship, on <i>"Typed Functional Programming for Automatic Differentiation and Inference"</i> @ University of Bristol. <br>
+<span style="color:#AA9E9D"><b>2021</b></span> <br>
+<b>Supervisor</b> for a 4th year CS student in their masters dissertation, on <i>"Deep Learning Architectures As Pure Functions"</i> @ University of Bristol. <br>
 </font> <br>
 
 
@@ -147,7 +151,7 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 
 <font size="2">
 <span style="color:#AA9E9D">2023</span> <span><i>ESPRC Doctoral Prize Fellowship Award</i></span><br>
-<span style="color:#AA9E9D">2021</span> <span><i>1st Place in the ICFP ACM Student Research Competition</i></span><br>
+<span style="color:#AA9E9D">2021</span> <span><i>1st Place: ICFP Graduate Research Competition, ACM</i></span><br>
 <span style="color:#AA9E9D">2020</span> <span><i>EPSRC Doctoral Training Partnership Studentship Award</i></span><br>
 <span style="color:#AA9E9D">2019</span> <span><i>Best Machine Learning Dissertation, Bloomberg Award, University of Bristol</i></span><br>
 <span style="color:#AA9E9D">2018</span> <span><i>Best Third Year Group Project, Graphcore Award, University of Bristol</i></span><br>
