@@ -22,12 +22,12 @@ redirect_from:
     <br>
 </div>
 <details>
-        <summary>Lazy live bidirectional programming</summary>
+        <summary>Lazy evaluation for bidirectional live programming</summary>
         <span style="color:#696969" > investigating <i>lazy</i> bidirectional evaluation, for generating updated source code that produces a desired change to its output.</span>
         </details>
 <details>
-        <summary>Bidirectional web development</summary>
-        <span style="color:#696969">  investigating a bidirectional system for synchronising <i>missing and shared data</i>; applying this towards a modular framework for web development that composes both the back-end "models" and front-end "views" in synchronisation.</span>
+        <summary>Bidirectional transformations for missing data in web-development</summary>
+        <span style="color:#696969">  investigating a bidirectional system for synchronising <i>missing and shared data</i>, applying this to a modular framework for web development where back-end "models" may be shared between multiple front-end "views".</span>
         </details>
 <details>
         <summary>Graph-based program slicing for data provenance </summary>
