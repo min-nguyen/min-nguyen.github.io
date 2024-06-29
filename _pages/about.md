@@ -95,7 +95,7 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
  <span style="color:#85868B">  <font size="2">M.Nguyen, N.Wu </font> </span><br>
  <sup>  Masters Dissertation @ University of Bristol, 2019</sup> -->
 
-**Talks**
+**Some Talks**
 
  <font size="2"><b><span  style="color:#3C6BE4">Effects and Effect Handlers for Probabilistic Programming</span></b>  <br></font>
  <sup>   PhD Defence, Sep 2023</sup><br>
@@ -112,7 +112,7 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
  <sup>  International Conference on Functional Programming (SRC), Sep 2021 (<a style="color:#d16969" href="https://www.youtube.com/watch?v=_ODExz59p6E">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/slides/ICFP-21.pdf">slides</a>)</sup><br>
  <sup>  Implementation and Application of Functional Languages,  Sep 2021 (<a style="color:#d16969" href="https://youtu.be/hLxTULZXsUQ">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/IFL-21.pdf">slides</a>)</sup><br>
 
-**Work + Studies**
+**Work & Studies**
 
 <font size="2"><span style="color:#AA9E9D"><b>2023 - Present</b></span> <br>
 <b>Senior Research Associate (EPSRC Doctoral Prize Fellow) in Programming Languages</b> <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
