@@ -58,7 +58,7 @@ Other projects I've led include the application of recursion schemes for impleme
 **Papers, etc.**
 
  <font size="2px"><b><span style="color:#3C6BE4">
-Lazy Bidirectional Evaluation</span></b> (<a style="color:#d16969" href="https://arxiv.org/pdf/2403.04403">preprint</a>) </font><br>
+Lazy Bidirectional Evaluation</span></b> <!-- (<a style="color:#d16969" href="https://arxiv.org/pdf/2403.04403">preprint</a>) --> </font><br>
  <span style="color:#85868B">  <font size="2">X.Zhang, M.Nguyen</font> </span><br>
  <sup> In submission, 2024</sup><br>
  <font size="2px"><b><span style="color:#3C6BE4">
