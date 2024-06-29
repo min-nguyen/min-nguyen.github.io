@@ -127,8 +127,8 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 <font size="2">
 <span style="color:#AA9E9D"><b>2019 - Present</b></span> <br>
 <b>Seminars and guest lectures</b> to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
-<span style="color:#AA9E9D"><b>2017 - Present</b></span> <br>.
-<b>Teaching</b> in CS: <a style="color:#d16969" href="https://plrg-bristol.github.io/ATiPL/">Advanced Topics in Programming Languages</a> (4th year), <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a> (2nd year), and <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=23%2F24&unitCode=COMS10016">Functional Programming</a> (1st year)  @ University of Bristol
+<span style="color:#AA9E9D"><b>2017 - Present</b></span> <br>
+<b>Teaching</b> in CS: <a style="color:#d16969" href="https://plrg-bristol.github.io/ATiPL/">Advanced Topics in Programming Languages</a> (4th year), <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a> (2nd year), and <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=23%2F24&unitCode=COMS10016">Functional Programming</a> (1st year)  @ University of Bristol. <br>
 <span style="color:#AA9E9D"><b>2023</b></span> <br>
 <b>Supervisor</b> for a 2nd year CS student in their research internship, on <i>"Typed Functional Programming for Automatic Differentiation and Inference"</i> @ University of Bristol. <br>
 <span style="color:#AA9E9D"><b>2021</b></span> <br>
