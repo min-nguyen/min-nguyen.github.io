@@ -11,7 +11,10 @@ redirect_from:
   - /about.html
 ---
 
-<font size="2"> I'm a <b>Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>) and Software Engineer in the field of Programming Languages</b>, and am affiliated with the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> at the University of Bristol. Before this, I also did my PhD and MEng in Computer Science at Bristol. Some of my main interests include functional programming (Haskell in particular), types & strongly-typed languages, and all things glorious that involve them.
+<font size="2"> I'm a <b>Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>) and Software Engineer  in the field of Programming Languages</b>.  I explore new programming languages and techniques, and figure out how to improve
+
+
+I'm affiliated with the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> at the University of Bristol. Before this, I also did my PhD and MEng in Computer Science at Bristol.Some of my main interests include types & strongly-typed languages and functional programming,
 
 </font>
 <br>
