@@ -25,20 +25,20 @@ I'm affiliated with the <a style="color:#d16969" href="https://bristolpl.github.
     <br>
 </div>
 <details>
-        <summary>live bidirectional program modification</summary>
-        <span style="color:#696969" > generating updated source code for producing a desired change to the original program's output.</span>
+        <summary>Lazy evaluation for bidirectional live programming</summary>
+        <span style="color:#696969" > investigating <i>lazy</i> bidirectional evaluation, for generating updated source code that produces a desired change to its output.</span>
         </details>
 <details>
-        <summary>bidirectional methods for compositional web development</summary>
-        <span style="color:#696969"> implementing a modular framework for composing both the back-end "models" and front-end "views" of web applications in synchronisation.</span>
+        <summary>Bidirectional transformations for missing data in web-development</summary>
+        <span style="color:#696969">  investigating a bidirectional system for synchronising <i>missing and shared data</i>, applying this to a modular framework for web development where back-end "models" may be shared between multiple front-end "views".</span>
         </details>
 <details>
-        <summary>program slicing techniques for data provenance </summary>
-        <span style="color:#696969" > calculating the fragments of programs needed to compute specific fragments of their outputs.</span>
+        <summary>Graph-based program slicing for data provenance </summary>
+        <span style="color:#696969" > investigating <i>graph-based</i> slicing techniques, for calculating the fragments of programs needed to compute specific fragments of their outputs.</span>
         </details>
 <details>
         <summary>Monte Carlo algorithms for property-based testing </summary>
-        <span style="color:#696969" > exploiting MC notions of "similarity" for randomly generating program inputs that satisfy a desired property.</span>
+        <span style="color:#696969" > investigating <i>Monte Carlo notions of "similarity"</i>, for randomly generating program inputs that satisfy a desired property.</span>
         </details>
 
  <!-- and techniques for embedding languages that have "non-standard" semantics (e.g. languages with linear types or that use incremental computation) -->
@@ -60,6 +60,10 @@ Other projects I've led include the application of recursion schemes for impleme
 
 **Papers, etc.**
 
+ <font size="2px"><b><span style="color:#3C6BE4">
+Lazy Bidirectional Evaluation</span></b> <!-- (<a style="color:#d16969" href="https://arxiv.org/pdf/2403.04403">preprint</a>) --> </font><br>
+ <span style="color:#85868B">  <font size="2">X.Zhang, M.Nguyen</font> </span><br>
+ <sup> In submission, 2024</sup><br>
  <font size="2px"><b><span style="color:#3C6BE4">
 Conjugate Operators for Transparent, Explorable Research Outputs</span></b> (<a style="color:#d16969" href="https://arxiv.org/pdf/2403.04403">preprint</a>) </font><br>
  <span style="color:#85868B">  <font size="2">J.Bond, C. David, M.Nguyen, D.Orchard, R.Perera</font> </span><br>
@@ -94,7 +98,7 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
  <span style="color:#85868B">  <font size="2">M.Nguyen, N.Wu </font> </span><br>
  <sup>  Masters Dissertation @ University of Bristol, 2019</sup> -->
 
-**Talks**
+**Some Talks**
 
  <font size="2"><b><span  style="color:#3C6BE4">Effects and Effect Handlers for Probabilistic Programming</span></b>  <br></font>
  <sup>   PhD Defence, Sep 2023</sup><br>
@@ -111,27 +115,27 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
  <sup>  International Conference on Functional Programming (SRC), Sep 2021 (<a style="color:#d16969" href="https://www.youtube.com/watch?v=_ODExz59p6E">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/slides/ICFP-21.pdf">slides</a>)</sup><br>
  <sup>  Implementation and Application of Functional Languages,  Sep 2021 (<a style="color:#d16969" href="https://youtu.be/hLxTULZXsUQ">video</a>, <a style="color:#d16969" href="https://min-nguyen.github.io/files/talks/IFL-21.pdf">slides</a>)</sup><br>
 
-**Work + Studies**
+**Work & Studies**
 
-<font size="2"><span style="color:#AA9E9D"><b>Sep 2023 - Current</b></span> <br>
+<font size="2"><span style="color:#AA9E9D"><b>2023 - Present</b></span> <br>
 <b>Senior Research Associate (EPSRC Doctoral Prize Fellow) in Programming Languages</b> <br>   <em> hosted by </em> <a style="color:#d16969" href="https://cristina-david.github.io/">Cristina David</a> @ University of Bristol <br></font>
-<font size="2"><span style="color:#AA9E9D"><b>Jun 2022 - Sep 2022</b></span> <br>
+<font size="2"><span style="color:#AA9E9D"><b>Jun - Sep 2022</b></span> <br>
 <b>Research Intern: Dependently typed probabilistic programming for Idris2</b> (<a style="color:#d16969" href="https://github.com/idris-bayes">repositories</a>) <br>   <em> supervised by </em> <a style="color:#d16969" href="http://denotational.co.uk/">Ohad Kammar</a> @ University of Edinburgh <br></font>
-<font size="2"><span style="color:#AA9E9D"><b>Jan 2020 - Sep 2023</b></span> <br>
+<font size="2"><span style="color:#AA9E9D"><b>2020 - 2023</b></span> <br>
 <b>PhD in Programming Languages</b> <br>   <em> supervised by </em> <a style="color:#d16969" href="https://mengwangoxf.github.io/">Meng Wang</a> and <a style="color:#d16969" href="https://www.turing.ac.uk/people/researchers/roly-perera">Roly Perera</a> @ University of Bristol <br></font>
-<font size="2"><span style="color:#AA9E9D"><b>Sep 2015 - Oct 2019</b></span> <br>
+<font size="2"><span style="color:#AA9E9D"><b>2015 - 2019</b></span> <br>
 <b>MEng in Computer Science</b> (first class) <br>   <em> supervised by </em> <a style="color:#d16969" href="https://zenzike.com/">Nicolas Wu</a> @ University of Bristol <br></font> <br>
 
 **Teaching**
 <font size="2">
-<span style="color:#AA9E9D"><b>2023</b></span> <br>
-<b>Supervisor</b> for a 2nd year CS student in their research internship, on <i>"Typed Functional Programming Techniques for Probabilistic Programming"</i> @ University of Bristol. <br>
-<span style="color:#AA9E9D"><b>2020 - 2021</b></span> <br>
-<b>Supervisor</b> for a 4th year CS student in their masters dissertation, on <i>"Deep Learning Architectures As Pure Functions"</i> @ University of Bristol. <br>
-<span style="color:#AA9E9D"><b>2019 - Current</b></span> <br>
+<span style="color:#AA9E9D"><b>2019 - Present</b></span> <br>
 <b>Seminars and guest lectures</b> to the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> and CS undergraduates @ University of Bristol. <br>
-<span style="color:#AA9E9D"><b>2017 - Current</b></span> <br>
-<b>Teaching assistant</b> for the CS units <a style="color:#d16969" href="https://plrg-bristol.github.io/ATiPL/">Advanced Topics in Programming Languages</a> (4th year), <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a> (2nd year), and <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=23%2F24&unitCode=COMS10016">Functional Programming</a> (1st year)  @ University of Bristol.
+<span style="color:#AA9E9D"><b>2017 - Present</b></span> <br>
+<b>Teaching</b> in CS: <a style="color:#d16969" href="https://plrg-bristol.github.io/ATiPL/">Advanced Topics in Programming Languages</a> (4th year), <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa;jsessionid=4895129B4D3B9CE9252E3430588DFD92?ayrCode=17%2F18&unitCode=COMS22201">Language Engineering</a> (2nd year), and <a style="color:#d16969" href="https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=23%2F24&unitCode=COMS10016">Functional Programming</a> (1st year)  @ University of Bristol. <br>
+<span style="color:#AA9E9D"><b>2023</b></span> <br>
+<b>Supervisor</b> for a 2nd year CS student in their research internship, on <i>"Typed Functional Programming for Automatic Differentiation and Inference"</i> @ University of Bristol. <br>
+<span style="color:#AA9E9D"><b>2021</b></span> <br>
+<b>Supervisor</b> for a 4th year CS student in their masters dissertation, on <i>"Deep Learning Architectures As Pure Functions"</i> @ University of Bristol. <br>
 </font> <br>
 
 
@@ -150,9 +154,9 @@ Type-driven Data Science in Idris </span></b>  (<a style="color:#d16969" href="h
 
 <font size="2">
 <span style="color:#AA9E9D">2023</span> <span><i>ESPRC Doctoral Prize Fellowship Award</i></span><br>
-<span style="color:#AA9E9D">2021</span> <span><i>1st Place in the ICFP ACM Student Research Competition</i></span><br>
+<span style="color:#AA9E9D">2021</span> <span><i>1st Place: ICFP Graduate Research Competition, ACM</i></span><br>
 <span style="color:#AA9E9D">2020</span> <span><i>EPSRC Doctoral Training Partnership Studentship Award</i></span><br>
-<span style="color:#AA9E9D">2019</span> <span><i>Best Machine Learning Dissertation, Bloomberg Award, University of Bristol</i></span><br>
+<span style="color:#AA9E9D">2019</span> <span><i>Best Machine Learning Thesis, Bloomberg Award, University of Bristol</i></span><br>
 <span style="color:#AA9E9D">2018</span> <span><i>Best Third Year Group Project, Graphcore Award, University of Bristol</i></span><br>
 <span style="color:#AA9E9D">2017</span> <span><i>Top Ten Achieving CS Students, Netcraft Award, University of Bristol</i></span>
 </font><br>
