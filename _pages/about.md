@@ -32,7 +32,7 @@ I explore exciting programming techniques, languages, and ecosystems, and figure
         <span style="color:#696969">  investigating a bidirectional system for synchronising <i>missing and shared data</i>, applying this to a modular framework for web development where back-end "models" may be shared between multiple front-end "views".</span>
         </details>
 <details>
-        <summary>Graph-based program slicing for data provenance </summary>
+        <summary>Graph-based program slicing for data provenance and program analysis </summary>
         <span style="color:#696969" > investigating <i>graph-based</i> slicing techniques, for calculating the fragments of programs needed to compute specific fragments of their outputs.</span>
         </details>
 <details>
