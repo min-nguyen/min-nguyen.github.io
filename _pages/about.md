@@ -52,7 +52,7 @@ For my PhD, I investigated how algebraic effect handlers can be used to improve 
 <div style="line-height:75%;">
     <br>
 </div>
-Other projects I've led include exploring recursion schemes for implementing, combining, and training neural networks [<b><a style="color:#d16969"  href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">λ</a></b>] I showed how neural networks can be represented as fixed-points over recursive data structures, and forward and back propagation as folds and unfolds over those structures.
+Other projects I've led include exploring recursion schemes for implementing, combining, and training neural networks [<b><a style="color:#d16969"  href="https://link.springer.com/chapter/10.1007/978-3-031-16912-0_5">λ</a></b>]. I showed how neural networks can be represented as fixed-points over recursive data structures, and forward and back propagation as folds and unfolds over those structures.
 <!-- This is implemented as an eDSL called <a href="https://github.com/min-nguyen/catana">Catana</a> in Haskell. -->
 </font> <br>
 
