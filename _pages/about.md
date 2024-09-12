@@ -11,7 +11,7 @@ redirect_from:
   - /about.html
 ---
 
-<font size="2"> <b>Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>) and Software Engineer, in the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> at the University of Bristol. Before this, I also did my PhD and MEng in Computer Science at Bristol.
+<font size="2"> <b>Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>) and Software Engineer</b>, in the <a style="color:#d16969" href="https://bristolpl.github.io/">Programming Languages Research Group</a> at the University of Bristol. Before this, I also did my PhD and MEng in Computer Science at Bristol.
 
 I'm a development lead who designs and implements new languages and software that enable exciting things; this could be new ways of doing program analysis or software testing, to more modular programming solutions for data science or web development. My expertise is in typed and functional programming, like Haskell, but I'm a programming and design enthusiast in general. I love the chance to pick up and work with all kinds of paradigms -- systems, object oriented, and imperative.
 
