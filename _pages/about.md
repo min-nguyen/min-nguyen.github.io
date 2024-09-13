@@ -15,7 +15,7 @@ redirect_from:
 
 <br>
 <br>
-I work mainly as a development lead who designs and implements new languages and software that enable exciting things; this could be new ways of doing program analysis or software testing, to more modular programming solutions for data science or web development. My expertise is in typed and functional programming, like Haskell, but I'm a programming and design enthusiast in general. I love the chance to pick up and work with all kinds of paradigms -- systems, object oriented, and imperative.
+I work mainly as a development lead who implements new languages and software that enable exciting things; this could be more modular and safe approaches to data science, or new ways of doing program analysis and software testing. My expertise is in typed and functional programming, but I'm a language and program design enthusiast in general. I love the chance to work with all kinds of paradigms and ecosystems.
 
 </font>
 <br>
