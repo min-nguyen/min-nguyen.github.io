@@ -11,7 +11,7 @@ redirect_from:
   - /about.html
 ---
 
-<font size="2"> <b>Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>) and Software Engineer</b> at the University of Bristol. I work in the field of <a style="color:#d16969" href="https://bristolpl.github.io/">programming languages</a>, especially typed and functional programming which I did my PhD and MEng in at Bristol; but I'm a language and program design enthusiast in general, and love to use all kinds of paradigms and ecosystems. My role is mainly as a development lead who implements new languages and software that enable exciting things; this could be more modular and safe approaches to data science, or new ways of doing program analysis and software testing.
+<font size="2"> <b>Senior Research Associate (<a style="color:#d16969" href="https://www.ukri.org/what-we-do/developing-people-and-skills/epsrc/studentships/flexibility-for-funders/epsrc-doctoral-prize/">EPSRC Doctoral Prize Fellow</a>) and Software Engineer</b> at the University of Bristol. I work in the field of <a style="color:#d16969" href="https://bristolpl.github.io/">programming languages</a>, especially typed and functional programming which I did my PhD and MEng in at Bristol; but I'm a general enthusiast of program design and languages, and love to use all kinds of tech. My role is mainly as a development lead who implements new languages and software that enable exciting things; this could be more modular and safe approaches to data science, or new ways of doing program analysis and software testing.
 
 </font>
 <br>
