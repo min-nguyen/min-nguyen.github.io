@@ -58,7 +58,7 @@ Other projects I've led include exploring recursion schemes for implementing, co
 **Papers, etc.**
 
  <font size="2px"><b><span style="color:#3C6BE4">
-Absence-Aware Lenses: Unavailability and Unspecifiedness</span></b> <!-- (<a style="color:#d16969" href="https://arxiv.org/pdf/2403.04403">preprint</a>) --> </font><br>
+Absence-Aware Lenses: Unavailability and Unspecifiedness</span></b> </font><br>
  <span style="color:#85868B">  <font size="2">K.Matsuda, M.Nguyen, M.Wang</font> </span><br>
  <sup> In submission, 2024</sup><br>
  <font size="2px"><b><span style="color:#3C6BE4">
