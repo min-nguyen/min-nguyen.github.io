@@ -60,15 +60,15 @@ Other projects I've led include exploring recursion schemes for implementing, co
  <font size="2px"><b><span style="color:#3C6BE4">
 Absence-Aware Lenses: Unavailability and Unspecifiedness</span></b> </font><br>
  <span style="color:#85868B">  <font size="2">K.Matsuda, M.Nguyen, M.Wang</font> </span><br>
- <sup> In submission, 2024</sup><br>
+ <sup> In submission, 2025</sup><br>
  <font size="2px"><b><span style="color:#3C6BE4">
 Lazy Bidirectional Evaluation</span></b> <!-- (<a style="color:#d16969" href="https://arxiv.org/pdf/2403.04403">preprint</a>) --> </font><br>
  <span style="color:#85868B">  <font size="2">X.Zhang, M.Nguyen</font> </span><br>
- <sup> In submission, 2024</sup><br>
+ <sup> In submission, 2025</sup><br>
  <font size="2px"><b><span style="color:#3C6BE4">
 Conjugate Operators for Transparent, Explorable Research Outputs</span></b> (<a style="color:#d16969" href="https://arxiv.org/pdf/2403.04403">preprint</a>) </font><br>
  <span style="color:#85868B">  <font size="2">J.Bond, C.David, M.Nguyen, D.Orchard, R.Perera</font> </span><br>
- <sup> In submission, 2024</sup><br>
+ <sup> European Symposium of Programming, 2025</sup><br>
  <font size="2px"><b><span style="color:#3C6BE4">Effects and Effect Handlers for
 Probabilistic Programming</span></b> (<a style="color:#d16969" href="https://min-nguyen.github.io/files/papers/doctoral_thesis.pdf">pdf</a>) </font><br>
  <span style="color:#85868B">  <font size="2">M.Nguyen</font> </span><br>
